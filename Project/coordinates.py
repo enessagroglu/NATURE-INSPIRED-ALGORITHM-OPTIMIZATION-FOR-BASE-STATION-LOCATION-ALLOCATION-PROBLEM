@@ -38,7 +38,7 @@ def get_coordinates(url, street_names):
             coordinates.append(coordinat_data.text)
             driver.find_element(by=By.XPATH, value='/html/body/div[1]/div[2]/div[3]/header/div/div/div/form/div[4]/button').click()
             
-           
+
             print(coordinates)
         except:
             print(street, " için sonuç bulunamadı.")
@@ -50,8 +50,13 @@ def get_coordinates(url, street_names):
 
 def get_streets_csv():
     df = pd.read_csv("./data/streets.csv")
-    #column names are neigborhood, street. convert them to a dictionary
-    neigbourhood_and_street = df.to_dict()
+    # columns names are neighbourhood and street. neighbourhood should be key and street should be value with list
+    for index, row in df.iterrows():
+        if row[0] in neigbourhood_and_street:
+            neigbourhood_and_street[row[0]].append(row[1])
+        else:
+            neigbourhood_and_street[row[0]] = [row[1]]
+    
     print(neigbourhood_and_street)
 
 
@@ -62,5 +67,3 @@ def get_coordinates_to_csv():
 get_streets_csv()
 # get_coordinates("https://yandex.com.tr/maps", street_names_test)
 
-    
- 
