@@ -1,10 +1,6 @@
 
-
-# class BaseStation: will have the following properties: type, coordinate, and range. They should be private.
-# also there will be another class which will specify the attributes of type. type is gonna be object of Type class.
-
 class BaseStation:
-    def __init__(self, type, coordinate, range):
+    def __init__(self, type, coordinate, current_usage):
         self.__type = type
         self.__coordinate = coordinate
         self.__range = range
@@ -17,6 +13,9 @@ class BaseStation:
 
     def get_range(self):
         return self.__range
+    
+    def get_current_usage(self):
+        return self.__current_usage
 
     def set_type(self, type):
         self.__type = type
@@ -26,9 +25,12 @@ class BaseStation:
 
     def set_range(self, range):
         self.__range = range
+    
+    def set_current_usage(self, current_usage):
+        self.__current_usage = current_usage
 
     def __str__(self):
-        return f"Type: {self.__type}, Coordinate: {self.__coordinate}, Range: {self.__range}"
+        return f"Type: {self.__type}, Coordinate: {self.__coordinate}, Capacity: {self.__type.capacity}, Current Usage: {self.__current_usage}"
 
 class Type:
     def __init__(self, name, speed, frequency):
