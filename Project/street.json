@@ -1,0 +1,68 @@
+{
+    "street": [
+        {
+            "neighborhood": "Basibuyuk",
+            "name": "BAŞIBÜYÜK CD",
+            "population": 3043,
+            "coordinate": "28.2723",
+            "rate_of_population": 1,
+            "demand": 2282
+        },
+        {
+            "neighborhood": "Resadiye",
+            "name": "EMEK Caddesi",
+            "population": 32942,
+            "coordinate": "28.9223",
+            "rate_of_population": 4,
+            "demand": 24706
+        },
+        {
+            "neighborhood": "Tepeustu",
+            "name": "ESER CD",
+            "population": 462,
+            "coordinate": "28.9723",
+            "rate_of_population": 3,
+            "demand": 231
+        },
+        {
+            "neighborhood": "Basibuyuk",
+            "name": "KEMER CD",
+            "population": 9129,
+            "coordinate": "28.9723",
+            "rate_of_population": 3,
+            "demand": 1825
+        },
+        {
+            "neighborhood": "Basibuyuk",
+            "name": "Abide CD",
+            "population": 9129,
+            "coordinate": "28.9745",
+            "rate_of_population": 3,
+            "demand": 6846
+        },
+        {
+            "neighborhood": "Tepeustu",
+            "name": "Camlık CD",
+            "population": 308,
+            "coordinate": "28.9723",
+            "rate_of_population": 2,
+            "demand": 154
+        },
+        {
+            "neighborhood": "Tepeustu",
+            "name": "EMEL CD",
+            "population": 771,
+            "coordinate": "28.9734",
+            "rate_of_population": 5,
+            "demand": 154
+        },
+        {
+            "neighborhood": "Resadiye",
+            "name": "FAL SK",
+            "population": 8235,
+            "coordinate": "28.9755",
+            "rate_of_population": 1,
+            "demand": 4117
+        }
+    ]
+}
