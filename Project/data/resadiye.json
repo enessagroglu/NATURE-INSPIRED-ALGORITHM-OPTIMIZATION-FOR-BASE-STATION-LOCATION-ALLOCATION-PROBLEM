@@ -1,0 +1,359 @@
+[
+  {
+    "name": "SULTAN REŞAT CD.",
+    "coordinate": "41.078140",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "ŞEHİT MURAT DEMİR CD.",
+    "coordinate": "41.081716",
+    "population": 0,
+    "rate_of_population": 3,
+    "demand": 0
+  },
+  {
+    "name": "ALİ PAŞA SK.",
+    "coordinate": "41.079717",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "AVŞA ÇK. SK.",
+    "coordinate": "41.073083",
+    "population": 0,
+    "rate_of_population": 2,
+    "demand": 0
+  },
+  {
+    "name": "BESTEKAR ÇK. SK.",
+    "coordinate": "41.078066",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "BÖĞÜRTLEN SK.",
+    "coordinate": "41.074911",
+    "population": 0,
+    "rate_of_population": 3,
+    "demand": 0
+  },
+  {
+    "name": "CANFEDA SK.",
+    "coordinate": "41.076135",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "CUMHUR SK.",
+    "coordinate": "41.081260",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "ÇAĞLA SK.",
+    "coordinate": "41.085549",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "ÇIRAK ÇK. SK.",
+    "coordinate": "41.078705",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "ÇİFTPINAR SK.",
+    "coordinate": "41.083843",
+    "population": 0,
+    "rate_of_population": 2,
+    "demand": 0
+  },
+  {
+    "name": "ÇİMEN SK.",
+    "coordinate": " \"41.080270",
+    "population": 0,
+    "rate_of_population": 2,
+    "demand": 0
+  },
+  {
+    "name": "ÇİMENLİK SK.",
+    "coordinate": "41.081546",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "DAĞSU ÇK. SK.",
+    "coordinate": "41.083286",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "DAMLA SK.",
+    "coordinate": "41.077270",
+    "population": 0,
+    "rate_of_population": 3,
+    "demand": 0
+  },
+  {
+    "name": "DEFNE SK.",
+    "coordinate": "41.078480",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "DUMANLI VADİ SK.",
+    "coordinate": "41.076149",
+    "population": 0,
+    "rate_of_population": 2,
+    "demand": 0
+  },
+  {
+    "name": "EFLATUN SK.",
+    "coordinate": "41.078535",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "EMEL SK.",
+    "coordinate": "41.067583",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "ENİS SK.",
+    "coordinate": "41.083850",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "GÜLVEREN SK.",
+    "coordinate": "41.078168",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "GÜNEŞ SK.",
+    "coordinate": "41.077012",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "GÜNYÜZÜ SK.",
+    "coordinate": "41.074130",
+    "population": 0,
+    "rate_of_population": 2,
+    "demand": 0
+  },
+  {
+    "name": "GÜZİDE SK.",
+    "coordinate": "41.066162",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "HACI PINAR SK.",
+    "coordinate": "41.077345",
+    "population": 0,
+    "rate_of_population": 3,
+    "demand": 0
+  },
+  {
+    "name": "HİSAR SK.",
+    "coordinate": "41.077501",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "HUZUR SK.",
+    "coordinate": "41.069242",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "HÜRMET SK.",
+    "coordinate": "41.072185",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "İHSAN ÇK. SK.",
+    "coordinate": "41.070071",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "KESTANELİK SK.",
+    "coordinate": "41.067848",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "KİRAZ SK.",
+    "coordinate": "41.079901",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "KOCAGÖZ KUYU SK.",
+    "coordinate": "41.070574",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "KÖSEPINAR SK.",
+    "coordinate": "41.070248",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "MANDIRA SK. SK.",
+    "coordinate": "41.082912",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "MUKADDES SK.",
+    "coordinate": "41.069568",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "NUR SK.",
+    "coordinate": "41.080485",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "PAPELİN SK.",
+    "coordinate": "41.068922",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "PLATİN ÇK. SK.",
+    "coordinate": "41.072994",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "SAFRAN ÇK. SK.",
+    "coordinate": "41.070472",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "SEVİM ÇK. SK.",
+    "coordinate": "41.084550",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "ŞEHİT MURAT SK.",
+    "coordinate": "41.076189",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "ŞİFA SK.",
+    "coordinate": "41.074578",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "ŞİMAL ÇK. SK.",
+    "coordinate": "41.072852",
+    "population": 0,
+    "rate_of_population": 5,
+    "demand": 0
+  },
+  {
+    "name": "UZUN ÇK. SK.",
+    "coordinate": "41.081274",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  },
+  {
+    "name": "YADİGAR SK.",
+    "coordinate": "41.066305",
+    "population": 0,
+    "rate_of_population": 3,
+    "demand": 0
+  },
+  {
+    "name": "YAYLA SK.",
+    "coordinate": "41.069541",
+    "population": 0,
+    "rate_of_population": 1,
+    "demand": 0
+  },
+  {
+    "name": "YEŞİLAY ÇK. SK.",
+    "coordinate": "41.087065",
+    "population": 0,
+    "rate_of_population": 2,
+    "demand": 0
+  },
+  {
+    "name": "YEŞİLVADİ SK.",
+    "coordinate": "41.077651",
+    "population": 0,
+    "rate_of_population": 2,
+    "demand": 0
+  },
+  {
+    "name": "ZEMZEM SK.",
+    "coordinate": "41.082797",
+    "population": 0,
+    "rate_of_population": 2,
+    "demand": 0
+  },
+  {
+    "name": "ZERDE ÇK. SK.",
+    "coordinate": "41.083843",
+    "population": 0,
+    "rate_of_population": 3,
+    "demand": 0
+  },
+  {
+    "name": "ZÜLAL SK.",
+    "coordinate": "41.068236",
+    "population": 0,
+    "rate_of_population": 4,
+    "demand": 0
+  }
+]
