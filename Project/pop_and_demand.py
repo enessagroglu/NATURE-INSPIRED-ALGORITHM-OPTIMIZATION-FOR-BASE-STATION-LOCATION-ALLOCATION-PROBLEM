@@ -2,7 +2,7 @@ import json
 import random
 
 # Talep oranları sabit kalacak
-demand_ratios = [0.5, 0.75, 0.2]
+demand_ratios = [0.5, 0.6, 0.2]
 
 # Mahalle dosya isimleri ve nüfusları
 neighborhood_files = ["data/basibuyuk.json", "data/resadiye.json", "data/tepeustu.json"]
