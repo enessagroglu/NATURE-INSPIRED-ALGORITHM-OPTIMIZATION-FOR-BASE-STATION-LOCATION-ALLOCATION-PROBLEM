@@ -1,0 +1,4356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0c00e3930972b4898fc3cc63d5875b76 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0c00e3930972b4898fc3cc63d5875b76" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0c00e3930972b4898fc3cc63d5875b76 = L.map(
+                "map_0c00e3930972b4898fc3cc63d5875b76",
+                {
+                    center: [40.9141, 29.259766666666668],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6fd73b2c8fc6e94ee98198a98787f21c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6fd73b2c8fc6e94ee98198a98787f21c.addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+            var marker_2deddf711d84ec7c50fc6fa67bec446f = L.marker(
+                [41.01683, 29.130371],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_7e6082327195ec497af601e40ebbef69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c7697e255d438a3db9ce43b64a8a5f6 = $(`<div id="html_2c7697e255d438a3db9ce43b64a8a5f6" style="width: 100.0%; height: 100.0%;">Tepeüstü</div>`)[0];
+                popup_7e6082327195ec497af601e40ebbef69.setContent(html_2c7697e255d438a3db9ce43b64a8a5f6);
+            
+        
+
+        marker_2deddf711d84ec7c50fc6fa67bec446f.bindPopup(popup_7e6082327195ec497af601e40ebbef69)
+        ;
+
+        
+    
+    
+            var marker_81779e30cf7e54b87faf12a1943e0d17 = L.marker(
+                [40.959255, 29.156509],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5faf4448d0263e6b74bcd3b848b4d890 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fbc7d0b8e06b3ccc5db0ebb7ed3f915 = $(`<div id="html_0fbc7d0b8e06b3ccc5db0ebb7ed3f915" style="width: 100.0%; height: 100.0%;">Başibüyük</div>`)[0];
+                popup_5faf4448d0263e6b74bcd3b848b4d890.setContent(html_0fbc7d0b8e06b3ccc5db0ebb7ed3f915);
+            
+        
+
+        marker_81779e30cf7e54b87faf12a1943e0d17.bindPopup(popup_5faf4448d0263e6b74bcd3b848b4d890)
+        ;
+
+        
+    
+    
+            var marker_6cd3792c7920280ee35d5bfba2793a17 = L.marker(
+                [41.07901, 29.257734],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_aaab092477e52eea89a74460ed54ed9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5027807b8e0202eca45b2b52f01a3bb5 = $(`<div id="html_5027807b8e0202eca45b2b52f01a3bb5" style="width: 100.0%; height: 100.0%;">Reşadiye</div>`)[0];
+                popup_aaab092477e52eea89a74460ed54ed9e.setContent(html_5027807b8e0202eca45b2b52f01a3bb5);
+            
+        
+
+        marker_6cd3792c7920280ee35d5bfba2793a17.bindPopup(popup_aaab092477e52eea89a74460ed54ed9e)
+        ;
+
+        
+    
+    
+            var marker_d6fe769b73518e1d224186c19f5c17f3 = L.marker(
+                [41.07814, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_4f619fc4e0bafe9654b185aa43943472 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1c797eae9240f57e417ce4d8667385ac = $(`<div id="html_1c797eae9240f57e417ce4d8667385ac" style="width: 100.0%; height: 100.0%;">Name: SULTAN REŞAT CD.<br>Population: 1263<br>Population Rate: 5<br>Demand: 252</div>`)[0];
+                popup_4f619fc4e0bafe9654b185aa43943472.setContent(html_1c797eae9240f57e417ce4d8667385ac);
+            
+        
+
+        marker_d6fe769b73518e1d224186c19f5c17f3.bindPopup(popup_4f619fc4e0bafe9654b185aa43943472)
+        ;
+
+        
+    
+    
+            var marker_a007d89a90111d21875ac218b026c960 = L.marker(
+                [41.081716, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a30090aa331138e26025955790051bea = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7922553376c087ae1d554880488c1cbb = $(`<div id="html_7922553376c087ae1d554880488c1cbb" style="width: 100.0%; height: 100.0%;">Name: ŞEHİT MURAT DEMİR CD.<br>Population: 757<br>Population Rate: 3<br>Demand: 567</div>`)[0];
+                popup_a30090aa331138e26025955790051bea.setContent(html_7922553376c087ae1d554880488c1cbb);
+            
+        
+
+        marker_a007d89a90111d21875ac218b026c960.bindPopup(popup_a30090aa331138e26025955790051bea)
+        ;
+
+        
+    
+    
+            var marker_2a3e58a1af123844ee9efdd7b433d0a7 = L.marker(
+                [41.079717, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_23a4f52e99e0422d964eaf2933e263cc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_763239b6e43df1011c489330fa5aab54 = $(`<div id="html_763239b6e43df1011c489330fa5aab54" style="width: 100.0%; height: 100.0%;">Name: ALİ PAŞA SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 202</div>`)[0];
+                popup_23a4f52e99e0422d964eaf2933e263cc.setContent(html_763239b6e43df1011c489330fa5aab54);
+            
+        
+
+        marker_2a3e58a1af123844ee9efdd7b433d0a7.bindPopup(popup_23a4f52e99e0422d964eaf2933e263cc)
+        ;
+
+        
+    
+    
+            var marker_ff0f634e6053176230fe3191a5cd794e = L.marker(
+                [41.073083, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5cec987bef4e321dad93cfe53d4b98ba = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d78be285288754f89a62c69d697abcd9 = $(`<div id="html_d78be285288754f89a62c69d697abcd9" style="width: 100.0%; height: 100.0%;">Name: AVŞA ÇK. SK.<br>Population: 505<br>Population Rate: 2<br>Demand: 252</div>`)[0];
+                popup_5cec987bef4e321dad93cfe53d4b98ba.setContent(html_d78be285288754f89a62c69d697abcd9);
+            
+        
+
+        marker_ff0f634e6053176230fe3191a5cd794e.bindPopup(popup_5cec987bef4e321dad93cfe53d4b98ba)
+        ;
+
+        
+    
+    
+            var marker_b1c665e68eaa03aaa5dedcfa6bb959ed = L.marker(
+                [41.078066, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_aed17a72e5967473ed709158757ca040 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_682599a75eae6c0334acddaf707f4eea = $(`<div id="html_682599a75eae6c0334acddaf707f4eea" style="width: 100.0%; height: 100.0%;">Name: BESTEKAR ÇK. SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 252</div>`)[0];
+                popup_aed17a72e5967473ed709158757ca040.setContent(html_682599a75eae6c0334acddaf707f4eea);
+            
+        
+
+        marker_b1c665e68eaa03aaa5dedcfa6bb959ed.bindPopup(popup_aed17a72e5967473ed709158757ca040)
+        ;
+
+        
+    
+    
+            var marker_efc3186e49f427685341f5fad782fb52 = L.marker(
+                [41.074911, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_52d2d7c429d8d56d274bcaae5cc1f999 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_84613f33e59589c1cf9669e5d2d5ac84 = $(`<div id="html_84613f33e59589c1cf9669e5d2d5ac84" style="width: 100.0%; height: 100.0%;">Name: BÖĞÜRTLEN SK.<br>Population: 757<br>Population Rate: 3<br>Demand: 378</div>`)[0];
+                popup_52d2d7c429d8d56d274bcaae5cc1f999.setContent(html_84613f33e59589c1cf9669e5d2d5ac84);
+            
+        
+
+        marker_efc3186e49f427685341f5fad782fb52.bindPopup(popup_52d2d7c429d8d56d274bcaae5cc1f999)
+        ;
+
+        
+    
+    
+            var marker_d87d91b7bf12097c507707f9ff12edea = L.marker(
+                [41.076135, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d24748f59365bda401455a7ae304cde9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_010c484d0ab0801362632919514cf70c = $(`<div id="html_010c484d0ab0801362632919514cf70c" style="width: 100.0%; height: 100.0%;">Name: CANFEDA SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 189</div>`)[0];
+                popup_d24748f59365bda401455a7ae304cde9.setContent(html_010c484d0ab0801362632919514cf70c);
+            
+        
+
+        marker_d87d91b7bf12097c507707f9ff12edea.bindPopup(popup_d24748f59365bda401455a7ae304cde9)
+        ;
+
+        
+    
+    
+            var marker_059df567ea336a1b9beb5d5a18491e43 = L.marker(
+                [41.08126, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_da90540842bacbfc54e988060cfac562 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0ac39717f6921da809cf012c85c3ece7 = $(`<div id="html_0ac39717f6921da809cf012c85c3ece7" style="width: 100.0%; height: 100.0%;">Name: CUMHUR SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 505</div>`)[0];
+                popup_da90540842bacbfc54e988060cfac562.setContent(html_0ac39717f6921da809cf012c85c3ece7);
+            
+        
+
+        marker_059df567ea336a1b9beb5d5a18491e43.bindPopup(popup_da90540842bacbfc54e988060cfac562)
+        ;
+
+        
+    
+    
+            var marker_306f3fef56566eea9b8909dcd4436204 = L.marker(
+                [41.085549, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_f5713eca59dc270f1deca39b5f4b504b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3c6b773adf528fe07cc0f4399437c2d7 = $(`<div id="html_3c6b773adf528fe07cc0f4399437c2d7" style="width: 100.0%; height: 100.0%;">Name: ÇAĞLA SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 631</div>`)[0];
+                popup_f5713eca59dc270f1deca39b5f4b504b.setContent(html_3c6b773adf528fe07cc0f4399437c2d7);
+            
+        
+
+        marker_306f3fef56566eea9b8909dcd4436204.bindPopup(popup_f5713eca59dc270f1deca39b5f4b504b)
+        ;
+
+        
+    
+    
+            var marker_0d0bcc8b8424b21c8c95cdc77b2a9882 = L.marker(
+                [41.078705, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b088b10f2008e03410adaafc42e07684 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e1040452d2b1eb6ffa259a95f4aead52 = $(`<div id="html_e1040452d2b1eb6ffa259a95f4aead52" style="width: 100.0%; height: 100.0%;">Name: ÇIRAK ÇK. SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 189</div>`)[0];
+                popup_b088b10f2008e03410adaafc42e07684.setContent(html_e1040452d2b1eb6ffa259a95f4aead52);
+            
+        
+
+        marker_0d0bcc8b8424b21c8c95cdc77b2a9882.bindPopup(popup_b088b10f2008e03410adaafc42e07684)
+        ;
+
+        
+    
+    
+            var marker_8a3e4ffce1ff018f7b53b4d5a55c6db1 = L.marker(
+                [41.083843, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_eb6d2e748ae98c29f21947207658f8f1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3726fb240db40e68a2b5658822fe6c58 = $(`<div id="html_3726fb240db40e68a2b5658822fe6c58" style="width: 100.0%; height: 100.0%;">Name: ÇİFTPINAR SK.<br>Population: 505<br>Population Rate: 2<br>Demand: 378</div>`)[0];
+                popup_eb6d2e748ae98c29f21947207658f8f1.setContent(html_3726fb240db40e68a2b5658822fe6c58);
+            
+        
+
+        marker_8a3e4ffce1ff018f7b53b4d5a55c6db1.bindPopup(popup_eb6d2e748ae98c29f21947207658f8f1)
+        ;
+
+        
+    
+    
+            var marker_4c3b9a517958468638aadf6ef54647fc = L.marker(
+                [41.08027, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_bdb70efb37ef47ac6992aedcfbdf79ac = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_80be07bf65c37ed94de518c70263e4b0 = $(`<div id="html_80be07bf65c37ed94de518c70263e4b0" style="width: 100.0%; height: 100.0%;">Name: ÇİMEN SK.<br>Population: 505<br>Population Rate: 2<br>Demand: 378</div>`)[0];
+                popup_bdb70efb37ef47ac6992aedcfbdf79ac.setContent(html_80be07bf65c37ed94de518c70263e4b0);
+            
+        
+
+        marker_4c3b9a517958468638aadf6ef54647fc.bindPopup(popup_bdb70efb37ef47ac6992aedcfbdf79ac)
+        ;
+
+        
+    
+    
+            var marker_c2ec6081623fdac668a4d0c8fc0d868d = L.marker(
+                [41.081546, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_417c56252b22af7012490461d1f67efd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5ae89b92272bc848d9158472c3b49dcd = $(`<div id="html_5ae89b92272bc848d9158472c3b49dcd" style="width: 100.0%; height: 100.0%;">Name: ÇİMENLİK SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 202</div>`)[0];
+                popup_417c56252b22af7012490461d1f67efd.setContent(html_5ae89b92272bc848d9158472c3b49dcd);
+            
+        
+
+        marker_c2ec6081623fdac668a4d0c8fc0d868d.bindPopup(popup_417c56252b22af7012490461d1f67efd)
+        ;
+
+        
+    
+    
+            var marker_cb6313e4042c2d174d64d39f58e1c523 = L.marker(
+                [41.083286, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_c3e7a485295421f9142d56fcf0f0d744 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0fde03e9963548a3b773cbaafbc23fee = $(`<div id="html_0fde03e9963548a3b773cbaafbc23fee" style="width: 100.0%; height: 100.0%;">Name: DAĞSU ÇK. SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 947</div>`)[0];
+                popup_c3e7a485295421f9142d56fcf0f0d744.setContent(html_0fde03e9963548a3b773cbaafbc23fee);
+            
+        
+
+        marker_cb6313e4042c2d174d64d39f58e1c523.bindPopup(popup_c3e7a485295421f9142d56fcf0f0d744)
+        ;
+
+        
+    
+    
+            var marker_8806507c6e989070621945d080d38147 = L.marker(
+                [41.07727, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_f1c798c1006860af662b6a2277047028 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_63832f98d0d777194b699bb04ba11472 = $(`<div id="html_63832f98d0d777194b699bb04ba11472" style="width: 100.0%; height: 100.0%;">Name: DAMLA SK.<br>Population: 757<br>Population Rate: 3<br>Demand: 151</div>`)[0];
+                popup_f1c798c1006860af662b6a2277047028.setContent(html_63832f98d0d777194b699bb04ba11472);
+            
+        
+
+        marker_8806507c6e989070621945d080d38147.bindPopup(popup_f1c798c1006860af662b6a2277047028)
+        ;
+
+        
+    
+    
+            var marker_423f6fd6ae43eca478cb46d40a6d7012 = L.marker(
+                [41.07848, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_71e9fee0d99f6b9307e7b9b6eb2265a1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d5b38c62ad58ea028eeb700e5f20e041 = $(`<div id="html_d5b38c62ad58ea028eeb700e5f20e041" style="width: 100.0%; height: 100.0%;">Name: DEFNE SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 202</div>`)[0];
+                popup_71e9fee0d99f6b9307e7b9b6eb2265a1.setContent(html_d5b38c62ad58ea028eeb700e5f20e041);
+            
+        
+
+        marker_423f6fd6ae43eca478cb46d40a6d7012.bindPopup(popup_71e9fee0d99f6b9307e7b9b6eb2265a1)
+        ;
+
+        
+    
+    
+            var marker_86b04e4dede5fcbf9e090566831e84c2 = L.marker(
+                [41.076149, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_3ad9a4b9091d8945217cb0a8418ba393 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6fbc76b6c57831e2da251750680e62b0 = $(`<div id="html_6fbc76b6c57831e2da251750680e62b0" style="width: 100.0%; height: 100.0%;">Name: DUMANLI VADİ SK.<br>Population: 505<br>Population Rate: 2<br>Demand: 101</div>`)[0];
+                popup_3ad9a4b9091d8945217cb0a8418ba393.setContent(html_6fbc76b6c57831e2da251750680e62b0);
+            
+        
+
+        marker_86b04e4dede5fcbf9e090566831e84c2.bindPopup(popup_3ad9a4b9091d8945217cb0a8418ba393)
+        ;
+
+        
+    
+    
+            var marker_a5cfa6fdbf68e6d082009c89daa32880 = L.marker(
+                [41.078535, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5971e9e8e6818781ed63b92aa63d7156 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d6642617f8d622ea48273fd20ecfd52e = $(`<div id="html_d6642617f8d622ea48273fd20ecfd52e" style="width: 100.0%; height: 100.0%;">Name: EFLATUN SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 505</div>`)[0];
+                popup_5971e9e8e6818781ed63b92aa63d7156.setContent(html_d6642617f8d622ea48273fd20ecfd52e);
+            
+        
+
+        marker_a5cfa6fdbf68e6d082009c89daa32880.bindPopup(popup_5971e9e8e6818781ed63b92aa63d7156)
+        ;
+
+        
+    
+    
+            var marker_7278c57eec19e2f3f0d1fdc342a24592 = L.marker(
+                [41.067583, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_08fee9318cea79d6ce7fd3c85788fee9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f73381db715b15031dd73b41ccf883c5 = $(`<div id="html_f73381db715b15031dd73b41ccf883c5" style="width: 100.0%; height: 100.0%;">Name: EMEL SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 947</div>`)[0];
+                popup_08fee9318cea79d6ce7fd3c85788fee9.setContent(html_f73381db715b15031dd73b41ccf883c5);
+            
+        
+
+        marker_7278c57eec19e2f3f0d1fdc342a24592.bindPopup(popup_08fee9318cea79d6ce7fd3c85788fee9)
+        ;
+
+        
+    
+    
+            var marker_f8ed59a4f65a8972c54301c496eddfa2 = L.marker(
+                [41.08385, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_7f696ec691bdccaeb55bc09ac45a1bab = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_186f3eb59a98a4ac28f610a5f3ecf8e5 = $(`<div id="html_186f3eb59a98a4ac28f610a5f3ecf8e5" style="width: 100.0%; height: 100.0%;">Name: ENİS SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 505</div>`)[0];
+                popup_7f696ec691bdccaeb55bc09ac45a1bab.setContent(html_186f3eb59a98a4ac28f610a5f3ecf8e5);
+            
+        
+
+        marker_f8ed59a4f65a8972c54301c496eddfa2.bindPopup(popup_7f696ec691bdccaeb55bc09ac45a1bab)
+        ;
+
+        
+    
+    
+            var marker_970f6382566ead0fbc70ff089c6eb3a6 = L.marker(
+                [41.078168, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_919c04371d06258642a5a32a21d9c9be = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f17dc4495fa3f7a5892caeb47d92a71c = $(`<div id="html_f17dc4495fa3f7a5892caeb47d92a71c" style="width: 100.0%; height: 100.0%;">Name: GÜLVEREN SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 50</div>`)[0];
+                popup_919c04371d06258642a5a32a21d9c9be.setContent(html_f17dc4495fa3f7a5892caeb47d92a71c);
+            
+        
+
+        marker_970f6382566ead0fbc70ff089c6eb3a6.bindPopup(popup_919c04371d06258642a5a32a21d9c9be)
+        ;
+
+        
+    
+    
+            var marker_4058ccf8aafe84b849143bad1812861b = L.marker(
+                [41.077012, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_baf3e0535bacdf666ed698e5a39bffa5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_73156b35f22b9ae8174139a741934e64 = $(`<div id="html_73156b35f22b9ae8174139a741934e64" style="width: 100.0%; height: 100.0%;">Name: GÜNEŞ SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 947</div>`)[0];
+                popup_baf3e0535bacdf666ed698e5a39bffa5.setContent(html_73156b35f22b9ae8174139a741934e64);
+            
+        
+
+        marker_4058ccf8aafe84b849143bad1812861b.bindPopup(popup_baf3e0535bacdf666ed698e5a39bffa5)
+        ;
+
+        
+    
+    
+            var marker_6e5767f554f0a9dd8ea6f5abf97e68e8 = L.marker(
+                [41.07413, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d2203933e1787941585a915858bf18ad = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_977ff69e69e02593860e1cd9a195cd51 = $(`<div id="html_977ff69e69e02593860e1cd9a195cd51" style="width: 100.0%; height: 100.0%;">Name: GÜNYÜZÜ SK.<br>Population: 505<br>Population Rate: 2<br>Demand: 252</div>`)[0];
+                popup_d2203933e1787941585a915858bf18ad.setContent(html_977ff69e69e02593860e1cd9a195cd51);
+            
+        
+
+        marker_6e5767f554f0a9dd8ea6f5abf97e68e8.bindPopup(popup_d2203933e1787941585a915858bf18ad)
+        ;
+
+        
+    
+    
+            var marker_2566fba0328127a1b655280ad579e11d = L.marker(
+                [41.066162, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_10e990bc1e9a8c0e178857d2c8aa3bf1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_98a08eebfbfe25f4ae5c42f736cf83b9 = $(`<div id="html_98a08eebfbfe25f4ae5c42f736cf83b9" style="width: 100.0%; height: 100.0%;">Name: GÜZİDE SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 252</div>`)[0];
+                popup_10e990bc1e9a8c0e178857d2c8aa3bf1.setContent(html_98a08eebfbfe25f4ae5c42f736cf83b9);
+            
+        
+
+        marker_2566fba0328127a1b655280ad579e11d.bindPopup(popup_10e990bc1e9a8c0e178857d2c8aa3bf1)
+        ;
+
+        
+    
+    
+            var marker_1b5a36d938f991248505064be17c47ce = L.marker(
+                [41.077345, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_bdc04de3de532cb56b2fb605d0138716 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2051cb4953ececaddaf67481b70da44a = $(`<div id="html_2051cb4953ececaddaf67481b70da44a" style="width: 100.0%; height: 100.0%;">Name: HACI PINAR SK.<br>Population: 757<br>Population Rate: 3<br>Demand: 151</div>`)[0];
+                popup_bdc04de3de532cb56b2fb605d0138716.setContent(html_2051cb4953ececaddaf67481b70da44a);
+            
+        
+
+        marker_1b5a36d938f991248505064be17c47ce.bindPopup(popup_bdc04de3de532cb56b2fb605d0138716)
+        ;
+
+        
+    
+    
+            var marker_9965c1d03257d782b130cf9b218ab014 = L.marker(
+                [41.077501, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_1fd8d7641af15fdd1b1315e3c6492661 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a1e81c7e860a76a20020f8846833c44c = $(`<div id="html_a1e81c7e860a76a20020f8846833c44c" style="width: 100.0%; height: 100.0%;">Name: HİSAR SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 631</div>`)[0];
+                popup_1fd8d7641af15fdd1b1315e3c6492661.setContent(html_a1e81c7e860a76a20020f8846833c44c);
+            
+        
+
+        marker_9965c1d03257d782b130cf9b218ab014.bindPopup(popup_1fd8d7641af15fdd1b1315e3c6492661)
+        ;
+
+        
+    
+    
+            var marker_75b0a3731fd99fa4e616eaa6ba8954c5 = L.marker(
+                [41.069242, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_76ace58d1bfc9efc2f8f83d0a3ce42e1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_67f361d89586e3d8800637718840bc5f = $(`<div id="html_67f361d89586e3d8800637718840bc5f" style="width: 100.0%; height: 100.0%;">Name: HUZUR SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 189</div>`)[0];
+                popup_76ace58d1bfc9efc2f8f83d0a3ce42e1.setContent(html_67f361d89586e3d8800637718840bc5f);
+            
+        
+
+        marker_75b0a3731fd99fa4e616eaa6ba8954c5.bindPopup(popup_76ace58d1bfc9efc2f8f83d0a3ce42e1)
+        ;
+
+        
+    
+    
+            var marker_531505affdba23e9868a8b2048b5f4ce = L.marker(
+                [41.072185, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2cfd59d0836f94ebfe2ad2c3e875d914 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8d68ee2d88d155b39d1c06f51ba026fb = $(`<div id="html_8d68ee2d88d155b39d1c06f51ba026fb" style="width: 100.0%; height: 100.0%;">Name: HÜRMET SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 189</div>`)[0];
+                popup_2cfd59d0836f94ebfe2ad2c3e875d914.setContent(html_8d68ee2d88d155b39d1c06f51ba026fb);
+            
+        
+
+        marker_531505affdba23e9868a8b2048b5f4ce.bindPopup(popup_2cfd59d0836f94ebfe2ad2c3e875d914)
+        ;
+
+        
+    
+    
+            var marker_2d3d0872e04837b5c57a7ab5d4569e85 = L.marker(
+                [41.070071, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_00b5ca62bf9d158f8365fbce72a50474 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7dce8496347a4c4c328ea2fa7a66fa1d = $(`<div id="html_7dce8496347a4c4c328ea2fa7a66fa1d" style="width: 100.0%; height: 100.0%;">Name: İHSAN ÇK. SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 189</div>`)[0];
+                popup_00b5ca62bf9d158f8365fbce72a50474.setContent(html_7dce8496347a4c4c328ea2fa7a66fa1d);
+            
+        
+
+        marker_2d3d0872e04837b5c57a7ab5d4569e85.bindPopup(popup_00b5ca62bf9d158f8365fbce72a50474)
+        ;
+
+        
+    
+    
+            var marker_02bced39be56bd6ebb10e62531815832 = L.marker(
+                [41.067848, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_6b40ef4419404f7637bfe24572350494 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f13e2bbeb8f8d832d4be430593fdaa11 = $(`<div id="html_f13e2bbeb8f8d832d4be430593fdaa11" style="width: 100.0%; height: 100.0%;">Name: KESTANELİK SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 50</div>`)[0];
+                popup_6b40ef4419404f7637bfe24572350494.setContent(html_f13e2bbeb8f8d832d4be430593fdaa11);
+            
+        
+
+        marker_02bced39be56bd6ebb10e62531815832.bindPopup(popup_6b40ef4419404f7637bfe24572350494)
+        ;
+
+        
+    
+    
+            var marker_2b5e3dd3874f5b2a9360d0c588993ec2 = L.marker(
+                [41.079901, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5fa51532c56001072f45664c2e0ada74 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_94a4c3206365cb9e6bec7820cb809c20 = $(`<div id="html_94a4c3206365cb9e6bec7820cb809c20" style="width: 100.0%; height: 100.0%;">Name: KİRAZ SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 252</div>`)[0];
+                popup_5fa51532c56001072f45664c2e0ada74.setContent(html_94a4c3206365cb9e6bec7820cb809c20);
+            
+        
+
+        marker_2b5e3dd3874f5b2a9360d0c588993ec2.bindPopup(popup_5fa51532c56001072f45664c2e0ada74)
+        ;
+
+        
+    
+    
+            var marker_499c987602f1d13b8a881d049ee78b82 = L.marker(
+                [41.070574, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_c8c3aede7f27b78c0fb8f2b61cf4c146 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_406b33bbd0a4d42df1c9f95bde89b7cf = $(`<div id="html_406b33bbd0a4d42df1c9f95bde89b7cf" style="width: 100.0%; height: 100.0%;">Name: KOCAGÖZ KUYU SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 50</div>`)[0];
+                popup_c8c3aede7f27b78c0fb8f2b61cf4c146.setContent(html_406b33bbd0a4d42df1c9f95bde89b7cf);
+            
+        
+
+        marker_499c987602f1d13b8a881d049ee78b82.bindPopup(popup_c8c3aede7f27b78c0fb8f2b61cf4c146)
+        ;
+
+        
+    
+    
+            var marker_551f47c8b257eeddf70de13f42f85934 = L.marker(
+                [41.070248, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a7880099318b52d973b40472f6ec0562 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f00d70a880f429266fe47332624fa67b = $(`<div id="html_f00d70a880f429266fe47332624fa67b" style="width: 100.0%; height: 100.0%;">Name: KÖSEPINAR SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 189</div>`)[0];
+                popup_a7880099318b52d973b40472f6ec0562.setContent(html_f00d70a880f429266fe47332624fa67b);
+            
+        
+
+        marker_551f47c8b257eeddf70de13f42f85934.bindPopup(popup_a7880099318b52d973b40472f6ec0562)
+        ;
+
+        
+    
+    
+            var marker_7fc188abe7bdfd39b6fc75fcd8452873 = L.marker(
+                [41.082912, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_42590d366ed2f06c638383a036224a78 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8c9ca18c3829b0716d670096a72ceb8b = $(`<div id="html_8c9ca18c3829b0716d670096a72ceb8b" style="width: 100.0%; height: 100.0%;">Name: MANDIRA SK. SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 505</div>`)[0];
+                popup_42590d366ed2f06c638383a036224a78.setContent(html_8c9ca18c3829b0716d670096a72ceb8b);
+            
+        
+
+        marker_7fc188abe7bdfd39b6fc75fcd8452873.bindPopup(popup_42590d366ed2f06c638383a036224a78)
+        ;
+
+        
+    
+    
+            var marker_1bd32c34c8aaffda470a61d4f62b4c50 = L.marker(
+                [41.069568, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_6bd86a338b3ad4170b4a89f715a0d2f4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b3528cafe90dd6ed55dbcf6fecd89780 = $(`<div id="html_b3528cafe90dd6ed55dbcf6fecd89780" style="width: 100.0%; height: 100.0%;">Name: MUKADDES SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 505</div>`)[0];
+                popup_6bd86a338b3ad4170b4a89f715a0d2f4.setContent(html_b3528cafe90dd6ed55dbcf6fecd89780);
+            
+        
+
+        marker_1bd32c34c8aaffda470a61d4f62b4c50.bindPopup(popup_6bd86a338b3ad4170b4a89f715a0d2f4)
+        ;
+
+        
+    
+    
+            var marker_82529b595577bf0a892f1bd4b550cb58 = L.marker(
+                [41.080485, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_acf95187a1904f9b73e5730a0e4ea47d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_12ca6a16a826c91b32bcb1a1766fd865 = $(`<div id="html_12ca6a16a826c91b32bcb1a1766fd865" style="width: 100.0%; height: 100.0%;">Name: NUR SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 757</div>`)[0];
+                popup_acf95187a1904f9b73e5730a0e4ea47d.setContent(html_12ca6a16a826c91b32bcb1a1766fd865);
+            
+        
+
+        marker_82529b595577bf0a892f1bd4b550cb58.bindPopup(popup_acf95187a1904f9b73e5730a0e4ea47d)
+        ;
+
+        
+    
+    
+            var marker_c47698f11c74157aef4a84f2d6b0f8a7 = L.marker(
+                [41.068922, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_229025d1f73360d84867b85201fdb756 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ce43959fe1cff851bf2596c186251fbf = $(`<div id="html_ce43959fe1cff851bf2596c186251fbf" style="width: 100.0%; height: 100.0%;">Name: PAPELİN SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 202</div>`)[0];
+                popup_229025d1f73360d84867b85201fdb756.setContent(html_ce43959fe1cff851bf2596c186251fbf);
+            
+        
+
+        marker_c47698f11c74157aef4a84f2d6b0f8a7.bindPopup(popup_229025d1f73360d84867b85201fdb756)
+        ;
+
+        
+    
+    
+            var marker_fae787db240f721843eb824859151e6a = L.marker(
+                [41.072994, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d7a121b6a741d546c16a30687b48fbce = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_eb3bc715bd69f51cc5c0c8b6dfb6f484 = $(`<div id="html_eb3bc715bd69f51cc5c0c8b6dfb6f484" style="width: 100.0%; height: 100.0%;">Name: PLATİN ÇK. SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 189</div>`)[0];
+                popup_d7a121b6a741d546c16a30687b48fbce.setContent(html_eb3bc715bd69f51cc5c0c8b6dfb6f484);
+            
+        
+
+        marker_fae787db240f721843eb824859151e6a.bindPopup(popup_d7a121b6a741d546c16a30687b48fbce)
+        ;
+
+        
+    
+    
+            var marker_50cde417abbf050718ddcdbc780611b5 = L.marker(
+                [41.070472, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_933d8f3fe8bfc465279ac0d664491f92 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_660f211b62218c1810d4d90bc05a2574 = $(`<div id="html_660f211b62218c1810d4d90bc05a2574" style="width: 100.0%; height: 100.0%;">Name: SAFRAN ÇK. SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 252</div>`)[0];
+                popup_933d8f3fe8bfc465279ac0d664491f92.setContent(html_660f211b62218c1810d4d90bc05a2574);
+            
+        
+
+        marker_50cde417abbf050718ddcdbc780611b5.bindPopup(popup_933d8f3fe8bfc465279ac0d664491f92)
+        ;
+
+        
+    
+    
+            var marker_49c8cd1f3db2aea8f4808cec20812cda = L.marker(
+                [41.08455, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_fdd0a51e66fcad23e6f8084374c68859 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_207115df376184b5ee07c55c07fb1f3e = $(`<div id="html_207115df376184b5ee07c55c07fb1f3e" style="width: 100.0%; height: 100.0%;">Name: SEVİM ÇK. SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 947</div>`)[0];
+                popup_fdd0a51e66fcad23e6f8084374c68859.setContent(html_207115df376184b5ee07c55c07fb1f3e);
+            
+        
+
+        marker_49c8cd1f3db2aea8f4808cec20812cda.bindPopup(popup_fdd0a51e66fcad23e6f8084374c68859)
+        ;
+
+        
+    
+    
+            var marker_9649b416c8d716c14da1280d2a4f56b6 = L.marker(
+                [41.076189, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_09449c3251203f2271d35420e650bf0e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7498e6a753308ffe9e315289fad71469 = $(`<div id="html_7498e6a753308ffe9e315289fad71469" style="width: 100.0%; height: 100.0%;">Name: ŞEHİT MURAT SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 947</div>`)[0];
+                popup_09449c3251203f2271d35420e650bf0e.setContent(html_7498e6a753308ffe9e315289fad71469);
+            
+        
+
+        marker_9649b416c8d716c14da1280d2a4f56b6.bindPopup(popup_09449c3251203f2271d35420e650bf0e)
+        ;
+
+        
+    
+    
+            var marker_30637237d3e1248f51785395a0ffaf19 = L.marker(
+                [41.074578, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2cd226e0acd45ee233ea46aa6de0f0de = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_08388923715c60a2feaa269b1d513c0f = $(`<div id="html_08388923715c60a2feaa269b1d513c0f" style="width: 100.0%; height: 100.0%;">Name: ŞİFA SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 631</div>`)[0];
+                popup_2cd226e0acd45ee233ea46aa6de0f0de.setContent(html_08388923715c60a2feaa269b1d513c0f);
+            
+        
+
+        marker_30637237d3e1248f51785395a0ffaf19.bindPopup(popup_2cd226e0acd45ee233ea46aa6de0f0de)
+        ;
+
+        
+    
+    
+            var marker_75e6162eb710ff9be954693d09f668f8 = L.marker(
+                [41.072852, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_314c72e4614bc8ef77acfb446f0adb22 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bcc56b85f6a08dc1727964f536ad31ae = $(`<div id="html_bcc56b85f6a08dc1727964f536ad31ae" style="width: 100.0%; height: 100.0%;">Name: ŞİMAL ÇK. SK.<br>Population: 1263<br>Population Rate: 5<br>Demand: 631</div>`)[0];
+                popup_314c72e4614bc8ef77acfb446f0adb22.setContent(html_bcc56b85f6a08dc1727964f536ad31ae);
+            
+        
+
+        marker_75e6162eb710ff9be954693d09f668f8.bindPopup(popup_314c72e4614bc8ef77acfb446f0adb22)
+        ;
+
+        
+    
+    
+            var marker_bd7cf1af2d2fb17700f2b9309029de1f = L.marker(
+                [41.081274, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_7d8e57399a7dea887b127744c512faf3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d61d6296342b4534811d7593fdd952d0 = $(`<div id="html_d61d6296342b4534811d7593fdd952d0" style="width: 100.0%; height: 100.0%;">Name: UZUN ÇK. SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 757</div>`)[0];
+                popup_7d8e57399a7dea887b127744c512faf3.setContent(html_d61d6296342b4534811d7593fdd952d0);
+            
+        
+
+        marker_bd7cf1af2d2fb17700f2b9309029de1f.bindPopup(popup_7d8e57399a7dea887b127744c512faf3)
+        ;
+
+        
+    
+    
+            var marker_2fd7a85aaacd74eccca5518f35220a31 = L.marker(
+                [41.066305, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_1f3c224e073df17ce077f5f63b713af2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_afdfa7d8bdedeead2ec0ad64a6843906 = $(`<div id="html_afdfa7d8bdedeead2ec0ad64a6843906" style="width: 100.0%; height: 100.0%;">Name: YADİGAR SK.<br>Population: 757<br>Population Rate: 3<br>Demand: 567</div>`)[0];
+                popup_1f3c224e073df17ce077f5f63b713af2.setContent(html_afdfa7d8bdedeead2ec0ad64a6843906);
+            
+        
+
+        marker_2fd7a85aaacd74eccca5518f35220a31.bindPopup(popup_1f3c224e073df17ce077f5f63b713af2)
+        ;
+
+        
+    
+    
+            var marker_d2b2abffe00fabf73ab1acd2a36dc06b = L.marker(
+                [41.069541, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d2a03059a396add2723f16c9b2069eab = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_397219a1ddea1e7726e3bba92b46e8dc = $(`<div id="html_397219a1ddea1e7726e3bba92b46e8dc" style="width: 100.0%; height: 100.0%;">Name: YAYLA SK.<br>Population: 252<br>Population Rate: 1<br>Demand: 189</div>`)[0];
+                popup_d2a03059a396add2723f16c9b2069eab.setContent(html_397219a1ddea1e7726e3bba92b46e8dc);
+            
+        
+
+        marker_d2b2abffe00fabf73ab1acd2a36dc06b.bindPopup(popup_d2a03059a396add2723f16c9b2069eab)
+        ;
+
+        
+    
+    
+            var marker_a24f28210fe29d4290bf506a348cc316 = L.marker(
+                [41.087065, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_48ef20db503aee078eb149a7d656b85c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_db4c79b911d504448229ad44b79fe8df = $(`<div id="html_db4c79b911d504448229ad44b79fe8df" style="width: 100.0%; height: 100.0%;">Name: YEŞİLAY ÇK. SK.<br>Population: 505<br>Population Rate: 2<br>Demand: 252</div>`)[0];
+                popup_48ef20db503aee078eb149a7d656b85c.setContent(html_db4c79b911d504448229ad44b79fe8df);
+            
+        
+
+        marker_a24f28210fe29d4290bf506a348cc316.bindPopup(popup_48ef20db503aee078eb149a7d656b85c)
+        ;
+
+        
+    
+    
+            var marker_4f0df0861c3b90ed5491030b895114b0 = L.marker(
+                [41.077651, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_71f78b92e1e46bf3a9dd12061c439b6d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b682d698da924dc2bd94f2d2919e52d2 = $(`<div id="html_b682d698da924dc2bd94f2d2919e52d2" style="width: 100.0%; height: 100.0%;">Name: YEŞİLVADİ SK.<br>Population: 505<br>Population Rate: 2<br>Demand: 378</div>`)[0];
+                popup_71f78b92e1e46bf3a9dd12061c439b6d.setContent(html_b682d698da924dc2bd94f2d2919e52d2);
+            
+        
+
+        marker_4f0df0861c3b90ed5491030b895114b0.bindPopup(popup_71f78b92e1e46bf3a9dd12061c439b6d)
+        ;
+
+        
+    
+    
+            var marker_b69a07aab3ea6147848db9df86f5d781 = L.marker(
+                [41.082797, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_f7b8189f08e2df754add2cde7e6f1c46 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_682d8d4b7d050e05e57eb860f2705a81 = $(`<div id="html_682d8d4b7d050e05e57eb860f2705a81" style="width: 100.0%; height: 100.0%;">Name: ZEMZEM SK.<br>Population: 505<br>Population Rate: 2<br>Demand: 252</div>`)[0];
+                popup_f7b8189f08e2df754add2cde7e6f1c46.setContent(html_682d8d4b7d050e05e57eb860f2705a81);
+            
+        
+
+        marker_b69a07aab3ea6147848db9df86f5d781.bindPopup(popup_f7b8189f08e2df754add2cde7e6f1c46)
+        ;
+
+        
+    
+    
+            var marker_d68fc3325ff32d1aa71d432b03be41a6 = L.marker(
+                [41.083843, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_70c63a2da50fdd3d573dd994bafb601d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4e920dc182b9f74af326e4b516b4074f = $(`<div id="html_4e920dc182b9f74af326e4b516b4074f" style="width: 100.0%; height: 100.0%;">Name: ZERDE ÇK. SK.<br>Population: 757<br>Population Rate: 3<br>Demand: 378</div>`)[0];
+                popup_70c63a2da50fdd3d573dd994bafb601d.setContent(html_4e920dc182b9f74af326e4b516b4074f);
+            
+        
+
+        marker_d68fc3325ff32d1aa71d432b03be41a6.bindPopup(popup_70c63a2da50fdd3d573dd994bafb601d)
+        ;
+
+        
+    
+    
+            var marker_b20141088ec0fd83f06a8fe7d599f5f8 = L.marker(
+                [41.068236, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_67b2420e17c1972916545a4449bcaf61 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fcee7373b3f1324f1197d85f659b04fd = $(`<div id="html_fcee7373b3f1324f1197d85f659b04fd" style="width: 100.0%; height: 100.0%;">Name: ZÜLAL SK.<br>Population: 1010<br>Population Rate: 4<br>Demand: 202</div>`)[0];
+                popup_67b2420e17c1972916545a4449bcaf61.setContent(html_fcee7373b3f1324f1197d85f659b04fd);
+            
+        
+
+        marker_b20141088ec0fd83f06a8fe7d599f5f8.bindPopup(popup_67b2420e17c1972916545a4449bcaf61)
+        ;
+
+        
+    
+    
+            var marker_e6830d63ba6620d6258274d32ae75614 = L.marker(
+                [40.956582, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d81fa54c9f60b7abc6e59bee42dc61b4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3678a86295f2a82be61c14a37fe992c2 = $(`<div id="html_3678a86295f2a82be61c14a37fe992c2" style="width: 100.0%; height: 100.0%;">Name: BAŞIBÜYÜK CD.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_d81fa54c9f60b7abc6e59bee42dc61b4.setContent(html_3678a86295f2a82be61c14a37fe992c2);
+            
+        
+
+        marker_e6830d63ba6620d6258274d32ae75614.bindPopup(popup_d81fa54c9f60b7abc6e59bee42dc61b4)
+        ;
+
+        
+    
+    
+            var marker_45afe0b958890bf9b74ce17c40935f58 = L.marker(
+                [40.942913, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_7a2f5b41eea49f0fe8b15517c580ea15 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_daf13b212f0fb3a3ca8f973696280cc4 = $(`<div id="html_daf13b212f0fb3a3ca8f973696280cc4" style="width: 100.0%; height: 100.0%;">Name: EMEK CD.<br>Population: 344<br>Population Rate: 5<br>Demand: 258</div>`)[0];
+                popup_7a2f5b41eea49f0fe8b15517c580ea15.setContent(html_daf13b212f0fb3a3ca8f973696280cc4);
+            
+        
+
+        marker_45afe0b958890bf9b74ce17c40935f58.bindPopup(popup_7a2f5b41eea49f0fe8b15517c580ea15)
+        ;
+
+        
+    
+    
+            var marker_49b7e31bfc7617ecee0e52ec7ffd64cd = L.marker(
+                [40.955601, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_1af75a591f8f8c01d77a09e2ad559fc8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c178751f1d770e92a4b5a6654f3625dd = $(`<div id="html_c178751f1d770e92a4b5a6654f3625dd" style="width: 100.0%; height: 100.0%;">Name: ESER CD.<br>Population: 344<br>Population Rate: 5<br>Demand: 68</div>`)[0];
+                popup_1af75a591f8f8c01d77a09e2ad559fc8.setContent(html_c178751f1d770e92a4b5a6654f3625dd);
+            
+        
+
+        marker_49b7e31bfc7617ecee0e52ec7ffd64cd.bindPopup(popup_1af75a591f8f8c01d77a09e2ad559fc8)
+        ;
+
+        
+    
+    
+            var marker_0973e99e5a09ce1fe41b13545803ab73 = L.marker(
+                [40.958938, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a2695e491129e99b479c6d5dac95e3e8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_72fa67061992644e1a038f0a320641d3 = $(`<div id="html_72fa67061992644e1a038f0a320641d3" style="width: 100.0%; height: 100.0%;">Name: ESKİCİBAĞ CD.<br>Population: 275<br>Population Rate: 4<br>Demand: 137</div>`)[0];
+                popup_a2695e491129e99b479c6d5dac95e3e8.setContent(html_72fa67061992644e1a038f0a320641d3);
+            
+        
+
+        marker_0973e99e5a09ce1fe41b13545803ab73.bindPopup(popup_a2695e491129e99b479c6d5dac95e3e8)
+        ;
+
+        
+    
+    
+            var marker_6e21ef616801f7c428c0bc3181047db9 = L.marker(
+                [40.957883, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a146a4760043cc1b51cbdc0f5437ec09 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3003a5afe4571926cf50b3cf5ec6700a = $(`<div id="html_3003a5afe4571926cf50b3cf5ec6700a" style="width: 100.0%; height: 100.0%;">Name: GÜRLER CD.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_a146a4760043cc1b51cbdc0f5437ec09.setContent(html_3003a5afe4571926cf50b3cf5ec6700a);
+            
+        
+
+        marker_6e21ef616801f7c428c0bc3181047db9.bindPopup(popup_a146a4760043cc1b51cbdc0f5437ec09)
+        ;
+
+        
+    
+    
+            var marker_8c8eb4d9600b304c7d1263364e443c2a = L.marker(
+                [40.954144, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_749550b1e6e3903c628fb9206d83336d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_66552f74ab30427b487a86ecf8b35a36 = $(`<div id="html_66552f74ab30427b487a86ecf8b35a36" style="width: 100.0%; height: 100.0%;">Name: KARANFİL CD.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_749550b1e6e3903c628fb9206d83336d.setContent(html_66552f74ab30427b487a86ecf8b35a36);
+            
+        
+
+        marker_8c8eb4d9600b304c7d1263364e443c2a.bindPopup(popup_749550b1e6e3903c628fb9206d83336d)
+        ;
+
+        
+    
+    
+            var marker_7ec6bc538af7be22dddd16bd0abba16e = L.marker(
+                [40.958823, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_243b04100a759b18a46763d72ca2042b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e20757c8051c503ad009465f43c526a5 = $(`<div id="html_e20757c8051c503ad009465f43c526a5" style="width: 100.0%; height: 100.0%;">Name: MEZARLIK CD.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_243b04100a759b18a46763d72ca2042b.setContent(html_e20757c8051c503ad009465f43c526a5);
+            
+        
+
+        marker_7ec6bc538af7be22dddd16bd0abba16e.bindPopup(popup_243b04100a759b18a46763d72ca2042b)
+        ;
+
+        
+    
+    
+            var marker_23c097d01269253a38e50c602d17eeb0 = L.marker(
+                [40.960716, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_71ab0fbe3ee518086bc918f423445ce6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_068b7f41f49fedd6d282bd588d228be1 = $(`<div id="html_068b7f41f49fedd6d282bd588d228be1" style="width: 100.0%; height: 100.0%;">Name: TEKKE CD.<br>Population: 68<br>Population Rate: 1<br>Demand: 13</div>`)[0];
+                popup_71ab0fbe3ee518086bc918f423445ce6.setContent(html_068b7f41f49fedd6d282bd588d228be1);
+            
+        
+
+        marker_23c097d01269253a38e50c602d17eeb0.bindPopup(popup_71ab0fbe3ee518086bc918f423445ce6)
+        ;
+
+        
+    
+    
+            var marker_dfabbb2ba4f32f938a217dc6f01648c1 = L.marker(
+                [40.955792, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_ebd401ec54b3a9315b29d9d3a76982d8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_693fe701c9c3cf0993c14802e5eeab36 = $(`<div id="html_693fe701c9c3cf0993c14802e5eeab36" style="width: 100.0%; height: 100.0%;">Name: TRAFO CD.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_ebd401ec54b3a9315b29d9d3a76982d8.setContent(html_693fe701c9c3cf0993c14802e5eeab36);
+            
+        
+
+        marker_dfabbb2ba4f32f938a217dc6f01648c1.bindPopup(popup_ebd401ec54b3a9315b29d9d3a76982d8)
+        ;
+
+        
+    
+    
+            var marker_1a73d3aa035d225e5ad57ebcfd54e473 = L.marker(
+                [40.957522, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b8930fb50e051dcf7272cd84df388806 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e757c997c9f1410a4875fdeb468d8f98 = $(`<div id="html_e757c997c9f1410a4875fdeb468d8f98" style="width: 100.0%; height: 100.0%;">Name: ACAR SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 27</div>`)[0];
+                popup_b8930fb50e051dcf7272cd84df388806.setContent(html_e757c997c9f1410a4875fdeb468d8f98);
+            
+        
+
+        marker_1a73d3aa035d225e5ad57ebcfd54e473.bindPopup(popup_b8930fb50e051dcf7272cd84df388806)
+        ;
+
+        
+    
+    
+            var marker_a12e52297ed13817b4c2b086b5394025 = L.marker(
+                [40.958074, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_8bab45ea45ac54ab6d0ab3078268d177 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_772b3afb0d3e5e4dcb8fcf8d81f13e82 = $(`<div id="html_772b3afb0d3e5e4dcb8fcf8d81f13e82" style="width: 100.0%; height: 100.0%;">Name: AKÇAN SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_8bab45ea45ac54ab6d0ab3078268d177.setContent(html_772b3afb0d3e5e4dcb8fcf8d81f13e82);
+            
+        
+
+        marker_a12e52297ed13817b4c2b086b5394025.bindPopup(popup_8bab45ea45ac54ab6d0ab3078268d177)
+        ;
+
+        
+    
+    
+            var marker_1fb57d556b4c0d64ccf2c2851f3645f3 = L.marker(
+                [40.956603, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_3dffd8e1ab7f305830f407b938dcd4f0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f43617a11f58455b13f35b8fab6610f0 = $(`<div id="html_f43617a11f58455b13f35b8fab6610f0" style="width: 100.0%; height: 100.0%;">Name: ASLANOĞLU SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 68</div>`)[0];
+                popup_3dffd8e1ab7f305830f407b938dcd4f0.setContent(html_f43617a11f58455b13f35b8fab6610f0);
+            
+        
+
+        marker_1fb57d556b4c0d64ccf2c2851f3645f3.bindPopup(popup_3dffd8e1ab7f305830f407b938dcd4f0)
+        ;
+
+        
+    
+    
+            var marker_d88c2839d8714f42e3dc91c0574b2db1 = L.marker(
+                [40.958516, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_8a876044fe844380bc905b9bec36a746 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6fa625af31cf78e373b4fd250cd9fcf2 = $(`<div id="html_6fa625af31cf78e373b4fd250cd9fcf2" style="width: 100.0%; height: 100.0%;">Name: AY SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 13</div>`)[0];
+                popup_8a876044fe844380bc905b9bec36a746.setContent(html_6fa625af31cf78e373b4fd250cd9fcf2);
+            
+        
+
+        marker_d88c2839d8714f42e3dc91c0574b2db1.bindPopup(popup_8a876044fe844380bc905b9bec36a746)
+        ;
+
+        
+    
+    
+            var marker_701624c8e3b254b5c47df92e5e220ea6 = L.marker(
+                [40.958114, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a8f5e1ad15d4b3a61e4e398ef8dca0ee = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5e81074c8ded08135f17f4270b1b19b2 = $(`<div id="html_5e81074c8ded08135f17f4270b1b19b2" style="width: 100.0%; height: 100.0%;">Name: AYDIN SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 102</div>`)[0];
+                popup_a8f5e1ad15d4b3a61e4e398ef8dca0ee.setContent(html_5e81074c8ded08135f17f4270b1b19b2);
+            
+        
+
+        marker_701624c8e3b254b5c47df92e5e220ea6.bindPopup(popup_a8f5e1ad15d4b3a61e4e398ef8dca0ee)
+        ;
+
+        
+    
+    
+            var marker_01bc8fc75f065ff04951bdd8e78c3476 = L.marker(
+                [40.959204, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_70d926e69d6d4600995673090669e01d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_21c53a4c2b25e00751608c0cd65631cd = $(`<div id="html_21c53a4c2b25e00751608c0cd65631cd" style="width: 100.0%; height: 100.0%;">Name: AYGÜL SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_70d926e69d6d4600995673090669e01d.setContent(html_21c53a4c2b25e00751608c0cd65631cd);
+            
+        
+
+        marker_01bc8fc75f065ff04951bdd8e78c3476.bindPopup(popup_70d926e69d6d4600995673090669e01d)
+        ;
+
+        
+    
+    
+            var marker_65e4ac1b9e76fb28f2b8f91bf6a92add = L.marker(
+                [40.956208, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5dace96bc05537e6783687335df42ed3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_769d78cdf0856f7c71de75c8c62aced6 = $(`<div id="html_769d78cdf0856f7c71de75c8c62aced6" style="width: 100.0%; height: 100.0%;">Name: BAHÇE SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 51</div>`)[0];
+                popup_5dace96bc05537e6783687335df42ed3.setContent(html_769d78cdf0856f7c71de75c8c62aced6);
+            
+        
+
+        marker_65e4ac1b9e76fb28f2b8f91bf6a92add.bindPopup(popup_5dace96bc05537e6783687335df42ed3)
+        ;
+
+        
+    
+    
+            var marker_b3941543c5b86a102b26491daec58d47 = L.marker(
+                [40.952666, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_dae45cb12efb3bb3aa3dba0cf9e00daf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4fee1cd678a4f1fbd42b136eb7f6ac57 = $(`<div id="html_4fee1cd678a4f1fbd42b136eb7f6ac57" style="width: 100.0%; height: 100.0%;">Name: BARAJ SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 13</div>`)[0];
+                popup_dae45cb12efb3bb3aa3dba0cf9e00daf.setContent(html_4fee1cd678a4f1fbd42b136eb7f6ac57);
+            
+        
+
+        marker_b3941543c5b86a102b26491daec58d47.bindPopup(popup_dae45cb12efb3bb3aa3dba0cf9e00daf)
+        ;
+
+        
+    
+    
+            var marker_28a112cb040857d36451674a37a77404 = L.marker(
+                [40.957903, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2714624ec1ba6a46ee0edac340c6bbad = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_214d8760a5053e32edac56fd348872af = $(`<div id="html_214d8760a5053e32edac56fd348872af" style="width: 100.0%; height: 100.0%;">Name: BAYIR SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 55</div>`)[0];
+                popup_2714624ec1ba6a46ee0edac340c6bbad.setContent(html_214d8760a5053e32edac56fd348872af);
+            
+        
+
+        marker_28a112cb040857d36451674a37a77404.bindPopup(popup_2714624ec1ba6a46ee0edac340c6bbad)
+        ;
+
+        
+    
+    
+            var marker_253ee587c5bcec2e62e41d60e9e419c5 = L.marker(
+                [40.954873, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_f1b785d73c22291aa5c833f295054a3a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7da2169c685fa51ef4681901d0136623 = $(`<div id="html_7da2169c685fa51ef4681901d0136623" style="width: 100.0%; height: 100.0%;">Name: BEYZADE SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 51</div>`)[0];
+                popup_f1b785d73c22291aa5c833f295054a3a.setContent(html_7da2169c685fa51ef4681901d0136623);
+            
+        
+
+        marker_253ee587c5bcec2e62e41d60e9e419c5.bindPopup(popup_f1b785d73c22291aa5c833f295054a3a)
+        ;
+
+        
+    
+    
+            var marker_b78f0a6ecea14efb002ecc2e09d65efc = L.marker(
+                [40.955561, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d54c33d223f2867a0185e8604fc6f756 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_825bff8d9f23e1a8f5ab7ac282c6a64c = $(`<div id="html_825bff8d9f23e1a8f5ab7ac282c6a64c" style="width: 100.0%; height: 100.0%;">Name: BUSE SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 51</div>`)[0];
+                popup_d54c33d223f2867a0185e8604fc6f756.setContent(html_825bff8d9f23e1a8f5ab7ac282c6a64c);
+            
+        
+
+        marker_b78f0a6ecea14efb002ecc2e09d65efc.bindPopup(popup_d54c33d223f2867a0185e8604fc6f756)
+        ;
+
+        
+    
+    
+            var marker_1062272e77ca1999d8fc084eb9d5fd27 = L.marker(
+                [40.958339, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b9326594c9edafdc47c21ce96c3e4643 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a0fd4c8928d578d835bfbc0301e9c9d8 = $(`<div id="html_a0fd4c8928d578d835bfbc0301e9c9d8" style="width: 100.0%; height: 100.0%;">Name: CAMİALTI SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 258</div>`)[0];
+                popup_b9326594c9edafdc47c21ce96c3e4643.setContent(html_a0fd4c8928d578d835bfbc0301e9c9d8);
+            
+        
+
+        marker_1062272e77ca1999d8fc084eb9d5fd27.bindPopup(popup_b9326594c9edafdc47c21ce96c3e4643)
+        ;
+
+        
+    
+    
+            var marker_c2e16c5e1dd975d955dc0ba608deb218 = L.marker(
+                [40.959388, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b97c68ece3011b8301121a0da23b17d8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8a5248783dec0e965de49b46140ad986 = $(`<div id="html_8a5248783dec0e965de49b46140ad986" style="width: 100.0%; height: 100.0%;">Name: ÇAKIR SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 68</div>`)[0];
+                popup_b97c68ece3011b8301121a0da23b17d8.setContent(html_8a5248783dec0e965de49b46140ad986);
+            
+        
+
+        marker_c2e16c5e1dd975d955dc0ba608deb218.bindPopup(popup_b97c68ece3011b8301121a0da23b17d8)
+        ;
+
+        
+    
+    
+            var marker_ef98ea619b6d358a1459292c1d349f3a = L.marker(
+                [40.954737, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_03cfbb5df29c5a2627747d2735dd2e76 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_07433a2f1b367247ddc0cfd764796682 = $(`<div id="html_07433a2f1b367247ddc0cfd764796682" style="width: 100.0%; height: 100.0%;">Name: ÇALIKUŞU SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 55</div>`)[0];
+                popup_03cfbb5df29c5a2627747d2735dd2e76.setContent(html_07433a2f1b367247ddc0cfd764796682);
+            
+        
+
+        marker_ef98ea619b6d358a1459292c1d349f3a.bindPopup(popup_03cfbb5df29c5a2627747d2735dd2e76)
+        ;
+
+        
+    
+    
+            var marker_3545beb1f7f12f5850cd3d9c209b4260 = L.marker(
+                [40.954382, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d406cf91e31f541f52ac130b5d5861ce = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d347383c89fdc3ed32819aa81bb28a08 = $(`<div id="html_d347383c89fdc3ed32819aa81bb28a08" style="width: 100.0%; height: 100.0%;">Name: ÇAMLIK SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_d406cf91e31f541f52ac130b5d5861ce.setContent(html_d347383c89fdc3ed32819aa81bb28a08);
+            
+        
+
+        marker_3545beb1f7f12f5850cd3d9c209b4260.bindPopup(popup_d406cf91e31f541f52ac130b5d5861ce)
+        ;
+
+        
+    
+    
+            var marker_1f05439980ca830174e7a42cfd2cf551 = L.marker(
+                [40.961744, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_830c03610519a87cd47f11f0cd8aab2e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_77d447bb805efd3fbf2154d5adb16303 = $(`<div id="html_77d447bb805efd3fbf2154d5adb16303" style="width: 100.0%; height: 100.0%;">Name: ÇİĞDEM SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 172</div>`)[0];
+                popup_830c03610519a87cd47f11f0cd8aab2e.setContent(html_77d447bb805efd3fbf2154d5adb16303);
+            
+        
+
+        marker_1f05439980ca830174e7a42cfd2cf551.bindPopup(popup_830c03610519a87cd47f11f0cd8aab2e)
+        ;
+
+        
+    
+    
+            var marker_02b0c3893a8126281a99e4f66b44573a = L.marker(
+                [40.956398, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a95041a72916c4e64987f818944ecd39 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6e096bab363acc81c6cccc060c096239 = $(`<div id="html_6e096bab363acc81c6cccc060c096239" style="width: 100.0%; height: 100.0%;">Name: DAĞLAR SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 154</div>`)[0];
+                popup_a95041a72916c4e64987f818944ecd39.setContent(html_6e096bab363acc81c6cccc060c096239);
+            
+        
+
+        marker_02b0c3893a8126281a99e4f66b44573a.bindPopup(popup_a95041a72916c4e64987f818944ecd39)
+        ;
+
+        
+    
+    
+            var marker_742cfc1479137f3b6a15ebcd8fc4f04d = L.marker(
+                [40.958353, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a6ecfa014ff6a02749d1187f6681ff20 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a72e849ce3fc71c9b3f837a75a277333 = $(`<div id="html_a72e849ce3fc71c9b3f837a75a277333" style="width: 100.0%; height: 100.0%;">Name: DİK SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_a6ecfa014ff6a02749d1187f6681ff20.setContent(html_a72e849ce3fc71c9b3f837a75a277333);
+            
+        
+
+        marker_742cfc1479137f3b6a15ebcd8fc4f04d.bindPopup(popup_a6ecfa014ff6a02749d1187f6681ff20)
+        ;
+
+        
+    
+    
+            var marker_34d22bb11f2b1cceb996caede442d8a3 = L.marker(
+                [40.955302, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5df39d1a48a03b30b93ac568574c29f4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_741c2700c04c07dd7b126dbaa8b332c5 = $(`<div id="html_741c2700c04c07dd7b126dbaa8b332c5" style="width: 100.0%; height: 100.0%;">Name: DÜŞ SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 154</div>`)[0];
+                popup_5df39d1a48a03b30b93ac568574c29f4.setContent(html_741c2700c04c07dd7b126dbaa8b332c5);
+            
+        
+
+        marker_34d22bb11f2b1cceb996caede442d8a3.bindPopup(popup_5df39d1a48a03b30b93ac568574c29f4)
+        ;
+
+        
+    
+    
+            var marker_0fbedb5a776873e1e58c00d715eb9a87 = L.marker(
+                [40.960307, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d3d8b6992ad08605eaec4b00b8aa65d2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_79c5b274c24c20bec2ce623e1fc42a6c = $(`<div id="html_79c5b274c24c20bec2ce623e1fc42a6c" style="width: 100.0%; height: 100.0%;">Name: ELİF SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 55</div>`)[0];
+                popup_d3d8b6992ad08605eaec4b00b8aa65d2.setContent(html_79c5b274c24c20bec2ce623e1fc42a6c);
+            
+        
+
+        marker_0fbedb5a776873e1e58c00d715eb9a87.bindPopup(popup_d3d8b6992ad08605eaec4b00b8aa65d2)
+        ;
+
+        
+    
+    
+            var marker_b896e5af5a5fbe842f69e692b230e9cb = L.marker(
+                [40.98718, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_9501d160130985d09ff1d8ffe15ca8ab = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_12f4970a41ba6e014e037a8e54499577 = $(`<div id="html_12f4970a41ba6e014e037a8e54499577" style="width: 100.0%; height: 100.0%;">Name: EMEL SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 172</div>`)[0];
+                popup_9501d160130985d09ff1d8ffe15ca8ab.setContent(html_12f4970a41ba6e014e037a8e54499577);
+            
+        
+
+        marker_b896e5af5a5fbe842f69e692b230e9cb.bindPopup(popup_9501d160130985d09ff1d8ffe15ca8ab)
+        ;
+
+        
+    
+    
+            var marker_288ddcc36f19f65e03341cbc2e00daf5 = L.marker(
+                [40.957583, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2635e0fa13e008d2c685aa0c10db3633 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8891547e088303f7045799f062adb32b = $(`<div id="html_8891547e088303f7045799f062adb32b" style="width: 100.0%; height: 100.0%;">Name: ENGİN SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_2635e0fa13e008d2c685aa0c10db3633.setContent(html_8891547e088303f7045799f062adb32b);
+            
+        
+
+        marker_288ddcc36f19f65e03341cbc2e00daf5.bindPopup(popup_2635e0fa13e008d2c685aa0c10db3633)
+        ;
+
+        
+    
+    
+            var marker_61ef642cce5116361b99614b7662ec7b = L.marker(
+                [40.955601, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5e683db770a837e21c2227bdaf8c0b31 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_720786eff83d03bfc9000488387f6a00 = $(`<div id="html_720786eff83d03bfc9000488387f6a00" style="width: 100.0%; height: 100.0%;">Name: EREN SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_5e683db770a837e21c2227bdaf8c0b31.setContent(html_720786eff83d03bfc9000488387f6a00);
+            
+        
+
+        marker_61ef642cce5116361b99614b7662ec7b.bindPopup(popup_5e683db770a837e21c2227bdaf8c0b31)
+        ;
+
+        
+    
+    
+            var marker_c5041a68b85894d8ceee0883f920ca0a = L.marker(
+                [40.957079, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d4344ac93d612772c1cdcf8d7b766ebd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_38b893daba74dd4e3043afd8a82d19f9 = $(`<div id="html_38b893daba74dd4e3043afd8a82d19f9" style="width: 100.0%; height: 100.0%;">Name: ERİK SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 41</div>`)[0];
+                popup_d4344ac93d612772c1cdcf8d7b766ebd.setContent(html_38b893daba74dd4e3043afd8a82d19f9);
+            
+        
+
+        marker_c5041a68b85894d8ceee0883f920ca0a.bindPopup(popup_d4344ac93d612772c1cdcf8d7b766ebd)
+        ;
+
+        
+    
+    
+            var marker_16cee5e600dff1d426da01cdc8749973 = L.marker(
+                [40.959218, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_435e37adc2288babe186393f7bd306cc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4eb4211a7fd89b0a654f629ca79a69b6 = $(`<div id="html_4eb4211a7fd89b0a654f629ca79a69b6" style="width: 100.0%; height: 100.0%;">Name: ERKAM SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 137</div>`)[0];
+                popup_435e37adc2288babe186393f7bd306cc.setContent(html_4eb4211a7fd89b0a654f629ca79a69b6);
+            
+        
+
+        marker_16cee5e600dff1d426da01cdc8749973.bindPopup(popup_435e37adc2288babe186393f7bd306cc)
+        ;
+
+        
+    
+    
+            var marker_970a530f17cc6c04bbdb5a3825f83689 = L.marker(
+                [40.957753, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5a931e1c679a52bef87b7a6b47212e07 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4aa19fb30dbecff1e168bfdaa080efee = $(`<div id="html_4aa19fb30dbecff1e168bfdaa080efee" style="width: 100.0%; height: 100.0%;">Name: ERKAN SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 13</div>`)[0];
+                popup_5a931e1c679a52bef87b7a6b47212e07.setContent(html_4aa19fb30dbecff1e168bfdaa080efee);
+            
+        
+
+        marker_970a530f17cc6c04bbdb5a3825f83689.bindPopup(popup_5a931e1c679a52bef87b7a6b47212e07)
+        ;
+
+        
+    
+    
+            var marker_1c1c74fa22e3f9aa36db58368b5bbd65 = L.marker(
+                [40.954042, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_8424b0847898e74425b9de633101a9a3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_89bdbf498c3bc05a10b1447b15e9b845 = $(`<div id="html_89bdbf498c3bc05a10b1447b15e9b845" style="width: 100.0%; height: 100.0%;">Name: FAL SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 55</div>`)[0];
+                popup_8424b0847898e74425b9de633101a9a3.setContent(html_89bdbf498c3bc05a10b1447b15e9b845);
+            
+        
+
+        marker_1c1c74fa22e3f9aa36db58368b5bbd65.bindPopup(popup_8424b0847898e74425b9de633101a9a3)
+        ;
+
+        
+    
+    
+            var marker_af80b0f26325b98cf4218a1310197958 = L.marker(
+                [40.954464, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b06dfe9563c85be11324fff23208ecde = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7bec7ac4f1783b11478baac18250e9e2 = $(`<div id="html_7bec7ac4f1783b11478baac18250e9e2" style="width: 100.0%; height: 100.0%;">Name: FIRIN SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 154</div>`)[0];
+                popup_b06dfe9563c85be11324fff23208ecde.setContent(html_7bec7ac4f1783b11478baac18250e9e2);
+            
+        
+
+        marker_af80b0f26325b98cf4218a1310197958.bindPopup(popup_b06dfe9563c85be11324fff23208ecde)
+        ;
+
+        
+    
+    
+            var marker_242bdb2358c45fe00b0a735e26f64138 = L.marker(
+                [40.956548, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_afb5808dfe37613fa3e02216257ffbfd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_40626902f5968fe40e0d51073858778f = $(`<div id="html_40626902f5968fe40e0d51073858778f" style="width: 100.0%; height: 100.0%;">Name: FİDAN SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 51</div>`)[0];
+                popup_afb5808dfe37613fa3e02216257ffbfd.setContent(html_40626902f5968fe40e0d51073858778f);
+            
+        
+
+        marker_242bdb2358c45fe00b0a735e26f64138.bindPopup(popup_afb5808dfe37613fa3e02216257ffbfd)
+        ;
+
+        
+    
+    
+            var marker_2253a61318f52ec2f988277b4fbf0724 = L.marker(
+                [40.956412, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_cc8e0fba25f9acd9ed4940489160eccf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_efc326481a2efba7cb26806ca7fd0b2b = $(`<div id="html_efc326481a2efba7cb26806ca7fd0b2b" style="width: 100.0%; height: 100.0%;">Name: FİLİZ SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_cc8e0fba25f9acd9ed4940489160eccf.setContent(html_efc326481a2efba7cb26806ca7fd0b2b);
+            
+        
+
+        marker_2253a61318f52ec2f988277b4fbf0724.bindPopup(popup_cc8e0fba25f9acd9ed4940489160eccf)
+        ;
+
+        
+    
+    
+            var marker_22c2ddecabe40116ac044fe95f46c866 = L.marker(
+                [40.960307, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_93f20b6e43b15734dcf42595e5aca649 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f52807c5dcaa4fc47078ed136c465cc7 = $(`<div id="html_f52807c5dcaa4fc47078ed136c465cc7" style="width: 100.0%; height: 100.0%;">Name: GAZEL SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 68</div>`)[0];
+                popup_93f20b6e43b15734dcf42595e5aca649.setContent(html_f52807c5dcaa4fc47078ed136c465cc7);
+            
+        
+
+        marker_22c2ddecabe40116ac044fe95f46c866.bindPopup(popup_93f20b6e43b15734dcf42595e5aca649)
+        ;
+
+        
+    
+    
+            var marker_cc847f309c6158d01d6e73f06970b3a1 = L.marker(
+                [40.957086, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_e17f187107bcc0baa64d410d7199ca0f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4c84c9db6e245fc14f3c48dcd0e701a7 = $(`<div id="html_4c84c9db6e245fc14f3c48dcd0e701a7" style="width: 100.0%; height: 100.0%;">Name: GÖKSEL SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 154</div>`)[0];
+                popup_e17f187107bcc0baa64d410d7199ca0f.setContent(html_4c84c9db6e245fc14f3c48dcd0e701a7);
+            
+        
+
+        marker_cc847f309c6158d01d6e73f06970b3a1.bindPopup(popup_e17f187107bcc0baa64d410d7199ca0f)
+        ;
+
+        
+    
+    
+            var marker_e685c7f93d2ac1ff2d2dfedd3825f7c0 = L.marker(
+                [40.959885, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_1fc7c5aca9eedb0bc77fc6236c034be6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a1c7096916000ef122c7a70295be3641 = $(`<div id="html_a1c7096916000ef122c7a70295be3641" style="width: 100.0%; height: 100.0%;">Name: GÖZDE SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 258</div>`)[0];
+                popup_1fc7c5aca9eedb0bc77fc6236c034be6.setContent(html_a1c7096916000ef122c7a70295be3641);
+            
+        
+
+        marker_e685c7f93d2ac1ff2d2dfedd3825f7c0.bindPopup(popup_1fc7c5aca9eedb0bc77fc6236c034be6)
+        ;
+
+        
+    
+    
+            var marker_7059a890fe64b59d6b32673b76eb0cbf = L.marker(
+                [40.956929, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_1a20eb9e2417edd12b35b1349b959291 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3c6f1c5bd27208ce236425b3899a20d5 = $(`<div id="html_3c6f1c5bd27208ce236425b3899a20d5" style="width: 100.0%; height: 100.0%;">Name: GÜL SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 34</div>`)[0];
+                popup_1a20eb9e2417edd12b35b1349b959291.setContent(html_3c6f1c5bd27208ce236425b3899a20d5);
+            
+        
+
+        marker_7059a890fe64b59d6b32673b76eb0cbf.bindPopup(popup_1a20eb9e2417edd12b35b1349b959291)
+        ;
+
+        
+    
+    
+            var marker_70d3581faf0ea5b39a6fa8433aa21d36 = L.marker(
+                [40.957604, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_e84d79b70392bf94ac8048e8091e92b5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_884d71ed233a7b1cb101f5af060638e1 = $(`<div id="html_884d71ed233a7b1cb101f5af060638e1" style="width: 100.0%; height: 100.0%;">Name: GÜNER SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_e84d79b70392bf94ac8048e8091e92b5.setContent(html_884d71ed233a7b1cb101f5af060638e1);
+            
+        
+
+        marker_70d3581faf0ea5b39a6fa8433aa21d36.bindPopup(popup_e84d79b70392bf94ac8048e8091e92b5)
+        ;
+
+        
+    
+    
+            var marker_4dac63f86d40dd2304b97a7542594aab = L.marker(
+                [40.956773, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_9d054394bfdd0c3ef174219e60dc2865 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fb6e46d6629a193516d184673819e18c = $(`<div id="html_fb6e46d6629a193516d184673819e18c" style="width: 100.0%; height: 100.0%;">Name: GÜNEŞ SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 41</div>`)[0];
+                popup_9d054394bfdd0c3ef174219e60dc2865.setContent(html_fb6e46d6629a193516d184673819e18c);
+            
+        
+
+        marker_4dac63f86d40dd2304b97a7542594aab.bindPopup(popup_9d054394bfdd0c3ef174219e60dc2865)
+        ;
+
+        
+    
+    
+            var marker_a6470bfdf3dc151b02f13e7aaafa8cea = L.marker(
+                [40.957038, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_05d59dd0491a74d094e69cec23df3df7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_12b8361a05fb50f3d26972c478da3815 = $(`<div id="html_12b8361a05fb50f3d26972c478da3815" style="width: 100.0%; height: 100.0%;">Name: HACİVAT SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_05d59dd0491a74d094e69cec23df3df7.setContent(html_12b8361a05fb50f3d26972c478da3815);
+            
+        
+
+        marker_a6470bfdf3dc151b02f13e7aaafa8cea.bindPopup(popup_05d59dd0491a74d094e69cec23df3df7)
+        ;
+
+        
+    
+    
+            var marker_a88c6559205ef3d0e7a48d199f3d5852 = L.marker(
+                [40.954382, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d2d81a7776cff343fc26c47755353003 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_65c8cbbbc666307b557683827a6f4148 = $(`<div id="html_65c8cbbbc666307b557683827a6f4148" style="width: 100.0%; height: 100.0%;">Name: HALİT BEY SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 27</div>`)[0];
+                popup_d2d81a7776cff343fc26c47755353003.setContent(html_65c8cbbbc666307b557683827a6f4148);
+            
+        
+
+        marker_a88c6559205ef3d0e7a48d199f3d5852.bindPopup(popup_d2d81a7776cff343fc26c47755353003)
+        ;
+
+        
+    
+    
+            var marker_9f6fab2411ec90b84286210ecfc85fd3 = L.marker(
+                [40.96013, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_29750e803210ae0f20c5336784fe1798 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_90a7ea9ae7e27c8b560bed300bb86d78 = $(`<div id="html_90a7ea9ae7e27c8b560bed300bb86d78" style="width: 100.0%; height: 100.0%;">Name: HANDAN SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 137</div>`)[0];
+                popup_29750e803210ae0f20c5336784fe1798.setContent(html_90a7ea9ae7e27c8b560bed300bb86d78);
+            
+        
+
+        marker_9f6fab2411ec90b84286210ecfc85fd3.bindPopup(popup_29750e803210ae0f20c5336784fe1798)
+        ;
+
+        
+    
+    
+            var marker_7a97fcc558c369c9650f8e074d305eb7 = L.marker(
+                [40.95347, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_569929fcb70e236c8d52ded53b4bb219 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d448562ba6234821d85bc2814ae40533 = $(`<div id="html_d448562ba6234821d85bc2814ae40533" style="width: 100.0%; height: 100.0%;">Name: HASTANE ARKASI SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 154</div>`)[0];
+                popup_569929fcb70e236c8d52ded53b4bb219.setContent(html_d448562ba6234821d85bc2814ae40533);
+            
+        
+
+        marker_7a97fcc558c369c9650f8e074d305eb7.bindPopup(popup_569929fcb70e236c8d52ded53b4bb219)
+        ;
+
+        
+    
+    
+            var marker_15176ff3895c323f6db613e2ea741129 = L.marker(
+                [40.955343, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_ce972ee2dc66ecf8f50879afe8f31264 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bcb243ba842a6c2a9aa628fb1ea455fb = $(`<div id="html_bcb243ba842a6c2a9aa628fb1ea455fb" style="width: 100.0%; height: 100.0%;">Name: HERCAİ SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 68</div>`)[0];
+                popup_ce972ee2dc66ecf8f50879afe8f31264.setContent(html_bcb243ba842a6c2a9aa628fb1ea455fb);
+            
+        
+
+        marker_15176ff3895c323f6db613e2ea741129.bindPopup(popup_ce972ee2dc66ecf8f50879afe8f31264)
+        ;
+
+        
+    
+    
+            var marker_b2738f7be424cc0261463ef98b1da873 = L.marker(
+                [40.954042, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2102d2c9d6bc411ae55ef13026d8519b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6722ca49b918b6cbc52071791dc9e18f = $(`<div id="html_6722ca49b918b6cbc52071791dc9e18f" style="width: 100.0%; height: 100.0%;">Name: HİLAL SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_2102d2c9d6bc411ae55ef13026d8519b.setContent(html_6722ca49b918b6cbc52071791dc9e18f);
+            
+        
+
+        marker_b2738f7be424cc0261463ef98b1da873.bindPopup(popup_2102d2c9d6bc411ae55ef13026d8519b)
+        ;
+
+        
+    
+    
+            var marker_40f6a24214244aca31e7ed947fab2ddd = L.marker(
+                [40.953872, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_81e39dd1bf94256e29baca5ee37246ee = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b6ae768ff4e5e78327105f854b780592 = $(`<div id="html_b6ae768ff4e5e78327105f854b780592" style="width: 100.0%; height: 100.0%;">Name: KARAMAN SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_81e39dd1bf94256e29baca5ee37246ee.setContent(html_b6ae768ff4e5e78327105f854b780592);
+            
+        
+
+        marker_40f6a24214244aca31e7ed947fab2ddd.bindPopup(popup_81e39dd1bf94256e29baca5ee37246ee)
+        ;
+
+        
+    
+    
+            var marker_fd742a5d4ca2915e9734a36ab94d5a7e = L.marker(
+                [40.96171, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_78d991a8f9778ac71b8a602c7b1396f3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6586f1b6f66e9430072403c24c354550 = $(`<div id="html_6586f1b6f66e9430072403c24c354550" style="width: 100.0%; height: 100.0%;">Name: KARTAL SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_78d991a8f9778ac71b8a602c7b1396f3.setContent(html_6586f1b6f66e9430072403c24c354550);
+            
+        
+
+        marker_fd742a5d4ca2915e9734a36ab94d5a7e.bindPopup(popup_78d991a8f9778ac71b8a602c7b1396f3)
+        ;
+
+        
+    
+    
+            var marker_4d08068a0949585e4531ba32c6c1254e = L.marker(
+                [40.956855, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_859088eb6795e02d113001b818a1ae12 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_370005b479f635e7de97d9929d4c66d2 = $(`<div id="html_370005b479f635e7de97d9929d4c66d2" style="width: 100.0%; height: 100.0%;">Name: KAYA SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_859088eb6795e02d113001b818a1ae12.setContent(html_370005b479f635e7de97d9929d4c66d2);
+            
+        
+
+        marker_4d08068a0949585e4531ba32c6c1254e.bindPopup(popup_859088eb6795e02d113001b818a1ae12)
+        ;
+
+        
+    
+    
+            var marker_facbd2bb02759616787df51ee0033573 = L.marker(
+                [40.957038, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_3ac26f0b5e8211e7ace6b0dbb9c30f27 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cb3bf5655f8672d298c997b1feca8f31 = $(`<div id="html_cb3bf5655f8672d298c997b1feca8f31" style="width: 100.0%; height: 100.0%;">Name: KAYSUK SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 154</div>`)[0];
+                popup_3ac26f0b5e8211e7ace6b0dbb9c30f27.setContent(html_cb3bf5655f8672d298c997b1feca8f31);
+            
+        
+
+        marker_facbd2bb02759616787df51ee0033573.bindPopup(popup_3ac26f0b5e8211e7ace6b0dbb9c30f27)
+        ;
+
+        
+    
+    
+            var marker_56014992e3eca4947a051a8585af1407 = L.marker(
+                [40.955806, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2a38a38b072c9ad98d36020d6c95b498 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4ab291fdc75cf436b5fa515053e284f6 = $(`<div id="html_4ab291fdc75cf436b5fa515053e284f6" style="width: 100.0%; height: 100.0%;">Name: KEHRİBAR SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 172</div>`)[0];
+                popup_2a38a38b072c9ad98d36020d6c95b498.setContent(html_4ab291fdc75cf436b5fa515053e284f6);
+            
+        
+
+        marker_56014992e3eca4947a051a8585af1407.bindPopup(popup_2a38a38b072c9ad98d36020d6c95b498)
+        ;
+
+        
+    
+    
+            var marker_b39ea8eee24aa9816ba1e097f46f1438 = L.marker(
+                [40.958938, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_e7918ed1e110468236060c30fc56b515 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ff5bb58db1b6b533c2cc121b0dd592f1 = $(`<div id="html_ff5bb58db1b6b533c2cc121b0dd592f1" style="width: 100.0%; height: 100.0%;">Name: KESKİNLER SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 13</div>`)[0];
+                popup_e7918ed1e110468236060c30fc56b515.setContent(html_ff5bb58db1b6b533c2cc121b0dd592f1);
+            
+        
+
+        marker_b39ea8eee24aa9816ba1e097f46f1438.bindPopup(popup_e7918ed1e110468236060c30fc56b515)
+        ;
+
+        
+    
+    
+            var marker_7616476295900091aba253d6de4a35f5 = L.marker(
+                [40.955949, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_761541a02e82f8134e3f822afc23bd61 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e08d93fa3365d1edd0afb06cb79283d4 = $(`<div id="html_e08d93fa3365d1edd0afb06cb79283d4" style="width: 100.0%; height: 100.0%;">Name: KETEN SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 102</div>`)[0];
+                popup_761541a02e82f8134e3f822afc23bd61.setContent(html_e08d93fa3365d1edd0afb06cb79283d4);
+            
+        
+
+        marker_7616476295900091aba253d6de4a35f5.bindPopup(popup_761541a02e82f8134e3f822afc23bd61)
+        ;
+
+        
+    
+    
+            var marker_3b9d17a1b2ff5aee2db163907c874c67 = L.marker(
+                [40.958475, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_012bd36cd4728b0688f75b703805f8bf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6f1e9cf744498f6f9c72584bd7943e63 = $(`<div id="html_6f1e9cf744498f6f9c72584bd7943e63" style="width: 100.0%; height: 100.0%;">Name: KILIÇ SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 51</div>`)[0];
+                popup_012bd36cd4728b0688f75b703805f8bf.setContent(html_6f1e9cf744498f6f9c72584bd7943e63);
+            
+        
+
+        marker_3b9d17a1b2ff5aee2db163907c874c67.bindPopup(popup_012bd36cd4728b0688f75b703805f8bf)
+        ;
+
+        
+    
+    
+            var marker_b0b45215b27316ea1b5bac2eb8541ac4 = L.marker(
+                [40.953729, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_f26d212df180ddb64833bdef86ef5cb5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1ee655842977232456efe243a145f226 = $(`<div id="html_1ee655842977232456efe243a145f226" style="width: 100.0%; height: 100.0%;">Name: KORKMAZ SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_f26d212df180ddb64833bdef86ef5cb5.setContent(html_1ee655842977232456efe243a145f226);
+            
+        
+
+        marker_b0b45215b27316ea1b5bac2eb8541ac4.bindPopup(popup_f26d212df180ddb64833bdef86ef5cb5)
+        ;
+
+        
+    
+    
+            var marker_2b2490f6003d9a3dc3fbd93791d107b8 = L.marker(
+                [40.953817, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b58bccc29c0931cb727690f0104365cc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1c2efa5341954b2d5c91f702ff92b7db = $(`<div id="html_1c2efa5341954b2d5c91f702ff92b7db" style="width: 100.0%; height: 100.0%;">Name: KUZGUN SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 55</div>`)[0];
+                popup_b58bccc29c0931cb727690f0104365cc.setContent(html_1c2efa5341954b2d5c91f702ff92b7db);
+            
+        
+
+        marker_2b2490f6003d9a3dc3fbd93791d107b8.bindPopup(popup_b58bccc29c0931cb727690f0104365cc)
+        ;
+
+        
+    
+    
+            var marker_359ded7a75743f9c239b3c11a99f2f17 = L.marker(
+                [40.956487, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d3266ad9b186d49945d50d9637ae7d3a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_000c4396a2ee32b187c30072df85d197 = $(`<div id="html_000c4396a2ee32b187c30072df85d197" style="width: 100.0%; height: 100.0%;">Name: LALE SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 137</div>`)[0];
+                popup_d3266ad9b186d49945d50d9637ae7d3a.setContent(html_000c4396a2ee32b187c30072df85d197);
+            
+        
+
+        marker_359ded7a75743f9c239b3c11a99f2f17.bindPopup(popup_d3266ad9b186d49945d50d9637ae7d3a)
+        ;
+
+        
+    
+    
+            var marker_678cf91267b5e5788fb65bf0234f5e6f = L.marker(
+                [40.959129, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2b5afb5bc4d8eea3982754263f9dea27 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_64084017a0da95e89b13836b5a35bba5 = $(`<div id="html_64084017a0da95e89b13836b5a35bba5" style="width: 100.0%; height: 100.0%;">Name: MADEN SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 27</div>`)[0];
+                popup_2b5afb5bc4d8eea3982754263f9dea27.setContent(html_64084017a0da95e89b13836b5a35bba5);
+            
+        
+
+        marker_678cf91267b5e5788fb65bf0234f5e6f.bindPopup(popup_2b5afb5bc4d8eea3982754263f9dea27)
+        ;
+
+        
+    
+    
+            var marker_67e4e3aab4220a10de0429a2a2b871d3 = L.marker(
+                [40.955261, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_6873cd9279de968f004408418955d584 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f302cf2a8d4d57dc05d398349195f8c8 = $(`<div id="html_f302cf2a8d4d57dc05d398349195f8c8" style="width: 100.0%; height: 100.0%;">Name: MAĞARA TEPE SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 172</div>`)[0];
+                popup_6873cd9279de968f004408418955d584.setContent(html_f302cf2a8d4d57dc05d398349195f8c8);
+            
+        
+
+        marker_67e4e3aab4220a10de0429a2a2b871d3.bindPopup(popup_6873cd9279de968f004408418955d584)
+        ;
+
+        
+    
+    
+            var marker_fce3220420acd25c57d29adb2b4f8175 = L.marker(
+                [40.959129, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_0a2e1fa121fe553c35a1f16ad8c10b79 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_291606b8974377f71ab3258d1e1305cd = $(`<div id="html_291606b8974377f71ab3258d1e1305cd" style="width: 100.0%; height: 100.0%;">Name: MANOLYA SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 41</div>`)[0];
+                popup_0a2e1fa121fe553c35a1f16ad8c10b79.setContent(html_291606b8974377f71ab3258d1e1305cd);
+            
+        
+
+        marker_fce3220420acd25c57d29adb2b4f8175.bindPopup(popup_0a2e1fa121fe553c35a1f16ad8c10b79)
+        ;
+
+        
+    
+    
+            var marker_e330ad35e7d290693829b75470673bec = L.marker(
+                [40.955418, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_452bcb59504465eda1b28f681a866f68 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_777aa179dfdf58c77c44200604125c0b = $(`<div id="html_777aa179dfdf58c77c44200604125c0b" style="width: 100.0%; height: 100.0%;">Name: MELİKOĞLU SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 55</div>`)[0];
+                popup_452bcb59504465eda1b28f681a866f68.setContent(html_777aa179dfdf58c77c44200604125c0b);
+            
+        
+
+        marker_e330ad35e7d290693829b75470673bec.bindPopup(popup_452bcb59504465eda1b28f681a866f68)
+        ;
+
+        
+    
+    
+            var marker_243ec2504f1f00bf062157bcc9008a4b = L.marker(
+                [40.953483, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_82e610a02f1871237fb34ede9bef1c12 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_daf8644ac677fdcf0aab75bcd7810951 = $(`<div id="html_daf8644ac677fdcf0aab75bcd7810951" style="width: 100.0%; height: 100.0%;">Name: MENEKŞE ÇK. SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 27</div>`)[0];
+                popup_82e610a02f1871237fb34ede9bef1c12.setContent(html_daf8644ac677fdcf0aab75bcd7810951);
+            
+        
+
+        marker_243ec2504f1f00bf062157bcc9008a4b.bindPopup(popup_82e610a02f1871237fb34ede9bef1c12)
+        ;
+
+        
+    
+    
+            var marker_047f99ec1ca003b14b08d1ebb443cbdd = L.marker(
+                [40.959204, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5dc9291f864196ec8032ef7acef5bc66 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1ea9deab5acf27112bab01c8b52111f8 = $(`<div id="html_1ea9deab5acf27112bab01c8b52111f8" style="width: 100.0%; height: 100.0%;">Name: MENEKŞE SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 154</div>`)[0];
+                popup_5dc9291f864196ec8032ef7acef5bc66.setContent(html_1ea9deab5acf27112bab01c8b52111f8);
+            
+        
+
+        marker_047f99ec1ca003b14b08d1ebb443cbdd.bindPopup(popup_5dc9291f864196ec8032ef7acef5bc66)
+        ;
+
+        
+    
+    
+            var marker_7f18f527401401fc685ef3184f254aa4 = L.marker(
+                [40.957045, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_957c50721fb90f358a4ad60b559dc295 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7b400ea8273cfb93e69211f74518af55 = $(`<div id="html_7b400ea8273cfb93e69211f74518af55" style="width: 100.0%; height: 100.0%;">Name: MERVE SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 172</div>`)[0];
+                popup_957c50721fb90f358a4ad60b559dc295.setContent(html_7b400ea8273cfb93e69211f74518af55);
+            
+        
+
+        marker_7f18f527401401fc685ef3184f254aa4.bindPopup(popup_957c50721fb90f358a4ad60b559dc295)
+        ;
+
+        
+    
+    
+            var marker_6ee5a650f23cee597a9840a21f5566ac = L.marker(
+                [40.955738, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_733844150b652898c2228757b222651c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_db583af8c14828a51b2a1ee3c965f16a = $(`<div id="html_db583af8c14828a51b2a1ee3c965f16a" style="width: 100.0%; height: 100.0%;">Name: MUZAFFER SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 68</div>`)[0];
+                popup_733844150b652898c2228757b222651c.setContent(html_db583af8c14828a51b2a1ee3c965f16a);
+            
+        
+
+        marker_6ee5a650f23cee597a9840a21f5566ac.bindPopup(popup_733844150b652898c2228757b222651c)
+        ;
+
+        
+    
+    
+            var marker_161dc64df95365db3f9e15be42944057 = L.marker(
+                [40.952373, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_fc35c76faa53d998c53c7d8a18c5778a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a4c643e3a9bcc1e3b2005a43832142b8 = $(`<div id="html_a4c643e3a9bcc1e3b2005a43832142b8" style="width: 100.0%; height: 100.0%;">Name: NİL SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_fc35c76faa53d998c53c7d8a18c5778a.setContent(html_a4c643e3a9bcc1e3b2005a43832142b8);
+            
+        
+
+        marker_161dc64df95365db3f9e15be42944057.bindPopup(popup_fc35c76faa53d998c53c7d8a18c5778a)
+        ;
+
+        
+    
+    
+            var marker_edc8ab513465ac0ad2593311c80d04d9 = L.marker(
+                [40.967627, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_475c0b9021536ea89bc11c9fb66d8a59 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cde89eb159dad62617db3643d6b4d17c = $(`<div id="html_cde89eb159dad62617db3643d6b4d17c" style="width: 100.0%; height: 100.0%;">Name: OKUL SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 258</div>`)[0];
+                popup_475c0b9021536ea89bc11c9fb66d8a59.setContent(html_cde89eb159dad62617db3643d6b4d17c);
+            
+        
+
+        marker_edc8ab513465ac0ad2593311c80d04d9.bindPopup(popup_475c0b9021536ea89bc11c9fb66d8a59)
+        ;
+
+        
+    
+    
+            var marker_da19e676f6a2209bb8d7700693592e42 = L.marker(
+                [40.961254, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_f71baadfeecb5b85b53376d7e2eba5a1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_da516c894b3fffa0b196f62ca6d0f5f4 = $(`<div id="html_da516c894b3fffa0b196f62ca6d0f5f4" style="width: 100.0%; height: 100.0%;">Name: ORMAN SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 172</div>`)[0];
+                popup_f71baadfeecb5b85b53376d7e2eba5a1.setContent(html_da516c894b3fffa0b196f62ca6d0f5f4);
+            
+        
+
+        marker_da19e676f6a2209bb8d7700693592e42.bindPopup(popup_f71baadfeecb5b85b53376d7e2eba5a1)
+        ;
+
+        
+    
+    
+            var marker_4c9045587d3d5310e740d7431855a4e6 = L.marker(
+                [40.959585, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_922f4da3df2733dda4e12828c6666646 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9183394ce3ac273a8e8751752f73e565 = $(`<div id="html_9183394ce3ac273a8e8751752f73e565" style="width: 100.0%; height: 100.0%;">Name: ÖZEN SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 172</div>`)[0];
+                popup_922f4da3df2733dda4e12828c6666646.setContent(html_9183394ce3ac273a8e8751752f73e565);
+            
+        
+
+        marker_4c9045587d3d5310e740d7431855a4e6.bindPopup(popup_922f4da3df2733dda4e12828c6666646)
+        ;
+
+        
+    
+    
+            var marker_f2dba777726e3aa16a2f566e94730e27 = L.marker(
+                [40.960695, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a68c8fed9f6ce442de99c0ae153b708e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_aebf1b5f26d233bbb6ef51b518a6906e = $(`<div id="html_aebf1b5f26d233bbb6ef51b518a6906e" style="width: 100.0%; height: 100.0%;">Name: ÖZTÜRK SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 34</div>`)[0];
+                popup_a68c8fed9f6ce442de99c0ae153b708e.setContent(html_aebf1b5f26d233bbb6ef51b518a6906e);
+            
+        
+
+        marker_f2dba777726e3aa16a2f566e94730e27.bindPopup(popup_a68c8fed9f6ce442de99c0ae153b708e)
+        ;
+
+        
+    
+    
+            var marker_b73d01234779471a652fbe18af14c325 = L.marker(
+                [40.954103, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_da2d9d95c74646b9b525bb8c4290898c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f0eda42bd14e3bd70c79a1c0ae540bf1 = $(`<div id="html_f0eda42bd14e3bd70c79a1c0ae540bf1" style="width: 100.0%; height: 100.0%;">Name: PAMUK SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 41</div>`)[0];
+                popup_da2d9d95c74646b9b525bb8c4290898c.setContent(html_f0eda42bd14e3bd70c79a1c0ae540bf1);
+            
+        
+
+        marker_b73d01234779471a652fbe18af14c325.bindPopup(popup_da2d9d95c74646b9b525bb8c4290898c)
+        ;
+
+        
+    
+    
+            var marker_fe234d328182315f7e0975e8ba618eaf = L.marker(
+                [40.959354, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_52150840e4913c3aea1c95e7fb5af766 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_756d659b3b6d61b500fca5049089d40f = $(`<div id="html_756d659b3b6d61b500fca5049089d40f" style="width: 100.0%; height: 100.0%;">Name: PAPATYA SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 41</div>`)[0];
+                popup_52150840e4913c3aea1c95e7fb5af766.setContent(html_756d659b3b6d61b500fca5049089d40f);
+            
+        
+
+        marker_fe234d328182315f7e0975e8ba618eaf.bindPopup(popup_52150840e4913c3aea1c95e7fb5af766)
+        ;
+
+        
+    
+    
+            var marker_823914e01aa32b90b5596dd87b8e2ff6 = L.marker(
+                [40.959402, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_5fb12ed163a2509891e9aa3e5fd364fa = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7118b1daba4baa68c7416193286efd95 = $(`<div id="html_7118b1daba4baa68c7416193286efd95" style="width: 100.0%; height: 100.0%;">Name: REÇİNE SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 27</div>`)[0];
+                popup_5fb12ed163a2509891e9aa3e5fd364fa.setContent(html_7118b1daba4baa68c7416193286efd95);
+            
+        
+
+        marker_823914e01aa32b90b5596dd87b8e2ff6.bindPopup(popup_5fb12ed163a2509891e9aa3e5fd364fa)
+        ;
+
+        
+    
+    
+            var marker_c881bd0ab2e6f9c00f30c3f9010c19b6 = L.marker(
+                [40.958223, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_cc6aef142b425d6eb45b0248d71f9f85 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_edbeb0e68637753b57713eb215da65f4 = $(`<div id="html_edbeb0e68637753b57713eb215da65f4" style="width: 100.0%; height: 100.0%;">Name: SELVİ SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_cc6aef142b425d6eb45b0248d71f9f85.setContent(html_edbeb0e68637753b57713eb215da65f4);
+            
+        
+
+        marker_c881bd0ab2e6f9c00f30c3f9010c19b6.bindPopup(popup_cc6aef142b425d6eb45b0248d71f9f85)
+        ;
+
+        
+    
+    
+            var marker_656864c7f7a98204cfff63c07c368330 = L.marker(
+                [40.957685, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_ed69d07260b1d3a09b457ca0f7e20c45 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_41c356d7f308818a419bba25685ed489 = $(`<div id="html_41c356d7f308818a419bba25685ed489" style="width: 100.0%; height: 100.0%;">Name: SERHAT SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 258</div>`)[0];
+                popup_ed69d07260b1d3a09b457ca0f7e20c45.setContent(html_41c356d7f308818a419bba25685ed489);
+            
+        
+
+        marker_656864c7f7a98204cfff63c07c368330.bindPopup(popup_ed69d07260b1d3a09b457ca0f7e20c45)
+        ;
+
+        
+    
+    
+            var marker_e5ca8c24a580f8a99b686321890bda7c = L.marker(
+                [40.95586, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b9e637dffcebc572baba3ec18eebe703 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3180a2c6d1e1b3f8ddca2e52b6d84439 = $(`<div id="html_3180a2c6d1e1b3f8ddca2e52b6d84439" style="width: 100.0%; height: 100.0%;">Name: SERİN SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_b9e637dffcebc572baba3ec18eebe703.setContent(html_3180a2c6d1e1b3f8ddca2e52b6d84439);
+            
+        
+
+        marker_e5ca8c24a580f8a99b686321890bda7c.bindPopup(popup_b9e637dffcebc572baba3ec18eebe703)
+        ;
+
+        
+    
+    
+            var marker_34ccb89cdb79ea5e8a9217c42257af72 = L.marker(
+                [40.954471, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_c83f24afc821087d8abe5e63a2e57baf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6499c37c0ab8dc3800987be9c719deeb = $(`<div id="html_6499c37c0ab8dc3800987be9c719deeb" style="width: 100.0%; height: 100.0%;">Name: SEZENLİK SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 258</div>`)[0];
+                popup_c83f24afc821087d8abe5e63a2e57baf.setContent(html_6499c37c0ab8dc3800987be9c719deeb);
+            
+        
+
+        marker_34ccb89cdb79ea5e8a9217c42257af72.bindPopup(popup_c83f24afc821087d8abe5e63a2e57baf)
+        ;
+
+        
+    
+    
+            var marker_d70199f500a2dcec41d96643da451cec = L.marker(
+                [40.953742, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_661f909dd5fb22405e1b933eb08bb3cc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4b003b4b0cab33d868a26699e8c76cb7 = $(`<div id="html_4b003b4b0cab33d868a26699e8c76cb7" style="width: 100.0%; height: 100.0%;">Name: SULTAN SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 172</div>`)[0];
+                popup_661f909dd5fb22405e1b933eb08bb3cc.setContent(html_4b003b4b0cab33d868a26699e8c76cb7);
+            
+        
+
+        marker_d70199f500a2dcec41d96643da451cec.bindPopup(popup_661f909dd5fb22405e1b933eb08bb3cc)
+        ;
+
+        
+    
+    
+            var marker_385855f8a08cc8a03bcf5dd70ef50d7c = L.marker(
+                [40.959313, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_9a3355b8e09efab2e437a77c4163f915 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d13f7bdd1de9c49b9782db3792467b53 = $(`<div id="html_d13f7bdd1de9c49b9782db3792467b53" style="width: 100.0%; height: 100.0%;">Name: ŞEN SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 27</div>`)[0];
+                popup_9a3355b8e09efab2e437a77c4163f915.setContent(html_d13f7bdd1de9c49b9782db3792467b53);
+            
+        
+
+        marker_385855f8a08cc8a03bcf5dd70ef50d7c.bindPopup(popup_9a3355b8e09efab2e437a77c4163f915)
+        ;
+
+        
+    
+    
+            var marker_b5e19c2ad8fffc6877ece9c570225224 = L.marker(
+                [40.956827, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_1bf1fc9618b656d1847d997a31df5840 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9cfee7589ba2c8bd07a59c6939dfcad9 = $(`<div id="html_9cfee7589ba2c8bd07a59c6939dfcad9" style="width: 100.0%; height: 100.0%;">Name: TAN SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_1bf1fc9618b656d1847d997a31df5840.setContent(html_9cfee7589ba2c8bd07a59c6939dfcad9);
+            
+        
+
+        marker_b5e19c2ad8fffc6877ece9c570225224.bindPopup(popup_1bf1fc9618b656d1847d997a31df5840)
+        ;
+
+        
+    
+    
+            var marker_f0c1735b927a80534710e7b1ea1a18af = L.marker(
+                [40.952898, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_c5706e9759c9e5f830f6fc78b007ba40 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_dc32de4868f86c219e4483ad9ecf9b98 = $(`<div id="html_dc32de4868f86c219e4483ad9ecf9b98" style="width: 100.0%; height: 100.0%;">Name: TAŞLIK SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_c5706e9759c9e5f830f6fc78b007ba40.setContent(html_dc32de4868f86c219e4483ad9ecf9b98);
+            
+        
+
+        marker_f0c1735b927a80534710e7b1ea1a18af.bindPopup(popup_c5706e9759c9e5f830f6fc78b007ba40)
+        ;
+
+        
+    
+    
+            var marker_75fbacfdc1bbe38d75bc78a0ce0d72ac = L.marker(
+                [40.952898, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_6e1c62c04bcee819426a67dadb24060d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_53ca4079720cbaf0c06de026b2fb6801 = $(`<div id="html_53ca4079720cbaf0c06de026b2fb6801" style="width: 100.0%; height: 100.0%;">Name: TAŞOCAĞI SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 258</div>`)[0];
+                popup_6e1c62c04bcee819426a67dadb24060d.setContent(html_53ca4079720cbaf0c06de026b2fb6801);
+            
+        
+
+        marker_75fbacfdc1bbe38d75bc78a0ce0d72ac.bindPopup(popup_6e1c62c04bcee819426a67dadb24060d)
+        ;
+
+        
+    
+    
+            var marker_b3274876594efa942addfbc477530109 = L.marker(
+                [40.96013, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_200f40090f130932fc04e2509a19bd3b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c60eeb647c02f1c38e51be74253a721e = $(`<div id="html_c60eeb647c02f1c38e51be74253a721e" style="width: 100.0%; height: 100.0%;">Name: TEKKE DERESİ SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 27</div>`)[0];
+                popup_200f40090f130932fc04e2509a19bd3b.setContent(html_c60eeb647c02f1c38e51be74253a721e);
+            
+        
+
+        marker_b3274876594efa942addfbc477530109.bindPopup(popup_200f40090f130932fc04e2509a19bd3b)
+        ;
+
+        
+    
+    
+            var marker_7812fbd82268bdebcb7603d46e4026f0 = L.marker(
+                [40.954566, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b5d6cabf7da23a8eaa8b62ccfca91e03 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2802ad528f13de625f90aa4302543afe = $(`<div id="html_2802ad528f13de625f90aa4302543afe" style="width: 100.0%; height: 100.0%;">Name: TOPRAK YOL SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 51</div>`)[0];
+                popup_b5d6cabf7da23a8eaa8b62ccfca91e03.setContent(html_2802ad528f13de625f90aa4302543afe);
+            
+        
+
+        marker_7812fbd82268bdebcb7603d46e4026f0.bindPopup(popup_b5d6cabf7da23a8eaa8b62ccfca91e03)
+        ;
+
+        
+    
+    
+            var marker_7db86ac081f0f0468d8637727461a31f = L.marker(
+                [40.961029, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_e6ade1f89026e5eee857e7414c75e634 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_95839fdf6df1741a5235afe6cb32ccbc = $(`<div id="html_95839fdf6df1741a5235afe6cb32ccbc" style="width: 100.0%; height: 100.0%;">Name: TURGUT SK.<br>Population: 137<br>Population Rate: 2<br>Demand: 68</div>`)[0];
+                popup_e6ade1f89026e5eee857e7414c75e634.setContent(html_95839fdf6df1741a5235afe6cb32ccbc);
+            
+        
+
+        marker_7db86ac081f0f0468d8637727461a31f.bindPopup(popup_e6ade1f89026e5eee857e7414c75e634)
+        ;
+
+        
+    
+    
+            var marker_e71553e67c07052438618a4a2e8101a2 = L.marker(
+                [40.954239, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_37c40851cca3f79306d409d30a3e6b9c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_10a2336909dc4d0009b2dea6840815d3 = $(`<div id="html_10a2336909dc4d0009b2dea6840815d3" style="width: 100.0%; height: 100.0%;">Name: VEYSEL SK.<br>Population: 206<br>Population Rate: 3<br>Demand: 103</div>`)[0];
+                popup_37c40851cca3f79306d409d30a3e6b9c.setContent(html_10a2336909dc4d0009b2dea6840815d3);
+            
+        
+
+        marker_e71553e67c07052438618a4a2e8101a2.bindPopup(popup_37c40851cca3f79306d409d30a3e6b9c)
+        ;
+
+        
+    
+    
+            var marker_3c4f11c6dfcfc1c346f74d74c8d1a576 = L.marker(
+                [40.953204, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_608a2c5109cf744c142c33087a9c5012 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9d694792f9e10efaa494f0761971aa17 = $(`<div id="html_9d694792f9e10efaa494f0761971aa17" style="width: 100.0%; height: 100.0%;">Name: YARICI SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_608a2c5109cf744c142c33087a9c5012.setContent(html_9d694792f9e10efaa494f0761971aa17);
+            
+        
+
+        marker_3c4f11c6dfcfc1c346f74d74c8d1a576.bindPopup(popup_608a2c5109cf744c142c33087a9c5012)
+        ;
+
+        
+    
+    
+            var marker_34211efa9059c35d65cd03a3fc57f9f7 = L.marker(
+                [40.961513, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_cb9f00889852093f63db0fbe873d2dd7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2051d1baff715e2a9de495bfacc1a4fb = $(`<div id="html_2051d1baff715e2a9de495bfacc1a4fb" style="width: 100.0%; height: 100.0%;">Name: YAZGAN SK.<br>Population: 344<br>Population Rate: 5<br>Demand: 68</div>`)[0];
+                popup_cb9f00889852093f63db0fbe873d2dd7.setContent(html_2051d1baff715e2a9de495bfacc1a4fb);
+            
+        
+
+        marker_34211efa9059c35d65cd03a3fc57f9f7.bindPopup(popup_cb9f00889852093f63db0fbe873d2dd7)
+        ;
+
+        
+    
+    
+            var marker_5647482b71efef8510e2a821abaaf7d7 = L.marker(
+                [40.955847, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_1650598ef2838f52489ee082d8ca7ce0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fc7ed2fe99eba47090ffa8ce0ac77e0c = $(`<div id="html_fc7ed2fe99eba47090ffa8ce0ac77e0c" style="width: 100.0%; height: 100.0%;">Name: YENİ CAMİ SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 34</div>`)[0];
+                popup_1650598ef2838f52489ee082d8ca7ce0.setContent(html_fc7ed2fe99eba47090ffa8ce0ac77e0c);
+            
+        
+
+        marker_5647482b71efef8510e2a821abaaf7d7.bindPopup(popup_1650598ef2838f52489ee082d8ca7ce0)
+        ;
+
+        
+    
+    
+            var marker_2fde7f06286eb80fb662669369f42b4e = L.marker(
+                [40.960525, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_025d38cf45cc30a620bb02fbbea02aab = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5361b2ba400add3a17eedd05e2d50862 = $(`<div id="html_5361b2ba400add3a17eedd05e2d50862" style="width: 100.0%; height: 100.0%;">Name: YILDIZ SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 55</div>`)[0];
+                popup_025d38cf45cc30a620bb02fbbea02aab.setContent(html_5361b2ba400add3a17eedd05e2d50862);
+            
+        
+
+        marker_2fde7f06286eb80fb662669369f42b4e.bindPopup(popup_025d38cf45cc30a620bb02fbbea02aab)
+        ;
+
+        
+    
+    
+            var marker_f3e739daa8dd9ad24eaf58c3eb187a16 = L.marker(
+                [40.954525, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_3463d1663220101c7aeb719d9ded331d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_41bfd34554e58156f7cf3446d5dcbba9 = $(`<div id="html_41bfd34554e58156f7cf3446d5dcbba9" style="width: 100.0%; height: 100.0%;">Name: YILMAZ SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 13</div>`)[0];
+                popup_3463d1663220101c7aeb719d9ded331d.setContent(html_41bfd34554e58156f7cf3446d5dcbba9);
+            
+        
+
+        marker_f3e739daa8dd9ad24eaf58c3eb187a16.bindPopup(popup_3463d1663220101c7aeb719d9ded331d)
+        ;
+
+        
+    
+    
+            var marker_3b530e2269408291e1a1ca4dba1c0a9e = L.marker(
+                [40.95665, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_dbb90e46ce2acaf68046edd4f3f8eb44 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_be3262ad12665f0a6e8e997e0673a092 = $(`<div id="html_be3262ad12665f0a6e8e997e0673a092" style="width: 100.0%; height: 100.0%;">Name: YONCA SK.<br>Population: 275<br>Population Rate: 4<br>Demand: 206</div>`)[0];
+                popup_dbb90e46ce2acaf68046edd4f3f8eb44.setContent(html_be3262ad12665f0a6e8e997e0673a092);
+            
+        
+
+        marker_3b530e2269408291e1a1ca4dba1c0a9e.bindPopup(popup_dbb90e46ce2acaf68046edd4f3f8eb44)
+        ;
+
+        
+    
+    
+            var marker_2fe44078b39e80173d3ae9a5d68d4c66 = L.marker(
+                [40.955097, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_debb8f2e1d7aeca243a856bcbba15a7c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e31b28c0b7dd8201aa4ce7886eedaa9f = $(`<div id="html_e31b28c0b7dd8201aa4ce7886eedaa9f" style="width: 100.0%; height: 100.0%;">Name: ZİRVE SK.<br>Population: 68<br>Population Rate: 1<br>Demand: 34</div>`)[0];
+                popup_debb8f2e1d7aeca243a856bcbba15a7c.setContent(html_e31b28c0b7dd8201aa4ce7886eedaa9f);
+            
+        
+
+        marker_2fe44078b39e80173d3ae9a5d68d4c66.bindPopup(popup_debb8f2e1d7aeca243a856bcbba15a7c)
+        ;
+
+        
+    
+    
+            var marker_1481ecfe4b9810472540e07f2c21583e = L.marker(
+                [41.019199, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_3af7b4265d835833d95900e0edd99005 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8c5bcd73a9f89c5ff31f9b328321b76f = $(`<div id="html_8c5bcd73a9f89c5ff31f9b328321b76f" style="width: 100.0%; height: 100.0%;">Name: ALEMDAĞ CD.<br>Population: 10<br>Population Rate: 1<br>Demand: 5</div>`)[0];
+                popup_3af7b4265d835833d95900e0edd99005.setContent(html_8c5bcd73a9f89c5ff31f9b328321b76f);
+            
+        
+
+        marker_1481ecfe4b9810472540e07f2c21583e.bindPopup(popup_3af7b4265d835833d95900e0edd99005)
+        ;
+
+        
+    
+    
+            var marker_2bfe823ee71a313a9ed38e23c7e9eaad = L.marker(
+                [41.013484, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_863e130cb1a4044a7d52bc4fde00b402 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e406d49c170001ceea3c8c1922a22605 = $(`<div id="html_e406d49c170001ceea3c8c1922a22605" style="width: 100.0%; height: 100.0%;">Name: DOĞANEVLER CD.<br>Population: 51<br>Population Rate: 5<br>Demand: 38</div>`)[0];
+                popup_863e130cb1a4044a7d52bc4fde00b402.setContent(html_e406d49c170001ceea3c8c1922a22605);
+            
+        
+
+        marker_2bfe823ee71a313a9ed38e23c7e9eaad.bindPopup(popup_863e130cb1a4044a7d52bc4fde00b402)
+        ;
+
+        
+    
+    
+            var marker_9cd0e8d6c3eef7da01a3ccba83ecbf6b = L.marker(
+                [41.017056, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_0fd1632df33c052a11b9a67d6f6e7bc7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b489b10423b7aac1492c272032f4fa9c = $(`<div id="html_b489b10423b7aac1492c272032f4fa9c" style="width: 100.0%; height: 100.0%;">Name: ESKİ KADIKÖY YOLU CD.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_0fd1632df33c052a11b9a67d6f6e7bc7.setContent(html_b489b10423b7aac1492c272032f4fa9c);
+            
+        
+
+        marker_9cd0e8d6c3eef7da01a3ccba83ecbf6b.bindPopup(popup_0fd1632df33c052a11b9a67d6f6e7bc7)
+        ;
+
+        
+    
+    
+            var marker_5778d41b52f84d1427cc76409aa1ba51 = L.marker(
+                [41.019941, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_1d9cfe655702ab7c2c3d3ee9ddfea3e8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_994539bd3c53d1bd20a8943a92c46288 = $(`<div id="html_994539bd3c53d1bd20a8943a92c46288" style="width: 100.0%; height: 100.0%;">Name: KAŞGARLI MAHMUT CD.<br>Population: 51<br>Population Rate: 5<br>Demand: 10</div>`)[0];
+                popup_1d9cfe655702ab7c2c3d3ee9ddfea3e8.setContent(html_994539bd3c53d1bd20a8943a92c46288);
+            
+        
+
+        marker_5778d41b52f84d1427cc76409aa1ba51.bindPopup(popup_1d9cfe655702ab7c2c3d3ee9ddfea3e8)
+        ;
+
+        
+    
+    
+            var marker_0d8014adf2b82afc5ef226c73dc9b1fd = L.marker(
+                [41.019383, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_120e591e4fa6434217ac380ee4f48321 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3d0e0b3b36881a6a5fe1d4a58aacc0db = $(`<div id="html_3d0e0b3b36881a6a5fe1d4a58aacc0db" style="width: 100.0%; height: 100.0%;">Name: POYRAZ CD.<br>Population: 40<br>Population Rate: 4<br>Demand: 8</div>`)[0];
+                popup_120e591e4fa6434217ac380ee4f48321.setContent(html_3d0e0b3b36881a6a5fe1d4a58aacc0db);
+            
+        
+
+        marker_0d8014adf2b82afc5ef226c73dc9b1fd.bindPopup(popup_120e591e4fa6434217ac380ee4f48321)
+        ;
+
+        
+    
+    
+            var marker_3a958900e134d9ef6111158845817848 = L.marker(
+                [41.00998, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_564c49b121bcb8874baa1ccac6fad47c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2a7f03f26ae04b9c7d3cee9a847bd6d6 = $(`<div id="html_2a7f03f26ae04b9c7d3cee9a847bd6d6" style="width: 100.0%; height: 100.0%;">Name: TAVUKÇUYOLU CD.<br>Population: 40<br>Population Rate: 4<br>Demand: 30</div>`)[0];
+                popup_564c49b121bcb8874baa1ccac6fad47c.setContent(html_2a7f03f26ae04b9c7d3cee9a847bd6d6);
+            
+        
+
+        marker_3a958900e134d9ef6111158845817848.bindPopup(popup_564c49b121bcb8874baa1ccac6fad47c)
+        ;
+
+        
+    
+    
+            var marker_c1e0213614a28245447660d9d5168546 = L.marker(
+                [41.018288, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_51823270d1abd799990be56998f6e860 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4780d1f4848f21ccaab34b411a464896 = $(`<div id="html_4780d1f4848f21ccaab34b411a464896" style="width: 100.0%; height: 100.0%;">Name: 30 AĞUSTOS SK.<br>Population: 51<br>Population Rate: 5<br>Demand: 25</div>`)[0];
+                popup_51823270d1abd799990be56998f6e860.setContent(html_4780d1f4848f21ccaab34b411a464896);
+            
+        
+
+        marker_c1e0213614a28245447660d9d5168546.bindPopup(popup_51823270d1abd799990be56998f6e860)
+        ;
+
+        
+    
+    
+            var marker_a6cec23d4c1effe265a3d5356122bd2b = L.marker(
+                [41.015253, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_612da0f5d62117152e684bd2c748a815 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_18659287dc9d0e971f367b9266d68340 = $(`<div id="html_18659287dc9d0e971f367b9266d68340" style="width: 100.0%; height: 100.0%;">Name: AZİM SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 8</div>`)[0];
+                popup_612da0f5d62117152e684bd2c748a815.setContent(html_18659287dc9d0e971f367b9266d68340);
+            
+        
+
+        marker_a6cec23d4c1effe265a3d5356122bd2b.bindPopup(popup_612da0f5d62117152e684bd2c748a815)
+        ;
+
+        
+    
+    
+            var marker_70d372b3baabb7609769a36d2b99b730 = L.marker(
+                [41.014151, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_af8a73ee967eecf00d18485c6fdab66c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6c5486100fd1fd1071592d53c4b61199 = $(`<div id="html_6c5486100fd1fd1071592d53c4b61199" style="width: 100.0%; height: 100.0%;">Name: BEGONYA SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 7</div>`)[0];
+                popup_af8a73ee967eecf00d18485c6fdab66c.setContent(html_6c5486100fd1fd1071592d53c4b61199);
+            
+        
+
+        marker_70d372b3baabb7609769a36d2b99b730.bindPopup(popup_af8a73ee967eecf00d18485c6fdab66c)
+        ;
+
+        
+    
+    
+            var marker_514469d6f7977143fd1eac9fef059f87 = L.marker(
+                [41.019437, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_dd9148ec96b7d0f36c09b77c30f362dc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fa9991a08888167cd945853c20b618e1 = $(`<div id="html_fa9991a08888167cd945853c20b618e1" style="width: 100.0%; height: 100.0%;">Name: BİZİM SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 8</div>`)[0];
+                popup_dd9148ec96b7d0f36c09b77c30f362dc.setContent(html_fa9991a08888167cd945853c20b618e1);
+            
+        
+
+        marker_514469d6f7977143fd1eac9fef059f87.bindPopup(popup_dd9148ec96b7d0f36c09b77c30f362dc)
+        ;
+
+        
+    
+    
+            var marker_b8a72e8beea2ebd5cc0a89e245322ea7 = L.marker(
+                [41.015988, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b6d9b77320062c8abd21023c6fcede14 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e689d9e0156f6b33f674d661cd9f344d = $(`<div id="html_e689d9e0156f6b33f674d661cd9f344d" style="width: 100.0%; height: 100.0%;">Name: ÇAYIRBAŞI SK.<br>Population: 51<br>Population Rate: 5<br>Demand: 38</div>`)[0];
+                popup_b6d9b77320062c8abd21023c6fcede14.setContent(html_e689d9e0156f6b33f674d661cd9f344d);
+            
+        
+
+        marker_b8a72e8beea2ebd5cc0a89e245322ea7.bindPopup(popup_b6d9b77320062c8abd21023c6fcede14)
+        ;
+
+        
+    
+    
+            var marker_3c7cf7eccc9e841672ecf1017b49be79 = L.marker(
+                [41.015757, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_7c9c691b3aad95df5a3049ef683a6585 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e896ca151a387d8cc7c6425bfd78b5ed = $(`<div id="html_e896ca151a387d8cc7c6425bfd78b5ed" style="width: 100.0%; height: 100.0%;">Name: ÇEŞME SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_7c9c691b3aad95df5a3049ef683a6585.setContent(html_e896ca151a387d8cc7c6425bfd78b5ed);
+            
+        
+
+        marker_3c7cf7eccc9e841672ecf1017b49be79.bindPopup(popup_7c9c691b3aad95df5a3049ef683a6585)
+        ;
+
+        
+    
+    
+            var marker_61e5d89a50355d8125268bf89f8da218 = L.marker(
+                [41.015035, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_b22c82c7e3b39613b36241f7d601433b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d5c42f48bd2ebfa496c83136b8e556cf = $(`<div id="html_d5c42f48bd2ebfa496c83136b8e556cf" style="width: 100.0%; height: 100.0%;">Name: DAMPSAN SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 20</div>`)[0];
+                popup_b22c82c7e3b39613b36241f7d601433b.setContent(html_d5c42f48bd2ebfa496c83136b8e556cf);
+            
+        
+
+        marker_61e5d89a50355d8125268bf89f8da218.bindPopup(popup_b22c82c7e3b39613b36241f7d601433b)
+        ;
+
+        
+    
+    
+            var marker_f574977edacb2e516b6583b1e1cbb4b6 = L.marker(
+                [41.014634, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_6e0f08dbffcaf1c69cd4bccfdb2d2ede = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bdcccc01069f630bdee0f8cdee432433 = $(`<div id="html_bdcccc01069f630bdee0f8cdee432433" style="width: 100.0%; height: 100.0%;">Name: DİKİLİAĞAÇ SK.<br>Population: 51<br>Population Rate: 5<br>Demand: 38</div>`)[0];
+                popup_6e0f08dbffcaf1c69cd4bccfdb2d2ede.setContent(html_bdcccc01069f630bdee0f8cdee432433);
+            
+        
+
+        marker_f574977edacb2e516b6583b1e1cbb4b6.bindPopup(popup_6e0f08dbffcaf1c69cd4bccfdb2d2ede)
+        ;
+
+        
+    
+    
+            var marker_003b302065521dc227d533af379c2cce = L.marker(
+                [41.018206, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_af248e70d42997829f35af6f056c6051 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c2a0eb308ce5574934b5b6b2e8f086c9 = $(`<div id="html_c2a0eb308ce5574934b5b6b2e8f086c9" style="width: 100.0%; height: 100.0%;">Name: DUA SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 7</div>`)[0];
+                popup_af248e70d42997829f35af6f056c6051.setContent(html_c2a0eb308ce5574934b5b6b2e8f086c9);
+            
+        
+
+        marker_003b302065521dc227d533af379c2cce.bindPopup(popup_af248e70d42997829f35af6f056c6051)
+        ;
+
+        
+    
+    
+            var marker_76f7fa5efd8144487cea3c4ea9041cdd = L.marker(
+                [41.019145, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_65ceb53a1a547c0151c27fe818b441cb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0d0944dade4548025419e6baf50a456b = $(`<div id="html_0d0944dade4548025419e6baf50a456b" style="width: 100.0%; height: 100.0%;">Name: EDAGÜL SK.<br>Population: 30<br>Population Rate: 3<br>Demand: 22</div>`)[0];
+                popup_65ceb53a1a547c0151c27fe818b441cb.setContent(html_0d0944dade4548025419e6baf50a456b);
+            
+        
+
+        marker_76f7fa5efd8144487cea3c4ea9041cdd.bindPopup(popup_65ceb53a1a547c0151c27fe818b441cb)
+        ;
+
+        
+    
+    
+            var marker_e2968fb53c62dd1bba45b840fe0f95ca = L.marker(
+                [41.016872, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_92899616bf493a712a2d31ab8048d8f8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8c314c4f2ae0ad970a0f2681e8c40536 = $(`<div id="html_8c314c4f2ae0ad970a0f2681e8c40536" style="width: 100.0%; height: 100.0%;">Name: ERDEM SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_92899616bf493a712a2d31ab8048d8f8.setContent(html_8c314c4f2ae0ad970a0f2681e8c40536);
+            
+        
+
+        marker_e2968fb53c62dd1bba45b840fe0f95ca.bindPopup(popup_92899616bf493a712a2d31ab8048d8f8)
+        ;
+
+        
+    
+    
+            var marker_553e4e0464847d8ee811b294a1ca9cf6 = L.marker(
+                [41.018703, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_fbdb8e3515025d64798680769f5f5f44 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c5afbb3f972e39e8731ecd73e0dbd7b5 = $(`<div id="html_c5afbb3f972e39e8731ecd73e0dbd7b5" style="width: 100.0%; height: 100.0%;">Name: ESENKÖŞE SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 20</div>`)[0];
+                popup_fbdb8e3515025d64798680769f5f5f44.setContent(html_c5afbb3f972e39e8731ecd73e0dbd7b5);
+            
+        
+
+        marker_553e4e0464847d8ee811b294a1ca9cf6.bindPopup(popup_fbdb8e3515025d64798680769f5f5f44)
+        ;
+
+        
+    
+    
+            var marker_fa56f0b398b798f811d37e697461134d = L.marker(
+                [41.015974, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_4115f8eb0ebe3424f3e314260ca04838 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_74ce1e4e5b804c6970a489ac3a98ff97 = $(`<div id="html_74ce1e4e5b804c6970a489ac3a98ff97" style="width: 100.0%; height: 100.0%;">Name: FATİH SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 2</div>`)[0];
+                popup_4115f8eb0ebe3424f3e314260ca04838.setContent(html_74ce1e4e5b804c6970a489ac3a98ff97);
+            
+        
+
+        marker_fa56f0b398b798f811d37e697461134d.bindPopup(popup_4115f8eb0ebe3424f3e314260ca04838)
+        ;
+
+        
+    
+    
+            var marker_748067e59353b86f6ddfc6b1ad97ed74 = L.marker(
+                [41.019512, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_45b809ced4bf99bbad016c8f86949b42 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_16c883f7f280352b7834b554467f8ddd = $(`<div id="html_16c883f7f280352b7834b554467f8ddd" style="width: 100.0%; height: 100.0%;">Name: GEZEN SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 7</div>`)[0];
+                popup_45b809ced4bf99bbad016c8f86949b42.setContent(html_16c883f7f280352b7834b554467f8ddd);
+            
+        
+
+        marker_748067e59353b86f6ddfc6b1ad97ed74.bindPopup(popup_45b809ced4bf99bbad016c8f86949b42)
+        ;
+
+        
+    
+    
+            var marker_4e5ecb0735b295408e90c04febe7c0db = L.marker(
+                [41.018145, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_9072ae6debf0af96607d2137f2330e5c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fcff23132c39cb4bf99a34c738bb817d = $(`<div id="html_fcff23132c39cb4bf99a34c738bb817d" style="width: 100.0%; height: 100.0%;">Name: GÜNAŞIK SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 4</div>`)[0];
+                popup_9072ae6debf0af96607d2137f2330e5c.setContent(html_fcff23132c39cb4bf99a34c738bb817d);
+            
+        
+
+        marker_4e5ecb0735b295408e90c04febe7c0db.bindPopup(popup_9072ae6debf0af96607d2137f2330e5c)
+        ;
+
+        
+    
+    
+            var marker_2464d7c6eba7584333684b2c8c57fa70 = L.marker(
+                [41.01909, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_871531291cbed29cda4337d41a378828 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9926b30bf9260b6cb62c672bbd6710fc = $(`<div id="html_9926b30bf9260b6cb62c672bbd6710fc" style="width: 100.0%; height: 100.0%;">Name: GÜVENÇ SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 2</div>`)[0];
+                popup_871531291cbed29cda4337d41a378828.setContent(html_9926b30bf9260b6cb62c672bbd6710fc);
+            
+        
+
+        marker_2464d7c6eba7584333684b2c8c57fa70.bindPopup(popup_871531291cbed29cda4337d41a378828)
+        ;
+
+        
+    
+    
+            var marker_fc2d5f90ae5d48c35d6906c6ea84a18f = L.marker(
+                [41.01575, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a889ed654e76f733e91b6882826d2718 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_454e48fc86013e0d8c7b80e469f7a340 = $(`<div id="html_454e48fc86013e0d8c7b80e469f7a340" style="width: 100.0%; height: 100.0%;">Name: HACI BAYRAM SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 30</div>`)[0];
+                popup_a889ed654e76f733e91b6882826d2718.setContent(html_454e48fc86013e0d8c7b80e469f7a340);
+            
+        
+
+        marker_fc2d5f90ae5d48c35d6906c6ea84a18f.bindPopup(popup_a889ed654e76f733e91b6882826d2718)
+        ;
+
+        
+    
+    
+            var marker_4f6fe837619a4987a1ea304256d8a30f = L.marker(
+                [41.015641, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_4bffcdc9257ca27fad487f31c93961e9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_79ce81baf9de2aaa209bd65a540f92db = $(`<div id="html_79ce81baf9de2aaa209bd65a540f92db" style="width: 100.0%; height: 100.0%;">Name: HAYIRLI SK.<br>Population: 30<br>Population Rate: 3<br>Demand: 15</div>`)[0];
+                popup_4bffcdc9257ca27fad487f31c93961e9.setContent(html_79ce81baf9de2aaa209bd65a540f92db);
+            
+        
+
+        marker_4f6fe837619a4987a1ea304256d8a30f.bindPopup(popup_4bffcdc9257ca27fad487f31c93961e9)
+        ;
+
+        
+    
+    
+            var marker_c948ffdec8db58a819bf80cfd86d1df2 = L.marker(
+                [41.014287, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_0a4f9c08d463b4e5f5ed3d87b16e8853 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_8a1ca628fc29966074b934d0e90f8aa5 = $(`<div id="html_8a1ca628fc29966074b934d0e90f8aa5" style="width: 100.0%; height: 100.0%;">Name: HAYRAN SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_0a4f9c08d463b4e5f5ed3d87b16e8853.setContent(html_8a1ca628fc29966074b934d0e90f8aa5);
+            
+        
+
+        marker_c948ffdec8db58a819bf80cfd86d1df2.bindPopup(popup_0a4f9c08d463b4e5f5ed3d87b16e8853)
+        ;
+
+        
+    
+    
+            var marker_9929b21d3321f1da485d9c5f6f488ff6 = L.marker(
+                [41.015614, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d73ebd3afbfac25e3d9c062c3395adea = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9abc37b81b53ab9d80e99111785a8165 = $(`<div id="html_9abc37b81b53ab9d80e99111785a8165" style="width: 100.0%; height: 100.0%;">Name: HÜRMET SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 8</div>`)[0];
+                popup_d73ebd3afbfac25e3d9c062c3395adea.setContent(html_9abc37b81b53ab9d80e99111785a8165);
+            
+        
+
+        marker_9929b21d3321f1da485d9c5f6f488ff6.bindPopup(popup_d73ebd3afbfac25e3d9c062c3395adea)
+        ;
+
+        
+    
+    
+            var marker_ab5a4d0baa135005117d664e40929642 = L.marker(
+                [41.019329, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d542a95b81003c68385eb1ef48b2806e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_67e0695fdf583171f0862d7feeba2c0c = $(`<div id="html_67e0695fdf583171f0862d7feeba2c0c" style="width: 100.0%; height: 100.0%;">Name: İHRAM SK.<br>Population: 51<br>Population Rate: 5<br>Demand: 10</div>`)[0];
+                popup_d542a95b81003c68385eb1ef48b2806e.setContent(html_67e0695fdf583171f0862d7feeba2c0c);
+            
+        
+
+        marker_ab5a4d0baa135005117d664e40929642.bindPopup(popup_d542a95b81003c68385eb1ef48b2806e)
+        ;
+
+        
+    
+    
+            var marker_4366bbee3d78dbeec13f6c7774c3f6db = L.marker(
+                [41.018798, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2a3737f0b69b8bfc69429d907641912a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a7a18a979df7d5ebb795fb852ff9429d = $(`<div id="html_a7a18a979df7d5ebb795fb852ff9429d" style="width: 100.0%; height: 100.0%;">Name: İNANÇ SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 7</div>`)[0];
+                popup_2a3737f0b69b8bfc69429d907641912a.setContent(html_a7a18a979df7d5ebb795fb852ff9429d);
+            
+        
+
+        marker_4366bbee3d78dbeec13f6c7774c3f6db.bindPopup(popup_2a3737f0b69b8bfc69429d907641912a)
+        ;
+
+        
+    
+    
+            var marker_0e960002c4ae5ed1d484780a501248b1 = L.marker(
+                [41.013899, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_83ca86920f65aab5524db868e1839111 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5bc308a16799a3bca5bc7fe5989f4307 = $(`<div id="html_5bc308a16799a3bca5bc7fe5989f4307" style="width: 100.0%; height: 100.0%;">Name: İSTİKBAL SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_83ca86920f65aab5524db868e1839111.setContent(html_5bc308a16799a3bca5bc7fe5989f4307);
+            
+        
+
+        marker_0e960002c4ae5ed1d484780a501248b1.bindPopup(popup_83ca86920f65aab5524db868e1839111)
+        ;
+
+        
+    
+    
+            var marker_c6df88ef05194f4e6858e18e24303cd2 = L.marker(
+                [41.018927, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_3beebad2bb8c70cba9a703c72ac15f92 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_20068efb874633ab37e3fd83bfd8cdfa = $(`<div id="html_20068efb874633ab37e3fd83bfd8cdfa" style="width: 100.0%; height: 100.0%;">Name: KADİM SK.<br>Population: 30<br>Population Rate: 3<br>Demand: 15</div>`)[0];
+                popup_3beebad2bb8c70cba9a703c72ac15f92.setContent(html_20068efb874633ab37e3fd83bfd8cdfa);
+            
+        
+
+        marker_c6df88ef05194f4e6858e18e24303cd2.bindPopup(popup_3beebad2bb8c70cba9a703c72ac15f92)
+        ;
+
+        
+    
+    
+            var marker_a187cf1f20cc42387ca95cbba1f96d4f = L.marker(
+                [41.015757, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_06afb5549782d40595948b5350bde2ea = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9d6aaa71e86072ef04c663f8672d5bcc = $(`<div id="html_9d6aaa71e86072ef04c663f8672d5bcc" style="width: 100.0%; height: 100.0%;">Name: KAFİYE SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 20</div>`)[0];
+                popup_06afb5549782d40595948b5350bde2ea.setContent(html_9d6aaa71e86072ef04c663f8672d5bcc);
+            
+        
+
+        marker_a187cf1f20cc42387ca95cbba1f96d4f.bindPopup(popup_06afb5549782d40595948b5350bde2ea)
+        ;
+
+        
+    
+    
+            var marker_e0cd2c8942f9ce3f5436299e0ca62ae3 = L.marker(
+                [41.019859, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_f3e2f46996ee6334504e6ddfe4a2f63b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_80578b20cea257d90219c857836a67dd = $(`<div id="html_80578b20cea257d90219c857836a67dd" style="width: 100.0%; height: 100.0%;">Name: KANDİL SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 7</div>`)[0];
+                popup_f3e2f46996ee6334504e6ddfe4a2f63b.setContent(html_80578b20cea257d90219c857836a67dd);
+            
+        
+
+        marker_e0cd2c8942f9ce3f5436299e0ca62ae3.bindPopup(popup_f3e2f46996ee6334504e6ddfe4a2f63b)
+        ;
+
+        
+    
+    
+            var marker_2c3d8ef052a6c4573aeb25d26abce171 = L.marker(
+                [41.017873, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_8a27108a11108a2beafd35d43cabf440 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bf6921d6aafbc8b8359d36aef31d0399 = $(`<div id="html_bf6921d6aafbc8b8359d36aef31d0399" style="width: 100.0%; height: 100.0%;">Name: LİDER SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_8a27108a11108a2beafd35d43cabf440.setContent(html_bf6921d6aafbc8b8359d36aef31d0399);
+            
+        
+
+        marker_2c3d8ef052a6c4573aeb25d26abce171.bindPopup(popup_8a27108a11108a2beafd35d43cabf440)
+        ;
+
+        
+    
+    
+            var marker_bfebf5b80f9a7954faa5314fb8198898 = L.marker(
+                [41.016267, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_279b31f7aab7f78d29ad8f330c1b3016 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f95ece2a8f4fdc854ad04723b7c3e071 = $(`<div id="html_f95ece2a8f4fdc854ad04723b7c3e071" style="width: 100.0%; height: 100.0%;">Name: MANİDAR SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_279b31f7aab7f78d29ad8f330c1b3016.setContent(html_f95ece2a8f4fdc854ad04723b7c3e071);
+            
+        
+
+        marker_bfebf5b80f9a7954faa5314fb8198898.bindPopup(popup_279b31f7aab7f78d29ad8f330c1b3016)
+        ;
+
+        
+    
+    
+            var marker_bef1ed6e8c1883930919545b0971cd28 = L.marker(
+                [41.0179, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_7f28d02235a04b23b4ce6667e748a62d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_47d7cea0176b509508a9922b102dd57b = $(`<div id="html_47d7cea0176b509508a9922b102dd57b" style="width: 100.0%; height: 100.0%;">Name: MEMLEKET SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 4</div>`)[0];
+                popup_7f28d02235a04b23b4ce6667e748a62d.setContent(html_47d7cea0176b509508a9922b102dd57b);
+            
+        
+
+        marker_bef1ed6e8c1883930919545b0971cd28.bindPopup(popup_7f28d02235a04b23b4ce6667e748a62d)
+        ;
+
+        
+    
+    
+            var marker_78a84bea810bbb45ac762dc1af61f73a = L.marker(
+                [41.017281, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_c66695fe10c1c82c15fe7c990edf276b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1372d279bd6f3e8a8238a62c4c5bb591 = $(`<div id="html_1372d279bd6f3e8a8238a62c4c5bb591" style="width: 100.0%; height: 100.0%;">Name: MİLLİ MÜCADELE SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 8</div>`)[0];
+                popup_c66695fe10c1c82c15fe7c990edf276b.setContent(html_1372d279bd6f3e8a8238a62c4c5bb591);
+            
+        
+
+        marker_78a84bea810bbb45ac762dc1af61f73a.bindPopup(popup_c66695fe10c1c82c15fe7c990edf276b)
+        ;
+
+        
+    
+    
+            var marker_50ee19a80ff1d4e97a21fe3ca7046a1f = L.marker(
+                [41.014314, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_c0bd1a22239a19e7c2ae8f4fecdac905 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2da5d211b517ea66ba1758791351c626 = $(`<div id="html_2da5d211b517ea66ba1758791351c626" style="width: 100.0%; height: 100.0%;">Name: NAKKAŞ SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 4</div>`)[0];
+                popup_c0bd1a22239a19e7c2ae8f4fecdac905.setContent(html_2da5d211b517ea66ba1758791351c626);
+            
+        
+
+        marker_50ee19a80ff1d4e97a21fe3ca7046a1f.bindPopup(popup_c0bd1a22239a19e7c2ae8f4fecdac905)
+        ;
+
+        
+    
+    
+            var marker_23220bb664d3ab2ba938fe3276d98c1c = L.marker(
+                [41.013994, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_d403e956220d099dbd3a7a0fdc30d1ca = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a49a999fa0847e69c445ce436dd9880b = $(`<div id="html_a49a999fa0847e69c445ce436dd9880b" style="width: 100.0%; height: 100.0%;">Name: NAZENİN SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_d403e956220d099dbd3a7a0fdc30d1ca.setContent(html_a49a999fa0847e69c445ce436dd9880b);
+            
+        
+
+        marker_23220bb664d3ab2ba938fe3276d98c1c.bindPopup(popup_d403e956220d099dbd3a7a0fdc30d1ca)
+        ;
+
+        
+    
+    
+            var marker_2af63cdd184a1ec454eb964ae030dc61 = L.marker(
+                [41.013838, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_7865ef011749d557dd2497017b14c818 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_48520d08f5bffe32551b85323d2ae510 = $(`<div id="html_48520d08f5bffe32551b85323d2ae510" style="width: 100.0%; height: 100.0%;">Name: ÖNAL SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 4</div>`)[0];
+                popup_7865ef011749d557dd2497017b14c818.setContent(html_48520d08f5bffe32551b85323d2ae510);
+            
+        
+
+        marker_2af63cdd184a1ec454eb964ae030dc61.bindPopup(popup_7865ef011749d557dd2497017b14c818)
+        ;
+
+        
+    
+    
+            var marker_b93d0fa2fc7d8eb5c7a8398884a70a89 = L.marker(
+                [41.015933, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_8368e4fbf239145ac4a734d35a77085a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b0f0f004462df9e61a3360e70a32d788 = $(`<div id="html_b0f0f004462df9e61a3360e70a32d788" style="width: 100.0%; height: 100.0%;">Name: ÖRNEK SK.<br>Population: 30<br>Population Rate: 3<br>Demand: 6</div>`)[0];
+                popup_8368e4fbf239145ac4a734d35a77085a.setContent(html_b0f0f004462df9e61a3360e70a32d788);
+            
+        
+
+        marker_b93d0fa2fc7d8eb5c7a8398884a70a89.bindPopup(popup_8368e4fbf239145ac4a734d35a77085a)
+        ;
+
+        
+    
+    
+            var marker_67961146c140023964b617a18cb4f3f6 = L.marker(
+                [41.013048, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_beb63a0f75171b9dfce94ea4be61fac2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a479d69e40947b1d92214a39dd27ff33 = $(`<div id="html_a479d69e40947b1d92214a39dd27ff33" style="width: 100.0%; height: 100.0%;">Name: ÖZKANCA SK.<br>Population: 30<br>Population Rate: 3<br>Demand: 22</div>`)[0];
+                popup_beb63a0f75171b9dfce94ea4be61fac2.setContent(html_a479d69e40947b1d92214a39dd27ff33);
+            
+        
+
+        marker_67961146c140023964b617a18cb4f3f6.bindPopup(popup_beb63a0f75171b9dfce94ea4be61fac2)
+        ;
+
+        
+    
+    
+            var marker_d13fe0ac7292d52c03a5783c34ab0f38 = L.marker(
+                [41.015464, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_2110bd7670ef6b3cdafa3613ec0dc11f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ef9e1c0e4fdd83fa5b0dc14e669acba6 = $(`<div id="html_ef9e1c0e4fdd83fa5b0dc14e669acba6" style="width: 100.0%; height: 100.0%;">Name: ÖZTÜRK SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 20</div>`)[0];
+                popup_2110bd7670ef6b3cdafa3613ec0dc11f.setContent(html_ef9e1c0e4fdd83fa5b0dc14e669acba6);
+            
+        
+
+        marker_d13fe0ac7292d52c03a5783c34ab0f38.bindPopup(popup_2110bd7670ef6b3cdafa3613ec0dc11f)
+        ;
+
+        
+    
+    
+            var marker_567f1a72f47d78aa37f7cb6910881623 = L.marker(
+                [41.015947, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_9636229aed8d901b6568c2dfb28eb21a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_dccb559ac02276acfeef4ad9ed92a530 = $(`<div id="html_dccb559ac02276acfeef4ad9ed92a530" style="width: 100.0%; height: 100.0%;">Name: PINARBAŞI SK.<br>Population: 51<br>Population Rate: 5<br>Demand: 38</div>`)[0];
+                popup_9636229aed8d901b6568c2dfb28eb21a.setContent(html_dccb559ac02276acfeef4ad9ed92a530);
+            
+        
+
+        marker_567f1a72f47d78aa37f7cb6910881623.bindPopup(popup_9636229aed8d901b6568c2dfb28eb21a)
+        ;
+
+        
+    
+    
+            var marker_b314c5992002f3ce95baab3d814892bb = L.marker(
+                [41.017478, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_457c336566d6c980c08b6ddfa0e3873a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e797e93732131b5ef87ebd41854120f5 = $(`<div id="html_e797e93732131b5ef87ebd41854120f5" style="width: 100.0%; height: 100.0%;">Name: PINARLI SK.<br>Population: 30<br>Population Rate: 3<br>Demand: 15</div>`)[0];
+                popup_457c336566d6c980c08b6ddfa0e3873a.setContent(html_e797e93732131b5ef87ebd41854120f5);
+            
+        
+
+        marker_b314c5992002f3ce95baab3d814892bb.bindPopup(popup_457c336566d6c980c08b6ddfa0e3873a)
+        ;
+
+        
+    
+    
+            var marker_ac1b15bb48c315667d0f7ba18e676840 = L.marker(
+                [41.019261, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_8230a0c22d87a4f225028e37c0b4fb56 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0b65c61cc01b35170fb5b3694fa38ec3 = $(`<div id="html_0b65c61cc01b35170fb5b3694fa38ec3" style="width: 100.0%; height: 100.0%;">Name: RESUL SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 30</div>`)[0];
+                popup_8230a0c22d87a4f225028e37c0b4fb56.setContent(html_0b65c61cc01b35170fb5b3694fa38ec3);
+            
+        
+
+        marker_ac1b15bb48c315667d0f7ba18e676840.bindPopup(popup_8230a0c22d87a4f225028e37c0b4fb56)
+        ;
+
+        
+    
+    
+            var marker_11550d7550434df2bdf45a18b166c0b6 = L.marker(
+                [41.014314, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_042b81272ae2ecb4d15e2e11f0e7e375 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_59f8baac7bd53fd9650b637f4ba208af = $(`<div id="html_59f8baac7bd53fd9650b637f4ba208af" style="width: 100.0%; height: 100.0%;">Name: SEDA SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 5</div>`)[0];
+                popup_042b81272ae2ecb4d15e2e11f0e7e375.setContent(html_59f8baac7bd53fd9650b637f4ba208af);
+            
+        
+
+        marker_11550d7550434df2bdf45a18b166c0b6.bindPopup(popup_042b81272ae2ecb4d15e2e11f0e7e375)
+        ;
+
+        
+    
+    
+            var marker_f74495c215029073b88d2982968df2bd = L.marker(
+                [41.017784, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_76d274f1ba46a1c194291e0124d31301 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f587222f6b6eeff597825f48f0b25bc0 = $(`<div id="html_f587222f6b6eeff597825f48f0b25bc0" style="width: 100.0%; height: 100.0%;">Name: TARİH SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 30</div>`)[0];
+                popup_76d274f1ba46a1c194291e0124d31301.setContent(html_f587222f6b6eeff597825f48f0b25bc0);
+            
+        
+
+        marker_f74495c215029073b88d2982968df2bd.bindPopup(popup_76d274f1ba46a1c194291e0124d31301)
+        ;
+
+        
+    
+    
+            var marker_cb5b4614ca59507708edc3ce84704c6c = L.marker(
+                [41.01924, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_00e6650d83912446cfe161c430662af4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0044cbbfa2d32ced9399b4afdee27b7b = $(`<div id="html_0044cbbfa2d32ced9399b4afdee27b7b" style="width: 100.0%; height: 100.0%;">Name: TEPEÜSTÜ ÖZGÜR SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 5</div>`)[0];
+                popup_00e6650d83912446cfe161c430662af4.setContent(html_0044cbbfa2d32ced9399b4afdee27b7b);
+            
+        
+
+        marker_cb5b4614ca59507708edc3ce84704c6c.bindPopup(popup_00e6650d83912446cfe161c430662af4)
+        ;
+
+        
+    
+    
+            var marker_3620bea089d6581a2e95bc540e5d2714 = L.marker(
+                [41.01724, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_a65df6c1f138e6bc6757fb9fc8dec1e2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_16c2b3eaa521983ce0c9956b52e37339 = $(`<div id="html_16c2b3eaa521983ce0c9956b52e37339" style="width: 100.0%; height: 100.0%;">Name: ULUDERE SK.<br>Population: 51<br>Population Rate: 5<br>Demand: 10</div>`)[0];
+                popup_a65df6c1f138e6bc6757fb9fc8dec1e2.setContent(html_16c2b3eaa521983ce0c9956b52e37339);
+            
+        
+
+        marker_3620bea089d6581a2e95bc540e5d2714.bindPopup(popup_a65df6c1f138e6bc6757fb9fc8dec1e2)
+        ;
+
+        
+    
+    
+            var marker_8479793ff61d5e1f2f15c6dc250bfd37 = L.marker(
+                [41.018961, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_9edb83f21a23a26df0ef4560423b5acc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3659fb73e516ad828add1c2a0177087e = $(`<div id="html_3659fb73e516ad828add1c2a0177087e" style="width: 100.0%; height: 100.0%;">Name: YALIKENT SK.<br>Population: 20<br>Population Rate: 2<br>Demand: 15</div>`)[0];
+                popup_9edb83f21a23a26df0ef4560423b5acc.setContent(html_3659fb73e516ad828add1c2a0177087e);
+            
+        
+
+        marker_8479793ff61d5e1f2f15c6dc250bfd37.bindPopup(popup_9edb83f21a23a26df0ef4560423b5acc)
+        ;
+
+        
+    
+    
+            var marker_631f968fa3749ee0c89ddb67dfd749b9 = L.marker(
+                [41.015546, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_0b156e583205f87c601518aad0adb884 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7c22b1a67502edfb4a924b85a8dd9e76 = $(`<div id="html_7c22b1a67502edfb4a924b85a8dd9e76" style="width: 100.0%; height: 100.0%;">Name: YENİLİK SK.<br>Population: 40<br>Population Rate: 4<br>Demand: 8</div>`)[0];
+                popup_0b156e583205f87c601518aad0adb884.setContent(html_7c22b1a67502edfb4a924b85a8dd9e76);
+            
+        
+
+        marker_631f968fa3749ee0c89ddb67dfd749b9.bindPopup(popup_0b156e583205f87c601518aad0adb884)
+        ;
+
+        
+    
+    
+            var marker_3f1e4593d0661b86a3af33a6fc54da50 = L.marker(
+                [41.017553, 29.1383],
+                {}
+            ).addTo(map_0c00e3930972b4898fc3cc63d5875b76);
+        
+    
+        var popup_161cfec51c7b1a44cab0dcfa334d30a3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ab9e74a9757ebec1f185dd9f3e4a1648 = $(`<div id="html_ab9e74a9757ebec1f185dd9f3e4a1648" style="width: 100.0%; height: 100.0%;">Name: ZİRVE SK.<br>Population: 10<br>Population Rate: 1<br>Demand: 2</div>`)[0];
+                popup_161cfec51c7b1a44cab0dcfa334d30a3.setContent(html_ab9e74a9757ebec1f185dd9f3e4a1648);
+            
+        
+
+        marker_3f1e4593d0661b86a3af33a6fc54da50.bindPopup(popup_161cfec51c7b1a44cab0dcfa334d30a3)
+        ;
+
+        
+    
+</script>
+</html>
