@@ -1,0 +1,12 @@
+import folium
+import json
+
+# create map using tepeustu.json
+map = folium.Map(location=[41.0082, 28.9784], zoom_start=12)
+
+with open("tepeustu.json", "r") as f:
+    data = json.load(f)
+
+map.save("map.html")
+
+
