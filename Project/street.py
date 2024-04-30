@@ -1,15 +1,17 @@
+import csv
 import random
 import json
 import os
 
 class Street:
-    def __init__(self, neighbourhood, name, population, coordinate, rate_of_population, demand):
-        self.__neighbourhood = neighbourhood
-        self.__name = name
-        self.__population = population
-        self.__coordinate = coordinate
-        self.__rate_of_population = rate_of_population
-        self.__demand = demand
+    def __init__(self, neighbourhood, name, population=0, longitude='', latitude='', rate_of_population=None, demand=0):
+        self.neighbourhood = neighbourhood
+        self.name = name
+        self.population = population
+        self.longitude = longitude
+        self.latitude = latitude
+        self.rate_of_population = rate_of_population if rate_of_population is not None else random.randint(1, 5)
+        self.demand = demand
 
     def get_neighbourhood(self):
         return self.__neighbourhood
@@ -19,16 +21,18 @@ class Street:
 
     def get_population(self):
         return self.__population
-
-    def get_coordinate(self):
-        return self.__coordinate
+    
+    def get_longitude(self):
+        return self.__longitude
+    
+    def get_latitude(self):
+        return self.__latitude
 
     def get_rate_of_population(self):
         return self.__rate_of_population
     
     def get_demand(self):
         return self.__demand
-
 
     def set_neighbourhood(self, neighbourhood):
         self.__neighbourhood = neighbourhood
@@ -39,8 +43,11 @@ class Street:
     def set_population(self, population):
         self.__population = population
 
-    def set_coordinate(self, coordinate):
-        self.__coordinate = coordinate
+    def set_longitude(self, longitude):
+        self.__longitude = longitude
+    
+    def set_latitude(self, latitude):
+        self.__latitude = latitude
 
     def set_rate_of_population(self, rate_of_population):
         self.__rate_of_population = rate_of_population
@@ -49,62 +56,58 @@ class Street:
         self.__demand = demand
     
     def __str__(self):
-        return f"neighbourhood: {self.__neighbourhood}, Name: {self.__name}, Population: {self.__population}, Coordinate: {self.__coordinate}, Rate of population: {self.__rate_of_population}"
+        return f"neighbourhood: {self.__neighbourhood}, Name: {self.__name}, Population: {self.__population}, Latitude: {self.__latitude} ,Longitude: {self.__longitude}, Rate of population: {self.__rate_of_population}"
 
     @staticmethod
     def create_street_objects_from_csv(csv_file_path, coordinates_file_path):
         streets_by_neighbourhood = {}
-        coordinates_dict = {}  # Store coordinates information
+        coordinates_dict = {}
 
-        # Read coordinates from the coordinates.csv file
-        with open(coordinates_file_path, 'r', encoding='utf-8') as coordinates_file:
-            next(coordinates_file)  # Skip the header
-            for line in coordinates_file:
-                parts = line.strip().split(',')
-                if len(parts) >= 2:
-                    address = parts[0]
-                    coordinate = parts[1].lstrip('"\"')
-                    coordinates_dict[address] = coordinate
+        # Properly handle CSV reading for coordinates
+        with open(coordinates_file_path, mode='r', newline='', encoding='utf-8') as coordinates_file:
+            reader = csv.reader(coordinates_file)
+            next(reader)  # Skip the header
+            for row in reader:
+                if len(row) == 2:
+                    address, coordinate = row
+                    try:
+                        longitude, latitude = coordinate.replace('"', '').split(',')
+                        coordinates_dict[address.strip()] = (longitude.strip(), latitude.strip())
+                    except ValueError:
+                        print(f"Error parsing coordinates for {address}: {coordinate}")
+                else:
+                    print(f"Skipping malformed line: {row}")
 
         # Process streets from the streets.csv file
-        with open(csv_file_path, 'r', encoding='utf-8') as file:
-            next(file)  # Skip the header
-            for line in file:
-                parts = line.strip().split(',')
-                if len(parts) >= 2:
-                    neighbourhood = parts[0]
-                    name = parts[1]
+        with open(csv_file_path, mode='r', newline='', encoding='utf-8') as file:
+            reader = csv.reader(file)
+            next(reader)  # Skip the header
+            for row in reader:
+                if len(row) >= 2:
+                    neighbourhood, name = row[0], row[1]
                     address = f"{neighbourhood}/{name}"
-                    
-                    # Check if coordinates are available for the address
-                    if address in coordinates_dict:
-                        coordinate = coordinates_dict[address]
-                    else:
-                        print(f"Coordinates not found for address: {address}")
-                        coordinate = ""
+                    longitude, latitude = coordinates_dict.get(address, ("", ""))
 
-                    demand = 0
-                    population = 0
+                    population = random.randint(100, 1000)
                     rate_of_population = random.randint(1, 5)
-                    street_object = Street(neighbourhood, name, population, coordinate, rate_of_population, demand)
+                    demand = random.randint(1, 100)
 
-                    if neighbourhood not in streets_by_neighbourhood:
-                        streets_by_neighbourhood[neighbourhood] = []
-
-                    streets_by_neighbourhood[neighbourhood].append(street_object)
+                    street_object = Street(neighbourhood, name, population, longitude, latitude, rate_of_population, demand)
+                    streets_by_neighbourhood.setdefault(neighbourhood, []).append(street_object)
                 else:
-                    print(f"Skipping line: {line}")
+                    print(f"Skipping malformed line in streets file: {row}")
 
-        # Write JSON files for each neighbourhood
+        # Create JSON files for each neighbourhood
         for neighbourhood, street_objects in streets_by_neighbourhood.items():
             json_data = []
             for street_object in street_objects:
                 json_data.append({
-                    'name': street_object.get_name(),
-                    'coordinate': street_object.get_coordinate(),
-                    'population': street_object.get_population(),
-                    'rate_of_population': street_object.get_rate_of_population(),
-                    'demand': street_object.get_demand()
+                    'name': street_object.name,
+                    'longitude': street_object.longitude,
+                    'latitude': street_object.latitude,
+                    'population': street_object.population,
+                    'rate_of_population': street_object.rate_of_population,
+                    'demand': street_object.demand
                 })
 
             json_file_path = os.path.join(script_directory, 'data', f'{neighbourhood}.json')
