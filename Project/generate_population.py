@@ -3,7 +3,7 @@ from one_point_crossover import one_point_crossover
 from fitness_function import fitness_function
 from bit_mutation import bit_mutation
 
-def generate_new_generation(streets_data, population, mutation_rate=0.01, tournament_size=4):
+def generate_new_generation(streets_data, population, mutation_rate, tournament_size=4):
     """Generates a new generation using selection, crossover, and mutation."""
     fitness_scores = [fitness_function(chromosome, streets_data) for chromosome in population]
     new_population = []

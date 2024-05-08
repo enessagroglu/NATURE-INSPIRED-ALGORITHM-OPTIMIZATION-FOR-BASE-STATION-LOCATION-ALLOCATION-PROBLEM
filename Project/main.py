@@ -4,7 +4,7 @@ import json
 
 
 
-def genetic_algorithm(streets_data, population, max_generations=100, fitness_threshold=0.95, max_stagnant_generations=10, mutation_rate=0.01, tournament_size=4):
+def genetic_algorithm(streets_data, population, max_generations=100, fitness_threshold=100, max_stagnant_generations=20, mutation_rate=0.35, tournament_size=4):
     best_fitness = -float('inf')
     stagnant_generations = 0
 

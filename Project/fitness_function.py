@@ -10,7 +10,7 @@ def haversine(lon1, lat1, lon2, lat2):
     r = 6371  # Radius of the Earth in km
     return c * r
 
-def fitness_function(chromosome, streets_data, coverage_radius=1.0, max_demand_per_station=100):
+def fitness_function(chromosome, streets_data, coverage_radius=1.0, max_demand_per_station=200):
     total_demand = sum(street['demand'] for street in streets_data)
     covered_demand = 0
     total_stations = sum(chromosome)
