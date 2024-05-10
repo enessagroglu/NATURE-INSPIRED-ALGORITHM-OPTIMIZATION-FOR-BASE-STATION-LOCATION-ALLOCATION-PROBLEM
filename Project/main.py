@@ -4,7 +4,7 @@ import json
 
 
 
-def genetic_algorithm(streets_data, population, max_generations=100, fitness_threshold=100, max_stagnant_generations=20, mutation_rate=0.35, tournament_size=4):
+def genetic_algorithm(streets_data, population, max_generations=100, max_stagnant_generations=20, mutation_rate=0.35, tournament_size=4):
     best_fitness = -float('inf')
     stagnant_generations = 0
 
@@ -22,9 +22,6 @@ def genetic_algorithm(streets_data, population, max_generations=100, fitness_thr
             stagnant_generations += 1
 
         # Durma koşulları
-        if best_fitness >= fitness_threshold:
-            print(f"Fitness threshold reached: {best_fitness:.2f} at generation {generation}")
-            break
 
         if stagnant_generations >= max_stagnant_generations:
             print(f"No improvement for {max_stagnant_generations} generations, stopping early at generation {generation}")
