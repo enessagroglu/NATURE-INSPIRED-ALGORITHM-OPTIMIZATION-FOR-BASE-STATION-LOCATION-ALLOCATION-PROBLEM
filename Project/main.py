@@ -60,14 +60,16 @@ def save_best_solution_to_json(chromosome, filepath='best_solution.json'):
 
 
 def map_and_save_streets_with_status(streets_data, best_chromosome, output_filepath='streets_with_bs_status.json'):
-    """Maps streets to chromosome values indicating whether a base station is placed or not, and saves to a JSON file."""
-    # Create a list of dictionaries where each street is mapped to the corresponding chromosome value
+    """Maps streets to chromosome values indicating whether a base station is placed or not, and saves to a JSON file including coordinates."""
+    # Create a list of dictionaries where each street is mapped to the corresponding chromosome value along with longitude and latitude
     streets_with_status = [
         {
-            "street_name": streets_data[i]["name"],
-            "has_base_station": bool(value)  # True if 1, False if 0
+            "street_name": street["name"],
+            "latitude": street["latitude"],
+            "longitude": street["longitude"],
+            "has_base_station": bool(best_chromosome[i])  # True if 1, False if 0
         }
-        for i, value in enumerate(best_chromosome)
+        for i, street in enumerate(streets_data)
     ]
 
     # Save this data to a JSON file
