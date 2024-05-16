@@ -1,7 +1,7 @@
 import numpy as np
 import random
 
-def tournament_selection(population, fitness_scores, tournament_size=4):
+def tournament_selection(population, fitness_scores, tournament_size):
     """Selects two parents from the population using tournament selection."""
     # Turnuva için rastgele bireyler seç
     participants = random.sample(list(enumerate(population)), tournament_size)
