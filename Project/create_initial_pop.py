@@ -11,7 +11,7 @@ def calculate_weights(streets_data):
     demands = np.array([street["demand"] for street in streets_data])
     norm_population_rates = population_rates / np.max(population_rates)
     norm_demands = demands / np.max(demands)
-    weights = 0.5 * norm_population_rates + 0.5 * norm_demands
+    weights = 0.4 * norm_population_rates + 0.6 * norm_demands
     return weights
 
 def create_initial_population(weights, population_size, num_streets):
@@ -30,7 +30,7 @@ def generate_initial_population(filepath, output_path):
     chromosomes = create_initial_population(weights, population_size, num_streets)
     write_population_to_json(chromosomes, output_path)
 
-def main():
+def create_first_population():
     #basibuyuk
     basibuyuk_path = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk.json"
     basibuyuk_output_path = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk_initial_population.json"
@@ -45,6 +45,3 @@ def main():
     resadiye_path = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\resadiye.json"
     resadiye_output_path = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\resadiye_initial_population.json"
     generate_initial_population(resadiye_path, resadiye_output_path)
-
-if __name__ == "__main__":
-    main()

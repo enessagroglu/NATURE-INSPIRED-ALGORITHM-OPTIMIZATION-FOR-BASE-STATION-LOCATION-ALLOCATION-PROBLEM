@@ -1,6 +1,7 @@
 from fitness_function import fitness_function
 from generate_population import generate_new_generation
 import json
+from create_initial_pop import create_first_population
 
 
 
@@ -47,7 +48,66 @@ def read_population_from_json(filepath):
         data = json.load(file)
     return data['chromosomes']
 
-def simulation(max_generations=1000, max_stagnant_generations=50, mutation_rate=0.35, tournament_size=4, coverage_radius=3.0, max_demand_per_station=200):
+def save_best_solution_to_json(chromosome, filepath='best_solution.json'):
+    """Saves the best solution chromosome to a JSON file."""
+    with open(filepath, 'w', encoding='utf-8') as file:
+        json.dump({'best_chromosome': chromosome}, file, ensure_ascii=False, indent=4)
+
+
+def map_and_save_streets_with_status(streets_data, best_chromosome, output_filepath='streets_with_bs_status.json'):
+    """Maps streets to chromosome values indicating whether a base station is placed or not, and saves to a JSON file including coordinates."""
+    # Create a list of dictionaries where each street is mapped to the corresponding chromosome value along with longitude and latitude
+    streets_with_status = [
+        {
+            "street_name": street["name"],
+            "latitude": street["latitude"],
+            "longitude": street["longitude"],
+            "has_base_station": bool(best_chromosome[i])  # True if 1, False if 0
+        }
+        for i, street in enumerate(streets_data)
+    ]
+
+    # Save this data to a JSON file
+    with open(output_filepath, 'w', encoding='utf-8') as file:
+        json.dump({'streets_with_bs_status': streets_with_status}, file, ensure_ascii=False, indent=4)
+
+    print(f"Street status data has been saved to {output_filepath}")
+    
+def calculate_cost_from_best_solution( base_station_cost, filepath):
+    """
+    Calculate the total cost based on the best solution JSON file.
+    
+    Args:
+        filepath (str): Path to the best solution JSON file.
+        base_station_cost (int): Cost per base station.
+    
+    Returns:
+        int: Total cost of all placed base stations.
+    """
+    try:
+        # Read the best solution JSON file
+        with open(filepath, 'r', encoding='utf-8') as file:
+            best_solution = json.load(file)
+        
+        # Get the chromosome representing the best solution
+        chromosome = best_solution['best_chromosome']
+        
+        # Count the number of 1s in the chromosome
+        num_base_stations = sum(chromosome)
+        
+        # Calculate the total cost
+        total_cost = num_base_stations * base_station_cost 
+        
+        return total_cost
+    except (FileNotFoundError, KeyError, json.JSONDecodeError) as e:
+        print(f"Error reading or parsing best solution file: {e}")
+        return None
+
+
+def simulation(max_generations=1000, max_stagnant_generations=50, mutation_rate=0.10, tournament_size=4, coverage_radius=3.5, max_demand_per_station=100):
+    
+    
+    create_first_population()
     # paths for street data and initial population JSON files
     streets_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk.json"
     population_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk_initial_population.json"
@@ -65,7 +125,17 @@ def simulation(max_generations=1000, max_stagnant_generations=50, mutation_rate=
     # Save the best chromosome to a JSON file
     save_best_solution_to_json(best_chromosome)
 
+    # Map streets with their base station status (0 or 1) and save to a JSON file
+    map_and_save_streets_with_status(streets_data, best_chromosome)
+
+    total_cost = calculate_cost_from_best_solution(100, 'best_solution.json')
+    num_base_stations = sum(best_chromosome)
+
+    # Print the best fitness and total cost achieved
     print("Best Fitness Achieved:", best_fitness)
+    print("Total Cost of Best Solution:", total_cost)
+    print("Number of Base Stations:", num_base_stations)
+    print("Total Demand:", sum(street['demand'] for street in streets_data))
     
 def main():
     simulation()
