@@ -14,9 +14,9 @@ def calculate_demand(population):
     if population == 0:
         return 0
     rand_val = random.random()
-    if rand_val < 0.40:  
+    if rand_val < 0.45:  
         return random.randint(1, 10)
-    elif rand_val < 0.90:  
+    elif rand_val < 0.95:  
         return random.randint(10, 40)
     else:  
         return random.randint(40, 100)
