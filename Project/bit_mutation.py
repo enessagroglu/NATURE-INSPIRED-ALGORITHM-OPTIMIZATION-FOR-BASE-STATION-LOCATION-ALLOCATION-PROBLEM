@@ -1,6 +1,6 @@
 import numpy as np
 
-def bit_mutation(chromosome, mutation_rate=0.01):
+def bit_mutation(chromosome, mutation_rate):
     """Applies bit mutation to a chromosome with a given mutation rate."""
     for i in range(len(chromosome)):
         if np.random.rand() < mutation_rate:
