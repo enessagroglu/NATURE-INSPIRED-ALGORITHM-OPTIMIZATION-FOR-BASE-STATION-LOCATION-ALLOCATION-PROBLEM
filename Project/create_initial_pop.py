@@ -11,7 +11,7 @@ def calculate_weights(streets_data):
     demands = np.array([street["demand"] for street in streets_data])
     norm_population_rates = population_rates / np.max(population_rates)
     norm_demands = demands / np.max(demands)
-    weights = 0.4 * norm_population_rates + 0.6 * norm_demands
+    weights = 0.3 * norm_population_rates + 0.7 * norm_demands
     return weights
 
 def create_initial_population(weights, population_size, num_streets):
