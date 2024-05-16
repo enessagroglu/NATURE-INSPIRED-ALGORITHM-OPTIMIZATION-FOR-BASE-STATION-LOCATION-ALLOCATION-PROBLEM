@@ -12,4 +12,3 @@ def tournament_selection(population, fitness_scores, tournament_size=4):
     
     # En iyi iki bireyi dön
     return [population[idx] for idx, _ in sorted_participants[:2]]
-
