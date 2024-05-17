@@ -104,14 +104,22 @@ def calculate_cost_from_best_solution( base_station_cost, filepath):
         return None
 
 
-def simulation(max_generations=1000, max_stagnant_generations=50, mutation_rate=0.10, tournament_size=4, coverage_radius=3.5, max_demand_per_station=100):
+def simulation(choice,max_generations=500, max_stagnant_generations=500, mutation_rate=0.10, tournament_size=4, coverage_radius=5, max_demand_per_station=100):
     
+     # paths for street data and initial population JSON files
+    if choice == 1:
+        streets_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk.json"
+        population_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk_initial_population.json"
+    elif choice == 2:
+        streets_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\resadiye.json"
+        population_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\resadiye_initial_population.json"
+    elif choice == 3:
+        streets_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\tepeustu.json"
+        population_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\tepeustu_initial_population.json"
     
     create_first_population()
-    # paths for street data and initial population JSON files
-    streets_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk.json"
-    population_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk_initial_population.json"
-
+   
+    
     # Read street data and initial population
     streets_data = read_street_data(streets_filepath)
     population = read_population_from_json(population_filepath)
@@ -137,8 +145,32 @@ def simulation(max_generations=1000, max_stagnant_generations=50, mutation_rate=
     print("Number of Base Stations:", num_base_stations)
     print("Total Demand:", sum(street['demand'] for street in streets_data))
     
+
+def menu():
+    print(
+        """
+        Select a map:
+        [1] Basibuyuk
+        [2] Resadiye
+        [3] Tepeustu
+        [4] Exit
+    """
+    )
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        simulation(choice)
+    elif choice == 2:
+        simulation(choice)
+    elif choice == 3:
+        simulation(choice)
+    elif choice == 4:
+        exit()
+    else:
+        print("Invalid choice. Please try again.")
+        menu()
+
 def main():
-    simulation()
+    menu()
 
 
 if __name__ == "__main__":
