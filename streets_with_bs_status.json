@@ -10,7 +10,7 @@
             "street_name": "ŞEHİT MURAT DEMİR CD.",
             "latitude": "29.264965",
             "longitude": "41.081716",
-            "has_base_station": false
+            "has_base_station": true
         },
         {
             "street_name": "ALİ PAŞA SK.",
@@ -40,7 +40,7 @@
             "street_name": "CANFEDA SK.",
             "latitude": "29.246828",
             "longitude": "41.076135",
-            "has_base_station": false
+            "has_base_station": true
         },
         {
             "street_name": "CUMHUR SK.",
@@ -52,13 +52,13 @@
             "street_name": "ÇAĞLA SK.",
             "latitude": "29.266753",
             "longitude": "41.085549",
-            "has_base_station": true
+            "has_base_station": false
         },
         {
             "street_name": "ÇIRAK ÇK. SK.",
             "latitude": "29.248813",
             "longitude": "41.078705",
-            "has_base_station": true
+            "has_base_station": false
         },
         {
             "street_name": "ÇİFTPINAR SK.",
@@ -70,7 +70,7 @@
             "street_name": "ÇİMEN SK.",
             "latitude": "29.248807",
             "longitude": "41.080270",
-            "has_base_station": true
+            "has_base_station": false
         },
         {
             "street_name": "ÇİMENLİK SK.",
@@ -106,7 +106,7 @@
             "street_name": "EFLATUN SK.",
             "latitude": "29.255694",
             "longitude": "41.078535",
-            "has_base_station": true
+            "has_base_station": false
         },
         {
             "street_name": "EMEL SK.",
@@ -130,7 +130,7 @@
             "street_name": "GÜNEŞ SK.",
             "latitude": "29.246891",
             "longitude": "41.077012",
-            "has_base_station": true
+            "has_base_station": false
         },
         {
             "street_name": "GÜNYÜZÜ SK.",
@@ -154,13 +154,13 @@
             "street_name": "HİSAR SK.",
             "latitude": "29.264669",
             "longitude": "41.077501",
-            "has_base_station": false
+            "has_base_station": true
         },
         {
             "street_name": "HUZUR SK.",
             "latitude": "29.249451",
             "longitude": "41.069242",
-            "has_base_station": true
+            "has_base_station": false
         },
         {
             "street_name": "HÜRMET SK.",
@@ -196,7 +196,7 @@
             "street_name": "KÖSEPINAR SK.",
             "latitude": "29.254104",
             "longitude": "41.070248",
-            "has_base_station": false
+            "has_base_station": true
         },
         {
             "street_name": "MANDIRA SK. SK.",
@@ -208,7 +208,7 @@
             "street_name": "MUKADDES SK.",
             "latitude": "29.244465",
             "longitude": "41.069568",
-            "has_base_station": true
+            "has_base_station": false
         },
         {
             "street_name": "NUR SK.",
@@ -232,7 +232,7 @@
             "street_name": "SAFRAN ÇK. SK.",
             "latitude": "29.255640",
             "longitude": "41.070472",
-            "has_base_station": true
+            "has_base_station": false
         },
         {
             "street_name": "SEVİM ÇK. SK.",
@@ -256,19 +256,19 @@
             "street_name": "ŞİMAL ÇK. SK.",
             "latitude": "29.246424",
             "longitude": "41.072852",
-            "has_base_station": false
+            "has_base_station": true
         },
         {
             "street_name": "UZUN ÇK. SK.",
             "latitude": "29.256260",
             "longitude": "41.081274",
-            "has_base_station": false
+            "has_base_station": true
         },
         {
             "street_name": "YADİGAR SK.",
             "latitude": "29.248095",
             "longitude": "41.066305",
-            "has_base_station": false
+            "has_base_station": true
         },
         {
             "street_name": "YAYLA SK.",
@@ -286,7 +286,7 @@
             "street_name": "YEŞİLVADİ SK.",
             "latitude": "29.248598",
             "longitude": "41.077651",
-            "has_base_station": false
+            "has_base_station": true
         },
         {
             "street_name": "ZEMZEM SK.",

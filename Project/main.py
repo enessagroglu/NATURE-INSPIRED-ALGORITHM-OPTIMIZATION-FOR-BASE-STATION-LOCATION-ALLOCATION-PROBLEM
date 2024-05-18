@@ -104,7 +104,7 @@ def calculate_cost_from_best_solution( base_station_cost, filepath):
         return None
 
 
-def simulation(choice,max_generations=500, max_stagnant_generations=500, mutation_rate=0.10, tournament_size=4, coverage_radius=5, max_demand_per_station=100):
+def simulation(choice,max_generations=500, max_stagnant_generations=500, mutation_rate=0.384, tournament_size=4, coverage_radius=5, max_demand_per_station=100):
     
      # paths for street data and initial population JSON files
     if choice == 1:
