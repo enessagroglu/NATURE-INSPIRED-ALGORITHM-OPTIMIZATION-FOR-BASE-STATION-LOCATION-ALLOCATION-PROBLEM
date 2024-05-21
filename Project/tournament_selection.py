@@ -1,4 +1,3 @@
-import numpy as np
 import random
 
 def tournament_selection(population, fitness_scores, tournament_size):

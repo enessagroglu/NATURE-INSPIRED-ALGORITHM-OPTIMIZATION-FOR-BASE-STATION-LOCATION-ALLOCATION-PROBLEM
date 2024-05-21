@@ -3,408 +3,560 @@
         "name": "SULTAN REŞAT CD.",
         "longitude": "41.078140",
         "latitude": "29.257419",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
+<<<<<<< HEAD
         "demand": 125
+=======
+        "demand": 7
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ŞEHİT MURAT DEMİR CD.",
         "longitude": "41.081716",
         "latitude": "29.264965",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 13
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ALİ PAŞA SK.",
         "longitude": "41.079717",
         "latitude": "29.265432",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
-        "demand": 376
+        "demand": 13
     },
     {
         "name": "AVŞA ÇK. SK.",
         "longitude": "41.073083",
         "latitude": "29.253422",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 301
+=======
+        "demand": 6
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "BESTEKAR ÇK. SK.",
         "longitude": "41.078066",
         "latitude": "29.247259",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 502
+=======
+        "demand": 6
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "BÖĞÜRTLEN SK.",
         "longitude": "41.074911",
         "latitude": "29.256826",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
-        "demand": 627
+        "demand": 7
     },
     {
         "name": "CANFEDA SK.",
         "longitude": "41.076135",
         "latitude": "29.246828",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 100
+=======
+        "demand": 18
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "CUMHUR SK.",
         "longitude": "41.081260",
         "latitude": "29.262764",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 301
+=======
+        "demand": 18
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ÇAĞLA SK.",
         "longitude": "41.085549",
         "latitude": "29.266753",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 125
+=======
+        "demand": 7
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ÇIRAK ÇK. SK.",
         "longitude": "41.078705",
         "latitude": "29.248813",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 38
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ÇİFTPINAR SK.",
         "longitude": "41.083843",
         "latitude": "29.265630",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
+<<<<<<< HEAD
         "demand": 25
+=======
+        "demand": 7
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ÇİMEN SK.",
         "longitude": "41.080270",
         "latitude": "29.248807",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 627
+=======
+        "demand": 38
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ÇİMENLİK SK.",
         "longitude": "41.081546",
         "latitude": "29.249253",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
+<<<<<<< HEAD
         "demand": 25
+=======
+        "demand": 1
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "DAĞSU ÇK. SK.",
         "longitude": "41.083286",
         "latitude": "29.252182",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 4
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "DAMLA SK.",
         "longitude": "41.077270",
         "latitude": "29.264327",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
-        "demand": 376
+        "demand": 7
     },
     {
         "name": "DEFNE SK.",
         "longitude": "41.078480",
         "latitude": "29.252604",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
+<<<<<<< HEAD
         "demand": 225
+=======
+        "demand": 13
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "DUMANLI VADİ SK.",
         "longitude": "41.076149",
         "latitude": "29.264462",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
-        "demand": 376
+        "demand": 38
     },
     {
         "name": "EFLATUN SK.",
         "longitude": "41.078535",
         "latitude": "29.255694",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 22
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "EMEL SK.",
         "longitude": "41.067583",
         "latitude": "29.243046",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
-        "demand": 125
+        "demand": 4
     },
     {
         "name": "ENİS SK.",
         "longitude": "41.083850",
         "latitude": "29.250143",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
+<<<<<<< HEAD
         "demand": 75
+=======
+        "demand": 13
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "GÜLVEREN SK.",
         "longitude": "41.078168",
         "latitude": "29.255057",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 100
+=======
+        "demand": 18
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "GÜNEŞ SK.",
         "longitude": "41.077012",
         "latitude": "29.246891",
-        "population": 502,
+        "population": 30,
         "rate_of_population": 2,
-        "demand": 150
+        "demand": 3
     },
     {
         "name": "GÜNYÜZÜ SK.",
         "longitude": "41.074130",
         "latitude": "29.259297",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
+<<<<<<< HEAD
         "demand": 25
+=======
+        "demand": 1
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "GÜZİDE SK.",
         "longitude": "41.066162",
         "latitude": "29.247870",
-        "population": 502,
+        "population": 30,
         "rate_of_population": 2,
+<<<<<<< HEAD
         "demand": 251
+=======
+        "demand": 3
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "HACI PINAR SK.",
         "longitude": "41.077345",
         "latitude": "29.253808",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
-        "demand": 376
+        "demand": 13
     },
     {
         "name": "HİSAR SK.",
         "longitude": "41.077501",
         "latitude": "29.264669",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 22
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "HUZUR SK.",
         "longitude": "41.069242",
         "latitude": "29.249451",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 100
+=======
+        "demand": 6
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "HÜRMET SK.",
         "longitude": "41.072185",
         "latitude": "29.247097",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
+<<<<<<< HEAD
         "demand": 75
+=======
+        "demand": 7
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "İHSAN ÇK. SK.",
         "longitude": "41.070071",
         "latitude": "29.244995",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 7
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "KESTANELİK SK.",
         "longitude": "41.067848",
         "latitude": "29.241753",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
-        "demand": 100
+        "demand": 18
     },
     {
         "name": "KİRAZ SK.",
         "longitude": "41.079901",
         "latitude": "29.264794",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
-        "demand": 125
+        "demand": 7
     },
     {
         "name": "KOCAGÖZ KUYU SK.",
         "longitude": "41.070574",
         "latitude": "29.247466",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
-        "demand": 25
+        "demand": 4
     },
     {
         "name": "KÖSEPINAR SK.",
         "longitude": "41.070248",
         "latitude": "29.254104",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 100
+=======
+        "demand": 6
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "MANDIRA SK. SK.",
         "longitude": "41.082912",
         "latitude": "29.269735",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 502
+=======
+        "demand": 30
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "MUKADDES SK.",
         "longitude": "41.069568",
         "latitude": "29.244465",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 627
+=======
+        "demand": 22
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "NUR SK.",
         "longitude": "41.080485",
         "latitude": "29.258452",
-        "population": 502,
+        "population": 30,
         "rate_of_population": 2,
+<<<<<<< HEAD
         "demand": 251
+=======
+        "demand": 15
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "PAPELİN SK.",
         "longitude": "41.068922",
         "latitude": "29.243387",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
+<<<<<<< HEAD
         "demand": 25
+=======
+        "demand": 1
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "PLATİN ÇK. SK.",
         "longitude": "41.072994",
         "latitude": "29.252398",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 100
+=======
+        "demand": 30
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "SAFRAN ÇK. SK.",
         "longitude": "41.070472",
         "latitude": "29.255640",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 301
+=======
+        "demand": 18
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "SEVİM ÇK. SK.",
         "longitude": "41.084550",
         "latitude": "29.251472",
-        "population": 502,
+        "population": 30,
         "rate_of_population": 2,
+<<<<<<< HEAD
         "demand": 150
+=======
+        "demand": 3
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ŞEHİT MURAT SK.",
         "longitude": "41.076189",
         "latitude": "29.260150",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 38
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ŞİFA SK.",
         "longitude": "41.074578",
         "latitude": "29.248041",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 4
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ŞİMAL ÇK. SK.",
         "longitude": "41.072852",
         "latitude": "29.246424",
-        "population": 1004,
+        "population": 61,
         "rate_of_population": 4,
+<<<<<<< HEAD
         "demand": 301
+=======
+        "demand": 6
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "UZUN ÇK. SK.",
         "longitude": "41.081274",
         "latitude": "29.256260",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
-        "demand": 75
+        "demand": 4
     },
     {
         "name": "YADİGAR SK.",
         "longitude": "41.066305",
         "latitude": "29.248095",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 627
+=======
+        "demand": 38
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "YAYLA SK.",
         "longitude": "41.069541",
         "latitude": "29.243405",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 7
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "YEŞİLAY ÇK. SK.",
         "longitude": "41.087065",
         "latitude": "29.251966",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
+<<<<<<< HEAD
         "demand": 225
+=======
+        "demand": 13
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "YEŞİLVADİ SK.",
         "longitude": "41.077651",
         "latitude": "29.248598",
-        "population": 1255,
+        "population": 76,
         "rate_of_population": 5,
-        "demand": 376
+        "demand": 22
     },
     {
         "name": "ZEMZEM SK.",
         "longitude": "41.082797",
         "latitude": "29.250134",
-        "population": 753,
+        "population": 45,
         "rate_of_population": 3,
+<<<<<<< HEAD
         "demand": 376
+=======
+        "demand": 13
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ZERDE ÇK. SK.",
         "longitude": "41.083843",
         "latitude": "29.267507",
-        "population": 502,
+        "population": 30,
         "rate_of_population": 2,
+<<<<<<< HEAD
         "demand": 50
+=======
+        "demand": 3
+>>>>>>> 2ad3721c1c44c28c95553fd4d23a9a426bbf868e
     },
     {
         "name": "ZÜLAL SK.",
         "longitude": "41.068236",
         "latitude": "29.246424",
-        "population": 251,
+        "population": 15,
         "rate_of_population": 1,
-        "demand": 25
+        "demand": 7
     }
 ]
