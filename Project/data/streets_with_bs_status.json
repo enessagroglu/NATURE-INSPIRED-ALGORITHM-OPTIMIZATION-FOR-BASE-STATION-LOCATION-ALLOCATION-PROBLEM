@@ -1,0 +1,316 @@
+{
+    "streets_with_bs_status": [
+        {
+            "street_name": "ALEMDAĞ CD.",
+            "longitude": "29.131475",
+            "latitude": "41.019199",
+            "has_base_station": true
+        },
+        {
+            "street_name": "DOĞANEVLER CD.",
+            "longitude": "29.137638",
+            "latitude": "41.013484",
+            "has_base_station": true
+        },
+        {
+            "street_name": "ESKİ KADIKÖY YOLU CD.",
+            "longitude": "29.132104",
+            "latitude": "41.017056",
+            "has_base_station": false
+        },
+        {
+            "street_name": "KAŞGARLI MAHMUT CD.",
+            "longitude": "29.127056",
+            "latitude": "41.019941",
+            "has_base_station": true
+        },
+        {
+            "street_name": "POYRAZ CD.",
+            "longitude": "29.127792",
+            "latitude": "41.019383",
+            "has_base_station": false
+        },
+        {
+            "street_name": "TAVUKÇUYOLU CD.",
+            "longitude": "29.138913",
+            "latitude": "41.009980",
+            "has_base_station": false
+        },
+        {
+            "street_name": "30 AĞUSTOS SK.",
+            "longitude": "29.131430",
+            "latitude": "41.018288",
+            "has_base_station": true
+        },
+        {
+            "street_name": "AZİM SK.",
+            "longitude": "29.137180",
+            "latitude": "41.015253",
+            "has_base_station": true
+        },
+        {
+            "street_name": "BEGONYA SK.",
+            "longitude": "29.136156",
+            "latitude": "41.014151",
+            "has_base_station": false
+        },
+        {
+            "street_name": "BİZİM SK.",
+            "longitude": "29.127352",
+            "latitude": "41.019437",
+            "has_base_station": false
+        },
+        {
+            "street_name": "ÇAYIRBAŞI SK.",
+            "longitude": "29.136551",
+            "latitude": "41.015988",
+            "has_base_station": true
+        },
+        {
+            "street_name": "ÇEŞME SK.",
+            "longitude": "29.134206",
+            "latitude": "41.015757",
+            "has_base_station": false
+        },
+        {
+            "street_name": "DAMPSAN SK.",
+            "longitude": "29.135590",
+            "latitude": "41.015035",
+            "has_base_station": true
+        },
+        {
+            "street_name": "DİKİLİAĞAÇ SK.",
+            "longitude": "29.131987",
+            "latitude": "41.014634",
+            "has_base_station": false
+        },
+        {
+            "street_name": "DUA SK.",
+            "longitude": "29.128466",
+            "latitude": "41.018206",
+            "has_base_station": true
+        },
+        {
+            "street_name": "EDAGÜL SK.",
+            "longitude": "29.129697",
+            "latitude": "41.019145",
+            "has_base_station": true
+        },
+        {
+            "street_name": "ERDEM SK.",
+            "longitude": "29.132922",
+            "latitude": "41.016872",
+            "has_base_station": true
+        },
+        {
+            "street_name": "ESENKÖŞE SK.",
+            "longitude": "29.130236",
+            "latitude": "41.018703",
+            "has_base_station": true
+        },
+        {
+            "street_name": "FATİH SK.",
+            "longitude": "29.133865",
+            "latitude": "41.015974",
+            "has_base_station": true
+        },
+        {
+            "street_name": "GEZEN SK.",
+            "longitude": "29.129598",
+            "latitude": "41.019512",
+            "has_base_station": true
+        },
+        {
+            "street_name": "GÜNAŞIK SK.",
+            "longitude": "29.129742",
+            "latitude": "41.018145",
+            "has_base_station": true
+        },
+        {
+            "street_name": "GÜVENÇ SK.",
+            "longitude": "29.129014",
+            "latitude": "41.019090",
+            "has_base_station": true
+        },
+        {
+            "street_name": "HACI BAYRAM SK.",
+            "longitude": "29.137413",
+            "latitude": "41.015750",
+            "has_base_station": true
+        },
+        {
+            "street_name": "HAYIRLI SK.",
+            "longitude": "29.131098",
+            "latitude": "41.015641",
+            "has_base_station": true
+        },
+        {
+            "street_name": "HAYRAN SK.",
+            "longitude": "29.136488",
+            "latitude": "41.014287",
+            "has_base_station": true
+        },
+        {
+            "street_name": "HÜRMET SK.",
+            "longitude": "29.134664",
+            "latitude": "41.015614",
+            "has_base_station": false
+        },
+        {
+            "street_name": "İHRAM SK.",
+            "longitude": "29.128888",
+            "latitude": "41.019329",
+            "has_base_station": false
+        },
+        {
+            "street_name": "İNANÇ SK.",
+            "longitude": "29.127451",
+            "latitude": "41.018798",
+            "has_base_station": false
+        },
+        {
+            "street_name": "İSTİKBAL SK.",
+            "longitude": "29.136200",
+            "latitude": "41.013899",
+            "has_base_station": false
+        },
+        {
+            "street_name": "KADİM SK.",
+            "longitude": "29.131260",
+            "latitude": "41.018927",
+            "has_base_station": true
+        },
+        {
+            "street_name": "KAFİYE SK.",
+            "longitude": "29.134206",
+            "latitude": "41.015757",
+            "has_base_station": false
+        },
+        {
+            "street_name": "KANDİL SK.",
+            "longitude": "29.127523",
+            "latitude": "41.019859",
+            "has_base_station": false
+        },
+        {
+            "street_name": "LİDER SK.",
+            "longitude": "29.128987",
+            "latitude": "41.017873",
+            "has_base_station": true
+        },
+        {
+            "street_name": "MANİDAR SK.",
+            "longitude": "29.137647",
+            "latitude": "41.016267",
+            "has_base_station": true
+        },
+        {
+            "street_name": "MEMLEKET SK.",
+            "longitude": "29.131386",
+            "latitude": "41.017900",
+            "has_base_station": true
+        },
+        {
+            "street_name": "MİLLİ MÜCADELE SK.",
+            "longitude": "29.131511",
+            "latitude": "41.017281",
+            "has_base_station": true
+        },
+        {
+            "street_name": "NAKKAŞ SK.",
+            "longitude": "29.132302",
+            "latitude": "41.014314",
+            "has_base_station": true
+        },
+        {
+            "street_name": "NAZENİN SK.",
+            "longitude": "29.136668",
+            "latitude": "41.013994",
+            "has_base_station": false
+        },
+        {
+            "street_name": "ÖNAL SK.",
+            "longitude": "29.137162",
+            "latitude": "41.013838",
+            "has_base_station": false
+        },
+        {
+            "street_name": "ÖRNEK SK.",
+            "longitude": "29.133344",
+            "latitude": "41.015933",
+            "has_base_station": false
+        },
+        {
+            "street_name": "ÖZKANCA SK.",
+            "longitude": "29.135922",
+            "latitude": "41.013048",
+            "has_base_station": true
+        },
+        {
+            "street_name": "ÖZTÜRK SK.",
+            "longitude": "29.135626",
+            "latitude": "41.015464",
+            "has_base_station": true
+        },
+        {
+            "street_name": "PINARBAŞI SK.",
+            "longitude": "29.132778",
+            "latitude": "41.015947",
+            "has_base_station": true
+        },
+        {
+            "street_name": "PINARLI SK.",
+            "longitude": "29.131233",
+            "latitude": "41.017478",
+            "has_base_station": true
+        },
+        {
+            "street_name": "RESUL SK.",
+            "longitude": "29.130622",
+            "latitude": "41.019261",
+            "has_base_station": true
+        },
+        {
+            "street_name": "SEDA SK.",
+            "longitude": "29.135688",
+            "latitude": "41.014314",
+            "has_base_station": true
+        },
+        {
+            "street_name": "TARİH SK.",
+            "longitude": "29.129265",
+            "latitude": "41.017784",
+            "has_base_station": true
+        },
+        {
+            "street_name": "TEPEÜSTÜ ÖZGÜR SK.",
+            "longitude": "29.128295",
+            "latitude": "41.019240",
+            "has_base_station": false
+        },
+        {
+            "street_name": "ULUDERE SK.",
+            "longitude": "29.129445",
+            "latitude": "41.017240",
+            "has_base_station": true
+        },
+        {
+            "street_name": "YALIKENT SK.",
+            "longitude": "29.127154",
+            "latitude": "41.018961",
+            "has_base_station": true
+        },
+        {
+            "street_name": "YENİLİK SK.",
+            "longitude": "29.135158",
+            "latitude": "41.015546",
+            "has_base_station": false
+        },
+        {
+            "street_name": "ZİRVE SK.",
+            "longitude": "29.129715",
+            "latitude": "41.017553",
+            "has_base_station": true
+        }
+    ]
+}

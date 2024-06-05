@@ -1,0 +1,2394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_77a1eaa9ac4032c58547f2a1588e93f8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_77a1eaa9ac4032c58547f2a1588e93f8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_77a1eaa9ac4032c58547f2a1588e93f8 = L.map(
+                "map_77a1eaa9ac4032c58547f2a1588e93f8",
+                {
+                    center: [29.131475, 41.019199],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_db1ccb49dbfbcb0badc00961c46dbf6f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_db1ccb49dbfbcb0badc00961c46dbf6f.addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var marker_2669f945853809e947f2b35495c1e18b = L.marker(
+                [41.019199, 29.131475],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_f66f9e05aec43868b5745daae6685444 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2669f945853809e947f2b35495c1e18b.setIcon(icon_f66f9e05aec43868b5745daae6685444);
+        
+    
+        var popup_e9ab89d18ace7339fa21104c5cfd8bee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25b39f3725e81b473f9c1148f9b8b622 = $(`<div id="html_25b39f3725e81b473f9c1148f9b8b622" style="width: 100.0%; height: 100.0%;">ALEMDAĞ CD.</div>`)[0];
+                popup_e9ab89d18ace7339fa21104c5cfd8bee.setContent(html_25b39f3725e81b473f9c1148f9b8b622);
+            
+        
+
+        marker_2669f945853809e947f2b35495c1e18b.bindPopup(popup_e9ab89d18ace7339fa21104c5cfd8bee)
+        ;
+
+        
+    
+    
+            var marker_93df236837496df4bb6963590e9658e8 = L.marker(
+                [41.013484, 29.137638],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_5bd5f2dd1b5951cccd49977131684ce6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_93df236837496df4bb6963590e9658e8.setIcon(icon_5bd5f2dd1b5951cccd49977131684ce6);
+        
+    
+        var popup_bfdb4be1e5d06103e5da5421f6ff4a7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_251626b198635b698a0517b2a30c2850 = $(`<div id="html_251626b198635b698a0517b2a30c2850" style="width: 100.0%; height: 100.0%;">DOĞANEVLER CD.</div>`)[0];
+                popup_bfdb4be1e5d06103e5da5421f6ff4a7b.setContent(html_251626b198635b698a0517b2a30c2850);
+            
+        
+
+        marker_93df236837496df4bb6963590e9658e8.bindPopup(popup_bfdb4be1e5d06103e5da5421f6ff4a7b)
+        ;
+
+        
+    
+    
+            var marker_ba0807ef18cbc697b4eb0727f47c4bef = L.marker(
+                [41.017056, 29.132104],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_2db434c6c5fa8f03128433e9994870e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba0807ef18cbc697b4eb0727f47c4bef.setIcon(icon_2db434c6c5fa8f03128433e9994870e7);
+        
+    
+        var popup_fa5de7918ed5b7ed87573ef1871844aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bd8ee2cfe6f86c5c9f6be5c1158ff84 = $(`<div id="html_7bd8ee2cfe6f86c5c9f6be5c1158ff84" style="width: 100.0%; height: 100.0%;">ESKİ KADIKÖY YOLU CD.</div>`)[0];
+                popup_fa5de7918ed5b7ed87573ef1871844aa.setContent(html_7bd8ee2cfe6f86c5c9f6be5c1158ff84);
+            
+        
+
+        marker_ba0807ef18cbc697b4eb0727f47c4bef.bindPopup(popup_fa5de7918ed5b7ed87573ef1871844aa)
+        ;
+
+        
+    
+    
+            var marker_d4610c9dfb7c949c0b63c3c6926834ab = L.marker(
+                [41.019941, 29.127056],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_a687af6a8b7b333f7b29264c5244967b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4610c9dfb7c949c0b63c3c6926834ab.setIcon(icon_a687af6a8b7b333f7b29264c5244967b);
+        
+    
+        var popup_d51f1c441574fa3a5e4d5da2c6ff6aff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88b41cf10cce75164e53836bcde768e2 = $(`<div id="html_88b41cf10cce75164e53836bcde768e2" style="width: 100.0%; height: 100.0%;">KAŞGARLI MAHMUT CD.</div>`)[0];
+                popup_d51f1c441574fa3a5e4d5da2c6ff6aff.setContent(html_88b41cf10cce75164e53836bcde768e2);
+            
+        
+
+        marker_d4610c9dfb7c949c0b63c3c6926834ab.bindPopup(popup_d51f1c441574fa3a5e4d5da2c6ff6aff)
+        ;
+
+        
+    
+    
+            var marker_fed8c497767fc13170825db806c50828 = L.marker(
+                [41.019383, 29.127792],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_4e24cdb90c8b2a5e1379b8c8a4a33310 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fed8c497767fc13170825db806c50828.setIcon(icon_4e24cdb90c8b2a5e1379b8c8a4a33310);
+        
+    
+        var popup_a0d583843a360694638a9f58f1a661d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2768c4707c46c0bc4bc8778ffb8c7efc = $(`<div id="html_2768c4707c46c0bc4bc8778ffb8c7efc" style="width: 100.0%; height: 100.0%;">POYRAZ CD.</div>`)[0];
+                popup_a0d583843a360694638a9f58f1a661d3.setContent(html_2768c4707c46c0bc4bc8778ffb8c7efc);
+            
+        
+
+        marker_fed8c497767fc13170825db806c50828.bindPopup(popup_a0d583843a360694638a9f58f1a661d3)
+        ;
+
+        
+    
+    
+            var marker_6a44401e63fe907ea8dd9ea13069c978 = L.marker(
+                [41.00998, 29.138913],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_aef38a2575afc218dc4267d43c79ce64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a44401e63fe907ea8dd9ea13069c978.setIcon(icon_aef38a2575afc218dc4267d43c79ce64);
+        
+    
+        var popup_00e35e6892aca8d4352029f8540ba496 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd5828ed2ab66aa8d30317425b122dbf = $(`<div id="html_fd5828ed2ab66aa8d30317425b122dbf" style="width: 100.0%; height: 100.0%;">TAVUKÇUYOLU CD.</div>`)[0];
+                popup_00e35e6892aca8d4352029f8540ba496.setContent(html_fd5828ed2ab66aa8d30317425b122dbf);
+            
+        
+
+        marker_6a44401e63fe907ea8dd9ea13069c978.bindPopup(popup_00e35e6892aca8d4352029f8540ba496)
+        ;
+
+        
+    
+    
+            var marker_5225a373952b8cdff57d29e270d97f5c = L.marker(
+                [41.018288, 29.13143],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_ace4d7d544e1772f04df1dc09cedb218 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5225a373952b8cdff57d29e270d97f5c.setIcon(icon_ace4d7d544e1772f04df1dc09cedb218);
+        
+    
+        var popup_1d3b73d0fe1e63820437b6ea6dfb4bcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01c90eb95148488a07c73a9a23436541 = $(`<div id="html_01c90eb95148488a07c73a9a23436541" style="width: 100.0%; height: 100.0%;">30 AĞUSTOS SK.</div>`)[0];
+                popup_1d3b73d0fe1e63820437b6ea6dfb4bcb.setContent(html_01c90eb95148488a07c73a9a23436541);
+            
+        
+
+        marker_5225a373952b8cdff57d29e270d97f5c.bindPopup(popup_1d3b73d0fe1e63820437b6ea6dfb4bcb)
+        ;
+
+        
+    
+    
+            var marker_4571e6526853c44ea86909c724d2e173 = L.marker(
+                [41.015253, 29.13718],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_285a4b978b3433ad5fee6c6f03037399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4571e6526853c44ea86909c724d2e173.setIcon(icon_285a4b978b3433ad5fee6c6f03037399);
+        
+    
+        var popup_36b882907fd1e1ddd232ed190436bda9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_237c72fa8dae6dc7e6d623e3597197d7 = $(`<div id="html_237c72fa8dae6dc7e6d623e3597197d7" style="width: 100.0%; height: 100.0%;">AZİM SK.</div>`)[0];
+                popup_36b882907fd1e1ddd232ed190436bda9.setContent(html_237c72fa8dae6dc7e6d623e3597197d7);
+            
+        
+
+        marker_4571e6526853c44ea86909c724d2e173.bindPopup(popup_36b882907fd1e1ddd232ed190436bda9)
+        ;
+
+        
+    
+    
+            var marker_0740c1fc3403892179faab63ae2a8919 = L.marker(
+                [41.014151, 29.136156],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_133f714e5862f860265e68dbcfe31a65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0740c1fc3403892179faab63ae2a8919.setIcon(icon_133f714e5862f860265e68dbcfe31a65);
+        
+    
+        var popup_761a74efa004c8e0478e0c61e1fb7d7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3c3a2d131794c79eb39751f2983fe59 = $(`<div id="html_d3c3a2d131794c79eb39751f2983fe59" style="width: 100.0%; height: 100.0%;">BEGONYA SK.</div>`)[0];
+                popup_761a74efa004c8e0478e0c61e1fb7d7c.setContent(html_d3c3a2d131794c79eb39751f2983fe59);
+            
+        
+
+        marker_0740c1fc3403892179faab63ae2a8919.bindPopup(popup_761a74efa004c8e0478e0c61e1fb7d7c)
+        ;
+
+        
+    
+    
+            var marker_57544b678c8e1c4cdc9b49c1714b0a31 = L.marker(
+                [41.019437, 29.127352],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_37ed09dee388abd551fef60d8713e86d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_57544b678c8e1c4cdc9b49c1714b0a31.setIcon(icon_37ed09dee388abd551fef60d8713e86d);
+        
+    
+        var popup_e4212f26d2abe5437ba562e6126ca85e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e38fd855212bdb8586ebce9459f8a72 = $(`<div id="html_0e38fd855212bdb8586ebce9459f8a72" style="width: 100.0%; height: 100.0%;">BİZİM SK.</div>`)[0];
+                popup_e4212f26d2abe5437ba562e6126ca85e.setContent(html_0e38fd855212bdb8586ebce9459f8a72);
+            
+        
+
+        marker_57544b678c8e1c4cdc9b49c1714b0a31.bindPopup(popup_e4212f26d2abe5437ba562e6126ca85e)
+        ;
+
+        
+    
+    
+            var marker_ba5ae400ac02d809603a1fc688101e79 = L.marker(
+                [41.015988, 29.136551],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_af1079901343b087459652625c032bd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba5ae400ac02d809603a1fc688101e79.setIcon(icon_af1079901343b087459652625c032bd0);
+        
+    
+        var popup_1ffb2df0fc5f0c91823f20a8a3c36567 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9add1bf22a39d16d7f6132a6661cdd9 = $(`<div id="html_d9add1bf22a39d16d7f6132a6661cdd9" style="width: 100.0%; height: 100.0%;">ÇAYIRBAŞI SK.</div>`)[0];
+                popup_1ffb2df0fc5f0c91823f20a8a3c36567.setContent(html_d9add1bf22a39d16d7f6132a6661cdd9);
+            
+        
+
+        marker_ba5ae400ac02d809603a1fc688101e79.bindPopup(popup_1ffb2df0fc5f0c91823f20a8a3c36567)
+        ;
+
+        
+    
+    
+            var marker_fec8cc17ac332c18b094d5d59c49bc99 = L.marker(
+                [41.015757, 29.134206],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_c5243ae3411c26218a5685a086034dc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fec8cc17ac332c18b094d5d59c49bc99.setIcon(icon_c5243ae3411c26218a5685a086034dc0);
+        
+    
+        var popup_7f8ddbb929ae8b01ca9f66d3b4d2ea5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f273b1d0814fac78e0325ac477939f3b = $(`<div id="html_f273b1d0814fac78e0325ac477939f3b" style="width: 100.0%; height: 100.0%;">ÇEŞME SK.</div>`)[0];
+                popup_7f8ddbb929ae8b01ca9f66d3b4d2ea5e.setContent(html_f273b1d0814fac78e0325ac477939f3b);
+            
+        
+
+        marker_fec8cc17ac332c18b094d5d59c49bc99.bindPopup(popup_7f8ddbb929ae8b01ca9f66d3b4d2ea5e)
+        ;
+
+        
+    
+    
+            var marker_9ee8aee91ae20bd251d588681719d496 = L.marker(
+                [41.015035, 29.13559],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_a9fd9f82ce629bbbfa703ce1947d2f8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ee8aee91ae20bd251d588681719d496.setIcon(icon_a9fd9f82ce629bbbfa703ce1947d2f8a);
+        
+    
+        var popup_1423cfbed5e8f58d7571384e70499000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68a72528048a8adcd187140587cab990 = $(`<div id="html_68a72528048a8adcd187140587cab990" style="width: 100.0%; height: 100.0%;">DAMPSAN SK.</div>`)[0];
+                popup_1423cfbed5e8f58d7571384e70499000.setContent(html_68a72528048a8adcd187140587cab990);
+            
+        
+
+        marker_9ee8aee91ae20bd251d588681719d496.bindPopup(popup_1423cfbed5e8f58d7571384e70499000)
+        ;
+
+        
+    
+    
+            var marker_df4cda90bd0d0f7f1fd760206c8bfc56 = L.marker(
+                [41.014634, 29.131987],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_a187c50b669fb9f98a528b465e90f115 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_df4cda90bd0d0f7f1fd760206c8bfc56.setIcon(icon_a187c50b669fb9f98a528b465e90f115);
+        
+    
+        var popup_d177d161f10a31d631ac1e56e03de2f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faf7b97f9eed1d7b224d479ba4f8baf3 = $(`<div id="html_faf7b97f9eed1d7b224d479ba4f8baf3" style="width: 100.0%; height: 100.0%;">DİKİLİAĞAÇ SK.</div>`)[0];
+                popup_d177d161f10a31d631ac1e56e03de2f1.setContent(html_faf7b97f9eed1d7b224d479ba4f8baf3);
+            
+        
+
+        marker_df4cda90bd0d0f7f1fd760206c8bfc56.bindPopup(popup_d177d161f10a31d631ac1e56e03de2f1)
+        ;
+
+        
+    
+    
+            var marker_eb5774bf3072cac400207e98a4ad5405 = L.marker(
+                [41.018206, 29.128466],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_4797e4334a8f23688081a2cb2b77b2c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb5774bf3072cac400207e98a4ad5405.setIcon(icon_4797e4334a8f23688081a2cb2b77b2c0);
+        
+    
+        var popup_c9e0e79be4941c652ef74b449958f6b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2cc6ddac086b5ad69c687b4557befbb = $(`<div id="html_d2cc6ddac086b5ad69c687b4557befbb" style="width: 100.0%; height: 100.0%;">DUA SK.</div>`)[0];
+                popup_c9e0e79be4941c652ef74b449958f6b7.setContent(html_d2cc6ddac086b5ad69c687b4557befbb);
+            
+        
+
+        marker_eb5774bf3072cac400207e98a4ad5405.bindPopup(popup_c9e0e79be4941c652ef74b449958f6b7)
+        ;
+
+        
+    
+    
+            var marker_c63c7cd14268bbbd39e24661b244f70f = L.marker(
+                [41.019145, 29.129697],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_03913cb7d4b6935b34f56659bc32a81a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c63c7cd14268bbbd39e24661b244f70f.setIcon(icon_03913cb7d4b6935b34f56659bc32a81a);
+        
+    
+        var popup_abd173e8397f8297727f8417a3ec8f14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d30195721301f30d7f781ddde987123c = $(`<div id="html_d30195721301f30d7f781ddde987123c" style="width: 100.0%; height: 100.0%;">EDAGÜL SK.</div>`)[0];
+                popup_abd173e8397f8297727f8417a3ec8f14.setContent(html_d30195721301f30d7f781ddde987123c);
+            
+        
+
+        marker_c63c7cd14268bbbd39e24661b244f70f.bindPopup(popup_abd173e8397f8297727f8417a3ec8f14)
+        ;
+
+        
+    
+    
+            var marker_db320666156fa1f4b01e0765b01864b9 = L.marker(
+                [41.016872, 29.132922],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_5f71f954bf21d0b3cdf23a2698a163fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_db320666156fa1f4b01e0765b01864b9.setIcon(icon_5f71f954bf21d0b3cdf23a2698a163fb);
+        
+    
+        var popup_96d34d414fd43016885d994d2bb71cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51cf1d9618a8ba4e047828f97b00b9f1 = $(`<div id="html_51cf1d9618a8ba4e047828f97b00b9f1" style="width: 100.0%; height: 100.0%;">ERDEM SK.</div>`)[0];
+                popup_96d34d414fd43016885d994d2bb71cd9.setContent(html_51cf1d9618a8ba4e047828f97b00b9f1);
+            
+        
+
+        marker_db320666156fa1f4b01e0765b01864b9.bindPopup(popup_96d34d414fd43016885d994d2bb71cd9)
+        ;
+
+        
+    
+    
+            var marker_78386f17b5b596496f6c956be5a78ee5 = L.marker(
+                [41.018703, 29.130236],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_244928e3c0a72b3ba1db21283690972a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_78386f17b5b596496f6c956be5a78ee5.setIcon(icon_244928e3c0a72b3ba1db21283690972a);
+        
+    
+        var popup_d386bcb2fa82caf17640298371138757 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f6680322f495bf3de0c8c97f53a97f5 = $(`<div id="html_6f6680322f495bf3de0c8c97f53a97f5" style="width: 100.0%; height: 100.0%;">ESENKÖŞE SK.</div>`)[0];
+                popup_d386bcb2fa82caf17640298371138757.setContent(html_6f6680322f495bf3de0c8c97f53a97f5);
+            
+        
+
+        marker_78386f17b5b596496f6c956be5a78ee5.bindPopup(popup_d386bcb2fa82caf17640298371138757)
+        ;
+
+        
+    
+    
+            var marker_2b1285a7a9f50283afe530ecbfc80bba = L.marker(
+                [41.015974, 29.133865],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_4928648baca6bf9f769c22eac4066a91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b1285a7a9f50283afe530ecbfc80bba.setIcon(icon_4928648baca6bf9f769c22eac4066a91);
+        
+    
+        var popup_9ea413ad7a906916f77475f2c5e2646f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd5be4e0e1ef5b290de58449ce64632f = $(`<div id="html_cd5be4e0e1ef5b290de58449ce64632f" style="width: 100.0%; height: 100.0%;">FATİH SK.</div>`)[0];
+                popup_9ea413ad7a906916f77475f2c5e2646f.setContent(html_cd5be4e0e1ef5b290de58449ce64632f);
+            
+        
+
+        marker_2b1285a7a9f50283afe530ecbfc80bba.bindPopup(popup_9ea413ad7a906916f77475f2c5e2646f)
+        ;
+
+        
+    
+    
+            var marker_9e593a23a91d580932f19f3113e86180 = L.marker(
+                [41.019512, 29.129598],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_c5af5c99f2bcd12c212a95a8f3b64e76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e593a23a91d580932f19f3113e86180.setIcon(icon_c5af5c99f2bcd12c212a95a8f3b64e76);
+        
+    
+        var popup_083c548edc5b0a931673f283dc71cbfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e9e68758a42f23a67098821fe93eea0 = $(`<div id="html_4e9e68758a42f23a67098821fe93eea0" style="width: 100.0%; height: 100.0%;">GEZEN SK.</div>`)[0];
+                popup_083c548edc5b0a931673f283dc71cbfe.setContent(html_4e9e68758a42f23a67098821fe93eea0);
+            
+        
+
+        marker_9e593a23a91d580932f19f3113e86180.bindPopup(popup_083c548edc5b0a931673f283dc71cbfe)
+        ;
+
+        
+    
+    
+            var marker_096f8b9a2c0882ae5e79ad7ce0f90c39 = L.marker(
+                [41.018145, 29.129742],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_54fbf04f40d45d8107f657e8e81b5d66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_096f8b9a2c0882ae5e79ad7ce0f90c39.setIcon(icon_54fbf04f40d45d8107f657e8e81b5d66);
+        
+    
+        var popup_1a657e6f119bf65f3681aa06d5c86eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_753c6b73da9bfde705961c9d3ac5b939 = $(`<div id="html_753c6b73da9bfde705961c9d3ac5b939" style="width: 100.0%; height: 100.0%;">GÜNAŞIK SK.</div>`)[0];
+                popup_1a657e6f119bf65f3681aa06d5c86eb0.setContent(html_753c6b73da9bfde705961c9d3ac5b939);
+            
+        
+
+        marker_096f8b9a2c0882ae5e79ad7ce0f90c39.bindPopup(popup_1a657e6f119bf65f3681aa06d5c86eb0)
+        ;
+
+        
+    
+    
+            var marker_31364febb4a00fb16d3b668b946350ad = L.marker(
+                [41.01909, 29.129014],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_9a2c26d8a8d6cf0cadfacdd0985007ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31364febb4a00fb16d3b668b946350ad.setIcon(icon_9a2c26d8a8d6cf0cadfacdd0985007ae);
+        
+    
+        var popup_e1a3c5afa7c7fa601d3bcbf3b4dbbeb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_866c2eb0ab79742c813dd7624086f931 = $(`<div id="html_866c2eb0ab79742c813dd7624086f931" style="width: 100.0%; height: 100.0%;">GÜVENÇ SK.</div>`)[0];
+                popup_e1a3c5afa7c7fa601d3bcbf3b4dbbeb3.setContent(html_866c2eb0ab79742c813dd7624086f931);
+            
+        
+
+        marker_31364febb4a00fb16d3b668b946350ad.bindPopup(popup_e1a3c5afa7c7fa601d3bcbf3b4dbbeb3)
+        ;
+
+        
+    
+    
+            var marker_e31dc20d123b8064fef59958f6c8d2b4 = L.marker(
+                [41.01575, 29.137413],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_cb505e8cf63c126dac83d1eaf3f7b055 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e31dc20d123b8064fef59958f6c8d2b4.setIcon(icon_cb505e8cf63c126dac83d1eaf3f7b055);
+        
+    
+        var popup_03b089a8f27aa97d7a02d0c7d781c084 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ef12b98eb1dbb127e7ca700698da13 = $(`<div id="html_b3ef12b98eb1dbb127e7ca700698da13" style="width: 100.0%; height: 100.0%;">HACI BAYRAM SK.</div>`)[0];
+                popup_03b089a8f27aa97d7a02d0c7d781c084.setContent(html_b3ef12b98eb1dbb127e7ca700698da13);
+            
+        
+
+        marker_e31dc20d123b8064fef59958f6c8d2b4.bindPopup(popup_03b089a8f27aa97d7a02d0c7d781c084)
+        ;
+
+        
+    
+    
+            var marker_89abd34ad86e43eefd0ad71393f56001 = L.marker(
+                [41.015641, 29.131098],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_648aa8544031ca6b3c7b70fac2d0e60d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_89abd34ad86e43eefd0ad71393f56001.setIcon(icon_648aa8544031ca6b3c7b70fac2d0e60d);
+        
+    
+        var popup_f0e44552a6206c0f63639c4aafe6e555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf371417b123855251935c63af619deb = $(`<div id="html_cf371417b123855251935c63af619deb" style="width: 100.0%; height: 100.0%;">HAYIRLI SK.</div>`)[0];
+                popup_f0e44552a6206c0f63639c4aafe6e555.setContent(html_cf371417b123855251935c63af619deb);
+            
+        
+
+        marker_89abd34ad86e43eefd0ad71393f56001.bindPopup(popup_f0e44552a6206c0f63639c4aafe6e555)
+        ;
+
+        
+    
+    
+            var marker_61913dc9a3aaaea4e7d93e0335345c0f = L.marker(
+                [41.014287, 29.136488],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_67cbafc65128456ce8b843db8ec353b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_61913dc9a3aaaea4e7d93e0335345c0f.setIcon(icon_67cbafc65128456ce8b843db8ec353b9);
+        
+    
+        var popup_62747a8938c6cc919cf1a8ad308b0f81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d505de3f853d330e04e554dce28171a = $(`<div id="html_7d505de3f853d330e04e554dce28171a" style="width: 100.0%; height: 100.0%;">HAYRAN SK.</div>`)[0];
+                popup_62747a8938c6cc919cf1a8ad308b0f81.setContent(html_7d505de3f853d330e04e554dce28171a);
+            
+        
+
+        marker_61913dc9a3aaaea4e7d93e0335345c0f.bindPopup(popup_62747a8938c6cc919cf1a8ad308b0f81)
+        ;
+
+        
+    
+    
+            var marker_31fdb40a4494a5e905d8032d899e9a11 = L.marker(
+                [41.015614, 29.134664],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_062614b830eedab8f2a3972f684c6ffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31fdb40a4494a5e905d8032d899e9a11.setIcon(icon_062614b830eedab8f2a3972f684c6ffb);
+        
+    
+        var popup_ee5d7c5341c03843a9a5fc75794a5b3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf583be2713907429fa185eac93d85ae = $(`<div id="html_cf583be2713907429fa185eac93d85ae" style="width: 100.0%; height: 100.0%;">HÜRMET SK.</div>`)[0];
+                popup_ee5d7c5341c03843a9a5fc75794a5b3f.setContent(html_cf583be2713907429fa185eac93d85ae);
+            
+        
+
+        marker_31fdb40a4494a5e905d8032d899e9a11.bindPopup(popup_ee5d7c5341c03843a9a5fc75794a5b3f)
+        ;
+
+        
+    
+    
+            var marker_851dd299d46b628624bc33c6ce273897 = L.marker(
+                [41.019329, 29.128888],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_365b768369242f62a166247cff0830fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_851dd299d46b628624bc33c6ce273897.setIcon(icon_365b768369242f62a166247cff0830fc);
+        
+    
+        var popup_01fc7f9fc9e74deeb4e86c4b37c89c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ec35469c6762ec879064131052b4cdc = $(`<div id="html_6ec35469c6762ec879064131052b4cdc" style="width: 100.0%; height: 100.0%;">İHRAM SK.</div>`)[0];
+                popup_01fc7f9fc9e74deeb4e86c4b37c89c74.setContent(html_6ec35469c6762ec879064131052b4cdc);
+            
+        
+
+        marker_851dd299d46b628624bc33c6ce273897.bindPopup(popup_01fc7f9fc9e74deeb4e86c4b37c89c74)
+        ;
+
+        
+    
+    
+            var marker_7e4714e6f840a3e5518e84153a00e0ac = L.marker(
+                [41.018798, 29.127451],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_b0e3e31feb218065235900e3586020b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e4714e6f840a3e5518e84153a00e0ac.setIcon(icon_b0e3e31feb218065235900e3586020b4);
+        
+    
+        var popup_f222258f25eac3b75811262996a44ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0a9e22cc1963f139cae335d6527260f = $(`<div id="html_f0a9e22cc1963f139cae335d6527260f" style="width: 100.0%; height: 100.0%;">İNANÇ SK.</div>`)[0];
+                popup_f222258f25eac3b75811262996a44ab2.setContent(html_f0a9e22cc1963f139cae335d6527260f);
+            
+        
+
+        marker_7e4714e6f840a3e5518e84153a00e0ac.bindPopup(popup_f222258f25eac3b75811262996a44ab2)
+        ;
+
+        
+    
+    
+            var marker_73afd295889121e07250220b6fae0cc2 = L.marker(
+                [41.013899, 29.1362],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_91ddc5e384ed9288d0751379cc69ee42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_73afd295889121e07250220b6fae0cc2.setIcon(icon_91ddc5e384ed9288d0751379cc69ee42);
+        
+    
+        var popup_d6f97773d8f2c075283f54095264858f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86e27b576142a88f86944a9264059585 = $(`<div id="html_86e27b576142a88f86944a9264059585" style="width: 100.0%; height: 100.0%;">İSTİKBAL SK.</div>`)[0];
+                popup_d6f97773d8f2c075283f54095264858f.setContent(html_86e27b576142a88f86944a9264059585);
+            
+        
+
+        marker_73afd295889121e07250220b6fae0cc2.bindPopup(popup_d6f97773d8f2c075283f54095264858f)
+        ;
+
+        
+    
+    
+            var marker_16ec5fe04e9976d2b1b489ca6cf3d9b9 = L.marker(
+                [41.018927, 29.13126],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_994c9a2b864eec399d4ef1f74d9a36eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16ec5fe04e9976d2b1b489ca6cf3d9b9.setIcon(icon_994c9a2b864eec399d4ef1f74d9a36eb);
+        
+    
+        var popup_ddabd6472dfa13fb46fae57964bf0b0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b69d6d1aa005bebb22e3ca0294776336 = $(`<div id="html_b69d6d1aa005bebb22e3ca0294776336" style="width: 100.0%; height: 100.0%;">KADİM SK.</div>`)[0];
+                popup_ddabd6472dfa13fb46fae57964bf0b0e.setContent(html_b69d6d1aa005bebb22e3ca0294776336);
+            
+        
+
+        marker_16ec5fe04e9976d2b1b489ca6cf3d9b9.bindPopup(popup_ddabd6472dfa13fb46fae57964bf0b0e)
+        ;
+
+        
+    
+    
+            var marker_c7e2e3e9fafe6dc2b3cbc6bdac7df0a0 = L.marker(
+                [41.015757, 29.134206],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_92c56ee5ec1311641697e2f306b71f8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c7e2e3e9fafe6dc2b3cbc6bdac7df0a0.setIcon(icon_92c56ee5ec1311641697e2f306b71f8c);
+        
+    
+        var popup_7b91144c1ca2ce57409ab401964f01b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33af7071ee631ebf153022ee08936f9e = $(`<div id="html_33af7071ee631ebf153022ee08936f9e" style="width: 100.0%; height: 100.0%;">KAFİYE SK.</div>`)[0];
+                popup_7b91144c1ca2ce57409ab401964f01b7.setContent(html_33af7071ee631ebf153022ee08936f9e);
+            
+        
+
+        marker_c7e2e3e9fafe6dc2b3cbc6bdac7df0a0.bindPopup(popup_7b91144c1ca2ce57409ab401964f01b7)
+        ;
+
+        
+    
+    
+            var marker_1482a5b9df7c2f745a36347667bb5834 = L.marker(
+                [41.019859, 29.127523],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_9daa33fdd40e666daf60c5d6996656e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1482a5b9df7c2f745a36347667bb5834.setIcon(icon_9daa33fdd40e666daf60c5d6996656e6);
+        
+    
+        var popup_735979646a3a26af57ef18ecf4485d5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c49c0b12b686e48379736ee6a24db884 = $(`<div id="html_c49c0b12b686e48379736ee6a24db884" style="width: 100.0%; height: 100.0%;">KANDİL SK.</div>`)[0];
+                popup_735979646a3a26af57ef18ecf4485d5f.setContent(html_c49c0b12b686e48379736ee6a24db884);
+            
+        
+
+        marker_1482a5b9df7c2f745a36347667bb5834.bindPopup(popup_735979646a3a26af57ef18ecf4485d5f)
+        ;
+
+        
+    
+    
+            var marker_ab9225c8eca7d95d4561aa956fc725a0 = L.marker(
+                [41.017873, 29.128987],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_fb07bb2ac0ecdfa78a6fadea3717b302 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ab9225c8eca7d95d4561aa956fc725a0.setIcon(icon_fb07bb2ac0ecdfa78a6fadea3717b302);
+        
+    
+        var popup_eda938aff6fdedac04266ac747444bf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1726c9c81c1f78f8e8888a0ae956765b = $(`<div id="html_1726c9c81c1f78f8e8888a0ae956765b" style="width: 100.0%; height: 100.0%;">LİDER SK.</div>`)[0];
+                popup_eda938aff6fdedac04266ac747444bf6.setContent(html_1726c9c81c1f78f8e8888a0ae956765b);
+            
+        
+
+        marker_ab9225c8eca7d95d4561aa956fc725a0.bindPopup(popup_eda938aff6fdedac04266ac747444bf6)
+        ;
+
+        
+    
+    
+            var marker_df9f625d67430f1bf3256d6b1f9a1c52 = L.marker(
+                [41.016267, 29.137647],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_32a90f1799df904b7ae21966145371d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_df9f625d67430f1bf3256d6b1f9a1c52.setIcon(icon_32a90f1799df904b7ae21966145371d1);
+        
+    
+        var popup_2855f11d8a799891c35c14fbdfa0e045 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d934dedaa8eebc985aa9ad0041531e72 = $(`<div id="html_d934dedaa8eebc985aa9ad0041531e72" style="width: 100.0%; height: 100.0%;">MANİDAR SK.</div>`)[0];
+                popup_2855f11d8a799891c35c14fbdfa0e045.setContent(html_d934dedaa8eebc985aa9ad0041531e72);
+            
+        
+
+        marker_df9f625d67430f1bf3256d6b1f9a1c52.bindPopup(popup_2855f11d8a799891c35c14fbdfa0e045)
+        ;
+
+        
+    
+    
+            var marker_d8d17c451cdf79ba71902ebfb68b3d4c = L.marker(
+                [41.0179, 29.131386],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_e9d6a19f2245a6d25a3fbef70b5fd5ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8d17c451cdf79ba71902ebfb68b3d4c.setIcon(icon_e9d6a19f2245a6d25a3fbef70b5fd5ff);
+        
+    
+        var popup_1e37089d1acea05807361c712f3f85ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af53651495f3c0bec6a837832843d0bd = $(`<div id="html_af53651495f3c0bec6a837832843d0bd" style="width: 100.0%; height: 100.0%;">MEMLEKET SK.</div>`)[0];
+                popup_1e37089d1acea05807361c712f3f85ce.setContent(html_af53651495f3c0bec6a837832843d0bd);
+            
+        
+
+        marker_d8d17c451cdf79ba71902ebfb68b3d4c.bindPopup(popup_1e37089d1acea05807361c712f3f85ce)
+        ;
+
+        
+    
+    
+            var marker_36c16bfba978b32cec81340e62925723 = L.marker(
+                [41.017281, 29.131511],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_d790531db68f3e02dbdda2024cecd2ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_36c16bfba978b32cec81340e62925723.setIcon(icon_d790531db68f3e02dbdda2024cecd2ce);
+        
+    
+        var popup_e3768bb9b2b407a76a2cffede7b9a98e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8856fa857320063c91bda507b17b66c2 = $(`<div id="html_8856fa857320063c91bda507b17b66c2" style="width: 100.0%; height: 100.0%;">MİLLİ MÜCADELE SK.</div>`)[0];
+                popup_e3768bb9b2b407a76a2cffede7b9a98e.setContent(html_8856fa857320063c91bda507b17b66c2);
+            
+        
+
+        marker_36c16bfba978b32cec81340e62925723.bindPopup(popup_e3768bb9b2b407a76a2cffede7b9a98e)
+        ;
+
+        
+    
+    
+            var marker_b4014da69f19426370bf5556dde4fbc5 = L.marker(
+                [41.014314, 29.132302],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_b186bab6d10922bd0e3640e90e250050 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b4014da69f19426370bf5556dde4fbc5.setIcon(icon_b186bab6d10922bd0e3640e90e250050);
+        
+    
+        var popup_ad7de2dadd8640f0e0d9f9485f5e1977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e06f1eeb2b02cf9f2b228f8bc2c1b03e = $(`<div id="html_e06f1eeb2b02cf9f2b228f8bc2c1b03e" style="width: 100.0%; height: 100.0%;">NAKKAŞ SK.</div>`)[0];
+                popup_ad7de2dadd8640f0e0d9f9485f5e1977.setContent(html_e06f1eeb2b02cf9f2b228f8bc2c1b03e);
+            
+        
+
+        marker_b4014da69f19426370bf5556dde4fbc5.bindPopup(popup_ad7de2dadd8640f0e0d9f9485f5e1977)
+        ;
+
+        
+    
+    
+            var marker_6aa5a76b855d1e92e324c625e9d5ef09 = L.marker(
+                [41.013994, 29.136668],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_6aa788e9fd9b1e4b51d0ab9bbcac1f6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6aa5a76b855d1e92e324c625e9d5ef09.setIcon(icon_6aa788e9fd9b1e4b51d0ab9bbcac1f6f);
+        
+    
+        var popup_09a82d4dca34671a0519b1c0331ce7d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c84a0a28ad787057380c932425b1291 = $(`<div id="html_5c84a0a28ad787057380c932425b1291" style="width: 100.0%; height: 100.0%;">NAZENİN SK.</div>`)[0];
+                popup_09a82d4dca34671a0519b1c0331ce7d1.setContent(html_5c84a0a28ad787057380c932425b1291);
+            
+        
+
+        marker_6aa5a76b855d1e92e324c625e9d5ef09.bindPopup(popup_09a82d4dca34671a0519b1c0331ce7d1)
+        ;
+
+        
+    
+    
+            var marker_4b9b210652b10349cfcd3c57a9a18183 = L.marker(
+                [41.013838, 29.137162],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_91c4ea572cddb1b754c72b545f0d4dcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4b9b210652b10349cfcd3c57a9a18183.setIcon(icon_91c4ea572cddb1b754c72b545f0d4dcd);
+        
+    
+        var popup_e471d11c8ab5d8dc3c97f0549af1c39b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5775f31430a4f552c5fdfc528d7c9bd4 = $(`<div id="html_5775f31430a4f552c5fdfc528d7c9bd4" style="width: 100.0%; height: 100.0%;">ÖNAL SK.</div>`)[0];
+                popup_e471d11c8ab5d8dc3c97f0549af1c39b.setContent(html_5775f31430a4f552c5fdfc528d7c9bd4);
+            
+        
+
+        marker_4b9b210652b10349cfcd3c57a9a18183.bindPopup(popup_e471d11c8ab5d8dc3c97f0549af1c39b)
+        ;
+
+        
+    
+    
+            var marker_37e7435d4f0a0b6eca151535e25e7a7f = L.marker(
+                [41.015933, 29.133344],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_82a719ccbfdcd38d45b3dff07b134c69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37e7435d4f0a0b6eca151535e25e7a7f.setIcon(icon_82a719ccbfdcd38d45b3dff07b134c69);
+        
+    
+        var popup_2cb65838c333cbffd7748b3d4b23f417 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2a74b7e8f1a0ec473e422791dbdf793 = $(`<div id="html_f2a74b7e8f1a0ec473e422791dbdf793" style="width: 100.0%; height: 100.0%;">ÖRNEK SK.</div>`)[0];
+                popup_2cb65838c333cbffd7748b3d4b23f417.setContent(html_f2a74b7e8f1a0ec473e422791dbdf793);
+            
+        
+
+        marker_37e7435d4f0a0b6eca151535e25e7a7f.bindPopup(popup_2cb65838c333cbffd7748b3d4b23f417)
+        ;
+
+        
+    
+    
+            var marker_123e7d8974951e836f6f8b166b57af43 = L.marker(
+                [41.013048, 29.135922],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_bcc2a4279fb2b52231562d4c57c5a009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_123e7d8974951e836f6f8b166b57af43.setIcon(icon_bcc2a4279fb2b52231562d4c57c5a009);
+        
+    
+        var popup_54e3cc61a2a342dc3993c55ec415781b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f6436c0ee38c7f0783e827d1ec6c691 = $(`<div id="html_7f6436c0ee38c7f0783e827d1ec6c691" style="width: 100.0%; height: 100.0%;">ÖZKANCA SK.</div>`)[0];
+                popup_54e3cc61a2a342dc3993c55ec415781b.setContent(html_7f6436c0ee38c7f0783e827d1ec6c691);
+            
+        
+
+        marker_123e7d8974951e836f6f8b166b57af43.bindPopup(popup_54e3cc61a2a342dc3993c55ec415781b)
+        ;
+
+        
+    
+    
+            var marker_577c57f077a4fd86f0f38e494f33db0f = L.marker(
+                [41.015464, 29.135626],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_a733fde9ef5cbe946ad17d5c16fbb6f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_577c57f077a4fd86f0f38e494f33db0f.setIcon(icon_a733fde9ef5cbe946ad17d5c16fbb6f2);
+        
+    
+        var popup_d7ba942e06718b7512286c1b5c69bac9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c161ffc8225a205e93172f9ea1600c1 = $(`<div id="html_2c161ffc8225a205e93172f9ea1600c1" style="width: 100.0%; height: 100.0%;">ÖZTÜRK SK.</div>`)[0];
+                popup_d7ba942e06718b7512286c1b5c69bac9.setContent(html_2c161ffc8225a205e93172f9ea1600c1);
+            
+        
+
+        marker_577c57f077a4fd86f0f38e494f33db0f.bindPopup(popup_d7ba942e06718b7512286c1b5c69bac9)
+        ;
+
+        
+    
+    
+            var marker_7a20cd5a0b474cc04d7c2f69900a7fca = L.marker(
+                [41.015947, 29.132778],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_4e13c2b7739f528c845d109c02ff4b92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a20cd5a0b474cc04d7c2f69900a7fca.setIcon(icon_4e13c2b7739f528c845d109c02ff4b92);
+        
+    
+        var popup_5d36d50cfc69532b7b1620b3d41904b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8440a9f60263b9003d0e3363737b648a = $(`<div id="html_8440a9f60263b9003d0e3363737b648a" style="width: 100.0%; height: 100.0%;">PINARBAŞI SK.</div>`)[0];
+                popup_5d36d50cfc69532b7b1620b3d41904b0.setContent(html_8440a9f60263b9003d0e3363737b648a);
+            
+        
+
+        marker_7a20cd5a0b474cc04d7c2f69900a7fca.bindPopup(popup_5d36d50cfc69532b7b1620b3d41904b0)
+        ;
+
+        
+    
+    
+            var marker_0a0f674abfa82b9caa9cedccffc343b0 = L.marker(
+                [41.017478, 29.131233],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_4f8a927a72bbf4e88ec4a04a43f925da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a0f674abfa82b9caa9cedccffc343b0.setIcon(icon_4f8a927a72bbf4e88ec4a04a43f925da);
+        
+    
+        var popup_2945729bae71fb540414e5114f9429d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44346577d98c8e74b05689ace46bc7c7 = $(`<div id="html_44346577d98c8e74b05689ace46bc7c7" style="width: 100.0%; height: 100.0%;">PINARLI SK.</div>`)[0];
+                popup_2945729bae71fb540414e5114f9429d7.setContent(html_44346577d98c8e74b05689ace46bc7c7);
+            
+        
+
+        marker_0a0f674abfa82b9caa9cedccffc343b0.bindPopup(popup_2945729bae71fb540414e5114f9429d7)
+        ;
+
+        
+    
+    
+            var marker_bbc75e51e73d11b7f8c5a2175969dde4 = L.marker(
+                [41.019261, 29.130622],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_20577c2b472c4f679b9106bd42a1e1ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bbc75e51e73d11b7f8c5a2175969dde4.setIcon(icon_20577c2b472c4f679b9106bd42a1e1ef);
+        
+    
+        var popup_ce987e114861066abc606d3282be74e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02362b26bdc2e6e072bb5c668f42f701 = $(`<div id="html_02362b26bdc2e6e072bb5c668f42f701" style="width: 100.0%; height: 100.0%;">RESUL SK.</div>`)[0];
+                popup_ce987e114861066abc606d3282be74e2.setContent(html_02362b26bdc2e6e072bb5c668f42f701);
+            
+        
+
+        marker_bbc75e51e73d11b7f8c5a2175969dde4.bindPopup(popup_ce987e114861066abc606d3282be74e2)
+        ;
+
+        
+    
+    
+            var marker_1bbc65524e79283eb960faab86705c3f = L.marker(
+                [41.014314, 29.135688],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_85cd27452ed1c0b02bfe024fd584310a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1bbc65524e79283eb960faab86705c3f.setIcon(icon_85cd27452ed1c0b02bfe024fd584310a);
+        
+    
+        var popup_06a49028adf84aba1b87a2b7ffc23000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_188a6bb7d275620be6e7c593a2eab907 = $(`<div id="html_188a6bb7d275620be6e7c593a2eab907" style="width: 100.0%; height: 100.0%;">SEDA SK.</div>`)[0];
+                popup_06a49028adf84aba1b87a2b7ffc23000.setContent(html_188a6bb7d275620be6e7c593a2eab907);
+            
+        
+
+        marker_1bbc65524e79283eb960faab86705c3f.bindPopup(popup_06a49028adf84aba1b87a2b7ffc23000)
+        ;
+
+        
+    
+    
+            var marker_6857e24106b1aef4bec2a8495233c90e = L.marker(
+                [41.017784, 29.129265],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_9fd3d46a62a4c54aea1aba7886a421e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6857e24106b1aef4bec2a8495233c90e.setIcon(icon_9fd3d46a62a4c54aea1aba7886a421e5);
+        
+    
+        var popup_9d54693f07892911165b45261c950fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f954d37537c787e23b2923c73168d16 = $(`<div id="html_6f954d37537c787e23b2923c73168d16" style="width: 100.0%; height: 100.0%;">TARİH SK.</div>`)[0];
+                popup_9d54693f07892911165b45261c950fb5.setContent(html_6f954d37537c787e23b2923c73168d16);
+            
+        
+
+        marker_6857e24106b1aef4bec2a8495233c90e.bindPopup(popup_9d54693f07892911165b45261c950fb5)
+        ;
+
+        
+    
+    
+            var marker_722cf42805e21040df5006f959f431c4 = L.marker(
+                [41.01924, 29.128295],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_eb5ae4ebac028925ad3d459b9d143009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_722cf42805e21040df5006f959f431c4.setIcon(icon_eb5ae4ebac028925ad3d459b9d143009);
+        
+    
+        var popup_692b5fb865bf38e7f29d564416c93c2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99525539c2200753e2465a6e8638360c = $(`<div id="html_99525539c2200753e2465a6e8638360c" style="width: 100.0%; height: 100.0%;">TEPEÜSTÜ ÖZGÜR SK.</div>`)[0];
+                popup_692b5fb865bf38e7f29d564416c93c2a.setContent(html_99525539c2200753e2465a6e8638360c);
+            
+        
+
+        marker_722cf42805e21040df5006f959f431c4.bindPopup(popup_692b5fb865bf38e7f29d564416c93c2a)
+        ;
+
+        
+    
+    
+            var marker_8074714ab817f11916fbac8f8b99faf5 = L.marker(
+                [41.01724, 29.129445],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_2bda4ecd80277eb8f28fd4ef90898a2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8074714ab817f11916fbac8f8b99faf5.setIcon(icon_2bda4ecd80277eb8f28fd4ef90898a2b);
+        
+    
+        var popup_05fedaf8bf5195037359deeff580d877 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfd32a9e1290900c7165803f64ac23c5 = $(`<div id="html_bfd32a9e1290900c7165803f64ac23c5" style="width: 100.0%; height: 100.0%;">ULUDERE SK.</div>`)[0];
+                popup_05fedaf8bf5195037359deeff580d877.setContent(html_bfd32a9e1290900c7165803f64ac23c5);
+            
+        
+
+        marker_8074714ab817f11916fbac8f8b99faf5.bindPopup(popup_05fedaf8bf5195037359deeff580d877)
+        ;
+
+        
+    
+    
+            var marker_084139632eaa90540baac45c2a5da3dd = L.marker(
+                [41.018961, 29.127154],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_aed6884255023fa72c83b65eded677dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_084139632eaa90540baac45c2a5da3dd.setIcon(icon_aed6884255023fa72c83b65eded677dd);
+        
+    
+        var popup_b6df5f87e3832ef179d4c1e1d43b0d2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_423145ba19e05f4d6aaa80161bc34a7e = $(`<div id="html_423145ba19e05f4d6aaa80161bc34a7e" style="width: 100.0%; height: 100.0%;">YALIKENT SK.</div>`)[0];
+                popup_b6df5f87e3832ef179d4c1e1d43b0d2f.setContent(html_423145ba19e05f4d6aaa80161bc34a7e);
+            
+        
+
+        marker_084139632eaa90540baac45c2a5da3dd.bindPopup(popup_b6df5f87e3832ef179d4c1e1d43b0d2f)
+        ;
+
+        
+    
+    
+            var marker_7bad5cb6f58be4a866fccd58ccf93e50 = L.marker(
+                [41.015546, 29.135158],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_9b62a1398684738156c57aa33ea921bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7bad5cb6f58be4a866fccd58ccf93e50.setIcon(icon_9b62a1398684738156c57aa33ea921bc);
+        
+    
+        var popup_38cf3842c358654ca461b8af2d3a4252 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92fe6fae71c25e7b289887361cf4f715 = $(`<div id="html_92fe6fae71c25e7b289887361cf4f715" style="width: 100.0%; height: 100.0%;">YENİLİK SK.</div>`)[0];
+                popup_38cf3842c358654ca461b8af2d3a4252.setContent(html_92fe6fae71c25e7b289887361cf4f715);
+            
+        
+
+        marker_7bad5cb6f58be4a866fccd58ccf93e50.bindPopup(popup_38cf3842c358654ca461b8af2d3a4252)
+        ;
+
+        
+    
+    
+            var marker_fa2e5573a4b66a551ff44576fc593c5d = L.marker(
+                [41.017553, 29.129715],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_e2f0fa62e22e28e4def7319c9d87453c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fa2e5573a4b66a551ff44576fc593c5d.setIcon(icon_e2f0fa62e22e28e4def7319c9d87453c);
+        
+    
+        var popup_5766f1903298ef9d964f9232968cd185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c707e99153ee402a69a93fb0ae253989 = $(`<div id="html_c707e99153ee402a69a93fb0ae253989" style="width: 100.0%; height: 100.0%;">ZİRVE SK.</div>`)[0];
+                popup_5766f1903298ef9d964f9232968cd185.setContent(html_c707e99153ee402a69a93fb0ae253989);
+            
+        
+
+        marker_fa2e5573a4b66a551ff44576fc593c5d.bindPopup(popup_5766f1903298ef9d964f9232968cd185)
+        ;
+
+        
+    
+    
+            var marker_0e196c067b49d89cea86dd39c3550805 = L.marker(
+                [29.131475, 41.019199],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_c0563669ae414cccac1870c953e0769d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e196c067b49d89cea86dd39c3550805.setIcon(icon_c0563669ae414cccac1870c953e0769d);
+        
+    
+        var popup_d314a12921b5f20036a315b8f75985f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a98159243a9f38ff5cca06bb0ddd47aa = $(`<div id="html_a98159243a9f38ff5cca06bb0ddd47aa" style="width: 100.0%; height: 100.0%;">ALEMDAĞ CD. - Base Station</div>`)[0];
+                popup_d314a12921b5f20036a315b8f75985f6.setContent(html_a98159243a9f38ff5cca06bb0ddd47aa);
+            
+        
+
+        marker_0e196c067b49d89cea86dd39c3550805.bindPopup(popup_d314a12921b5f20036a315b8f75985f6)
+        ;
+
+        
+    
+    
+            var marker_ce7dca06535d140d904a2357b1287149 = L.marker(
+                [29.137638, 41.013484],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_bd11c05436a300365ed1b71ef145dfa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce7dca06535d140d904a2357b1287149.setIcon(icon_bd11c05436a300365ed1b71ef145dfa6);
+        
+    
+        var popup_ad91cd6e7fe3902a4510a0403d655982 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51b3f0767153e393f7ab412fd966ef43 = $(`<div id="html_51b3f0767153e393f7ab412fd966ef43" style="width: 100.0%; height: 100.0%;">DOĞANEVLER CD. - Base Station</div>`)[0];
+                popup_ad91cd6e7fe3902a4510a0403d655982.setContent(html_51b3f0767153e393f7ab412fd966ef43);
+            
+        
+
+        marker_ce7dca06535d140d904a2357b1287149.bindPopup(popup_ad91cd6e7fe3902a4510a0403d655982)
+        ;
+
+        
+    
+    
+            var marker_fe711c2b16cd2d37d7278a7ddfa83909 = L.marker(
+                [29.127056, 41.019941],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_7c05785ec3f3cc0e9321fd601442604c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe711c2b16cd2d37d7278a7ddfa83909.setIcon(icon_7c05785ec3f3cc0e9321fd601442604c);
+        
+    
+        var popup_ef441160f23b620248066403479235c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f785c02d6e12f67e8c414d9b8eace02e = $(`<div id="html_f785c02d6e12f67e8c414d9b8eace02e" style="width: 100.0%; height: 100.0%;">KAŞGARLI MAHMUT CD. - Base Station</div>`)[0];
+                popup_ef441160f23b620248066403479235c3.setContent(html_f785c02d6e12f67e8c414d9b8eace02e);
+            
+        
+
+        marker_fe711c2b16cd2d37d7278a7ddfa83909.bindPopup(popup_ef441160f23b620248066403479235c3)
+        ;
+
+        
+    
+    
+            var marker_09b65e300d30319f4aacb47b784873b9 = L.marker(
+                [29.13143, 41.018288],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_f770367ac3e329ad69872b5a13cc772b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_09b65e300d30319f4aacb47b784873b9.setIcon(icon_f770367ac3e329ad69872b5a13cc772b);
+        
+    
+        var popup_d80301e018131b8b842f0d9cedf02f18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b2ec50d4e30ed999ad44d9fdd79f87a = $(`<div id="html_7b2ec50d4e30ed999ad44d9fdd79f87a" style="width: 100.0%; height: 100.0%;">30 AĞUSTOS SK. - Base Station</div>`)[0];
+                popup_d80301e018131b8b842f0d9cedf02f18.setContent(html_7b2ec50d4e30ed999ad44d9fdd79f87a);
+            
+        
+
+        marker_09b65e300d30319f4aacb47b784873b9.bindPopup(popup_d80301e018131b8b842f0d9cedf02f18)
+        ;
+
+        
+    
+    
+            var marker_b2e86ee04a2b5639d06fe4707aeea542 = L.marker(
+                [29.13718, 41.015253],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_a1c04976ba3f1b3bf7f8972ab330f6c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2e86ee04a2b5639d06fe4707aeea542.setIcon(icon_a1c04976ba3f1b3bf7f8972ab330f6c5);
+        
+    
+        var popup_b134dc04d5796641783e1bae9f3d2ecd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b551b552dd2e63733523a9330b2a1c8 = $(`<div id="html_7b551b552dd2e63733523a9330b2a1c8" style="width: 100.0%; height: 100.0%;">AZİM SK. - Base Station</div>`)[0];
+                popup_b134dc04d5796641783e1bae9f3d2ecd.setContent(html_7b551b552dd2e63733523a9330b2a1c8);
+            
+        
+
+        marker_b2e86ee04a2b5639d06fe4707aeea542.bindPopup(popup_b134dc04d5796641783e1bae9f3d2ecd)
+        ;
+
+        
+    
+    
+            var marker_d3163b37cc392d2e757907ae036266a2 = L.marker(
+                [29.136551, 41.015988],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_ebcecf6962cc5f780dd11f6b1d93d07a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3163b37cc392d2e757907ae036266a2.setIcon(icon_ebcecf6962cc5f780dd11f6b1d93d07a);
+        
+    
+        var popup_65b6b2c731aac059847a0c3c822d75f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_088e6dad85ca877776604ce59e176374 = $(`<div id="html_088e6dad85ca877776604ce59e176374" style="width: 100.0%; height: 100.0%;">ÇAYIRBAŞI SK. - Base Station</div>`)[0];
+                popup_65b6b2c731aac059847a0c3c822d75f0.setContent(html_088e6dad85ca877776604ce59e176374);
+            
+        
+
+        marker_d3163b37cc392d2e757907ae036266a2.bindPopup(popup_65b6b2c731aac059847a0c3c822d75f0)
+        ;
+
+        
+    
+    
+            var marker_17abc1a1c63a56308c569f87c50eec52 = L.marker(
+                [29.13559, 41.015035],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_280e7601b35b173f403db76fbc454542 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_17abc1a1c63a56308c569f87c50eec52.setIcon(icon_280e7601b35b173f403db76fbc454542);
+        
+    
+        var popup_dd08d738eac89b8e6e56a7ba75bf751f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3468cb0e29148680be6ccbde4cc1ab3 = $(`<div id="html_a3468cb0e29148680be6ccbde4cc1ab3" style="width: 100.0%; height: 100.0%;">DAMPSAN SK. - Base Station</div>`)[0];
+                popup_dd08d738eac89b8e6e56a7ba75bf751f.setContent(html_a3468cb0e29148680be6ccbde4cc1ab3);
+            
+        
+
+        marker_17abc1a1c63a56308c569f87c50eec52.bindPopup(popup_dd08d738eac89b8e6e56a7ba75bf751f)
+        ;
+
+        
+    
+    
+            var marker_b1994cbeb27cc6008051410f8213c1c0 = L.marker(
+                [29.128466, 41.018206],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_b8b3e20dfb4a28a95ab8f7c611e74278 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b1994cbeb27cc6008051410f8213c1c0.setIcon(icon_b8b3e20dfb4a28a95ab8f7c611e74278);
+        
+    
+        var popup_2891d16b985c171e9fecbaf3096549e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44c1701051611b80091f02ab7e5fa6b4 = $(`<div id="html_44c1701051611b80091f02ab7e5fa6b4" style="width: 100.0%; height: 100.0%;">DUA SK. - Base Station</div>`)[0];
+                popup_2891d16b985c171e9fecbaf3096549e9.setContent(html_44c1701051611b80091f02ab7e5fa6b4);
+            
+        
+
+        marker_b1994cbeb27cc6008051410f8213c1c0.bindPopup(popup_2891d16b985c171e9fecbaf3096549e9)
+        ;
+
+        
+    
+    
+            var marker_4140e4c7534d9d05233bd80c283d64c2 = L.marker(
+                [29.129697, 41.019145],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_34481e72213c87d0efe1bbf9e64ea848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4140e4c7534d9d05233bd80c283d64c2.setIcon(icon_34481e72213c87d0efe1bbf9e64ea848);
+        
+    
+        var popup_4ee954ed5b1832e1230529e5b32d7898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4da7932ace48cd9f5b4262b46f8aedc = $(`<div id="html_f4da7932ace48cd9f5b4262b46f8aedc" style="width: 100.0%; height: 100.0%;">EDAGÜL SK. - Base Station</div>`)[0];
+                popup_4ee954ed5b1832e1230529e5b32d7898.setContent(html_f4da7932ace48cd9f5b4262b46f8aedc);
+            
+        
+
+        marker_4140e4c7534d9d05233bd80c283d64c2.bindPopup(popup_4ee954ed5b1832e1230529e5b32d7898)
+        ;
+
+        
+    
+    
+            var marker_6b7476775c699c80fe7ee71edebd7935 = L.marker(
+                [29.132922, 41.016872],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_ddbbfd50c9bd703d878444c33b0383cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b7476775c699c80fe7ee71edebd7935.setIcon(icon_ddbbfd50c9bd703d878444c33b0383cf);
+        
+    
+        var popup_4b3439e75de8ec23cb4051813551c2a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8185a0280b43ea0aadab2555c69e2eff = $(`<div id="html_8185a0280b43ea0aadab2555c69e2eff" style="width: 100.0%; height: 100.0%;">ERDEM SK. - Base Station</div>`)[0];
+                popup_4b3439e75de8ec23cb4051813551c2a6.setContent(html_8185a0280b43ea0aadab2555c69e2eff);
+            
+        
+
+        marker_6b7476775c699c80fe7ee71edebd7935.bindPopup(popup_4b3439e75de8ec23cb4051813551c2a6)
+        ;
+
+        
+    
+    
+            var marker_3bd1f540f8d7fcba0c792e8c87e1951e = L.marker(
+                [29.130236, 41.018703],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_0a3c5c88dee9067ad473c2a96d484970 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3bd1f540f8d7fcba0c792e8c87e1951e.setIcon(icon_0a3c5c88dee9067ad473c2a96d484970);
+        
+    
+        var popup_52d062b721f30ff245216027d2745dcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b9f27552ae85f5cc1b80d53e27a6d72 = $(`<div id="html_6b9f27552ae85f5cc1b80d53e27a6d72" style="width: 100.0%; height: 100.0%;">ESENKÖŞE SK. - Base Station</div>`)[0];
+                popup_52d062b721f30ff245216027d2745dcb.setContent(html_6b9f27552ae85f5cc1b80d53e27a6d72);
+            
+        
+
+        marker_3bd1f540f8d7fcba0c792e8c87e1951e.bindPopup(popup_52d062b721f30ff245216027d2745dcb)
+        ;
+
+        
+    
+    
+            var marker_d4e6804bd4590b6af61378597c6b6742 = L.marker(
+                [29.133865, 41.015974],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_0198e588493188dc9d0782d1fb5ad41f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4e6804bd4590b6af61378597c6b6742.setIcon(icon_0198e588493188dc9d0782d1fb5ad41f);
+        
+    
+        var popup_f2665dfb2900c935ddc524ab0e161c45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11a3bca837bc3620bf3787e1b56ad7cb = $(`<div id="html_11a3bca837bc3620bf3787e1b56ad7cb" style="width: 100.0%; height: 100.0%;">FATİH SK. - Base Station</div>`)[0];
+                popup_f2665dfb2900c935ddc524ab0e161c45.setContent(html_11a3bca837bc3620bf3787e1b56ad7cb);
+            
+        
+
+        marker_d4e6804bd4590b6af61378597c6b6742.bindPopup(popup_f2665dfb2900c935ddc524ab0e161c45)
+        ;
+
+        
+    
+    
+            var marker_0a7c38a3df85912293a235f4c8f9f489 = L.marker(
+                [29.129598, 41.019512],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_2db020136d6c9c22598aea7f62586500 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a7c38a3df85912293a235f4c8f9f489.setIcon(icon_2db020136d6c9c22598aea7f62586500);
+        
+    
+        var popup_fa47f69571857d0f79119145df557a4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60d03b2a919b2444b5cd8a054c234d75 = $(`<div id="html_60d03b2a919b2444b5cd8a054c234d75" style="width: 100.0%; height: 100.0%;">GEZEN SK. - Base Station</div>`)[0];
+                popup_fa47f69571857d0f79119145df557a4b.setContent(html_60d03b2a919b2444b5cd8a054c234d75);
+            
+        
+
+        marker_0a7c38a3df85912293a235f4c8f9f489.bindPopup(popup_fa47f69571857d0f79119145df557a4b)
+        ;
+
+        
+    
+    
+            var marker_42940ef9eb4a54f7dd8a16518c84a095 = L.marker(
+                [29.129742, 41.018145],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_90b49300ba88b0ca88d161b58dd0e1db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_42940ef9eb4a54f7dd8a16518c84a095.setIcon(icon_90b49300ba88b0ca88d161b58dd0e1db);
+        
+    
+        var popup_672cf98788553dd642703a4617f6f8da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c5170afdb06ef5811c2de7e5fbfd3c6 = $(`<div id="html_9c5170afdb06ef5811c2de7e5fbfd3c6" style="width: 100.0%; height: 100.0%;">GÜNAŞIK SK. - Base Station</div>`)[0];
+                popup_672cf98788553dd642703a4617f6f8da.setContent(html_9c5170afdb06ef5811c2de7e5fbfd3c6);
+            
+        
+
+        marker_42940ef9eb4a54f7dd8a16518c84a095.bindPopup(popup_672cf98788553dd642703a4617f6f8da)
+        ;
+
+        
+    
+    
+            var marker_513c7b8f118cfacf7d10fe0502c41d26 = L.marker(
+                [29.129014, 41.01909],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_53a285639868e1e8e80ec2ff7c51b89b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_513c7b8f118cfacf7d10fe0502c41d26.setIcon(icon_53a285639868e1e8e80ec2ff7c51b89b);
+        
+    
+        var popup_ad0341a824cd58c44061216e9c234f89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c604705ff8cfc899d5360344e992b1e = $(`<div id="html_7c604705ff8cfc899d5360344e992b1e" style="width: 100.0%; height: 100.0%;">GÜVENÇ SK. - Base Station</div>`)[0];
+                popup_ad0341a824cd58c44061216e9c234f89.setContent(html_7c604705ff8cfc899d5360344e992b1e);
+            
+        
+
+        marker_513c7b8f118cfacf7d10fe0502c41d26.bindPopup(popup_ad0341a824cd58c44061216e9c234f89)
+        ;
+
+        
+    
+    
+            var marker_b22d636cdf392a5654c5e903f884c289 = L.marker(
+                [29.137413, 41.01575],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_50b51a29d9249aa23965a98b50cf4d9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b22d636cdf392a5654c5e903f884c289.setIcon(icon_50b51a29d9249aa23965a98b50cf4d9a);
+        
+    
+        var popup_da00f0f45fde8c581978f1b412e1d074 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13b14c34bb416360a1af22331e0ad6e0 = $(`<div id="html_13b14c34bb416360a1af22331e0ad6e0" style="width: 100.0%; height: 100.0%;">HACI BAYRAM SK. - Base Station</div>`)[0];
+                popup_da00f0f45fde8c581978f1b412e1d074.setContent(html_13b14c34bb416360a1af22331e0ad6e0);
+            
+        
+
+        marker_b22d636cdf392a5654c5e903f884c289.bindPopup(popup_da00f0f45fde8c581978f1b412e1d074)
+        ;
+
+        
+    
+    
+            var marker_757de8a2076fe609aa051f75e171fd27 = L.marker(
+                [29.131098, 41.015641],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_9a70c64bcd7c2d05e8d6e4c86acf16e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_757de8a2076fe609aa051f75e171fd27.setIcon(icon_9a70c64bcd7c2d05e8d6e4c86acf16e9);
+        
+    
+        var popup_aac19e2fccf9555a4da5b938f4cd863a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f15aafe6176f55e61507919beea3c3d = $(`<div id="html_5f15aafe6176f55e61507919beea3c3d" style="width: 100.0%; height: 100.0%;">HAYIRLI SK. - Base Station</div>`)[0];
+                popup_aac19e2fccf9555a4da5b938f4cd863a.setContent(html_5f15aafe6176f55e61507919beea3c3d);
+            
+        
+
+        marker_757de8a2076fe609aa051f75e171fd27.bindPopup(popup_aac19e2fccf9555a4da5b938f4cd863a)
+        ;
+
+        
+    
+    
+            var marker_36cbd7ec7bb75261a74acceaf58e2e4a = L.marker(
+                [29.136488, 41.014287],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_cea588379abb308f476bf77652271fbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36cbd7ec7bb75261a74acceaf58e2e4a.setIcon(icon_cea588379abb308f476bf77652271fbd);
+        
+    
+        var popup_afc85273e371cfcccd044cff8f2b1449 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce00d525b592f4ca3865a9002bf8de49 = $(`<div id="html_ce00d525b592f4ca3865a9002bf8de49" style="width: 100.0%; height: 100.0%;">HAYRAN SK. - Base Station</div>`)[0];
+                popup_afc85273e371cfcccd044cff8f2b1449.setContent(html_ce00d525b592f4ca3865a9002bf8de49);
+            
+        
+
+        marker_36cbd7ec7bb75261a74acceaf58e2e4a.bindPopup(popup_afc85273e371cfcccd044cff8f2b1449)
+        ;
+
+        
+    
+    
+            var marker_065a3ebc51fd5d47d6a45c82f98710e0 = L.marker(
+                [29.13126, 41.018927],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_6b3ee263a96e3a53e9a28694dbd2e8b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_065a3ebc51fd5d47d6a45c82f98710e0.setIcon(icon_6b3ee263a96e3a53e9a28694dbd2e8b2);
+        
+    
+        var popup_377f942b43731b61ebdd1b2f689b851d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_664b6c180e1b54be6e7bbc4f569fcb66 = $(`<div id="html_664b6c180e1b54be6e7bbc4f569fcb66" style="width: 100.0%; height: 100.0%;">KADİM SK. - Base Station</div>`)[0];
+                popup_377f942b43731b61ebdd1b2f689b851d.setContent(html_664b6c180e1b54be6e7bbc4f569fcb66);
+            
+        
+
+        marker_065a3ebc51fd5d47d6a45c82f98710e0.bindPopup(popup_377f942b43731b61ebdd1b2f689b851d)
+        ;
+
+        
+    
+    
+            var marker_b82c78da32a3b1c723e75656eb7c9ad2 = L.marker(
+                [29.128987, 41.017873],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_59c3f874916c88b9f5f1cbb4ef15e4b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b82c78da32a3b1c723e75656eb7c9ad2.setIcon(icon_59c3f874916c88b9f5f1cbb4ef15e4b2);
+        
+    
+        var popup_e9489109c6d05ab3d984e256ef8cc0b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa0b4dac97dd946a8fd46f5671a1ad50 = $(`<div id="html_fa0b4dac97dd946a8fd46f5671a1ad50" style="width: 100.0%; height: 100.0%;">LİDER SK. - Base Station</div>`)[0];
+                popup_e9489109c6d05ab3d984e256ef8cc0b9.setContent(html_fa0b4dac97dd946a8fd46f5671a1ad50);
+            
+        
+
+        marker_b82c78da32a3b1c723e75656eb7c9ad2.bindPopup(popup_e9489109c6d05ab3d984e256ef8cc0b9)
+        ;
+
+        
+    
+    
+            var marker_c672449063aeaf9055707e372569d402 = L.marker(
+                [29.137647, 41.016267],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_c907154898ecd39bbebca445c9993d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c672449063aeaf9055707e372569d402.setIcon(icon_c907154898ecd39bbebca445c9993d38);
+        
+    
+        var popup_054e8228bab420629b01909141f7a81a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c31ead023c5879ec471647ed876a4f09 = $(`<div id="html_c31ead023c5879ec471647ed876a4f09" style="width: 100.0%; height: 100.0%;">MANİDAR SK. - Base Station</div>`)[0];
+                popup_054e8228bab420629b01909141f7a81a.setContent(html_c31ead023c5879ec471647ed876a4f09);
+            
+        
+
+        marker_c672449063aeaf9055707e372569d402.bindPopup(popup_054e8228bab420629b01909141f7a81a)
+        ;
+
+        
+    
+    
+            var marker_af0141be96d803e287fd973a5dfef864 = L.marker(
+                [29.131386, 41.0179],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_4671a7448cdeb6b968511ff3c3eaf220 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af0141be96d803e287fd973a5dfef864.setIcon(icon_4671a7448cdeb6b968511ff3c3eaf220);
+        
+    
+        var popup_f9bd4b58bab4b35c3b15c3eaa77db238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14b25f92567319b8d5484ebff892819e = $(`<div id="html_14b25f92567319b8d5484ebff892819e" style="width: 100.0%; height: 100.0%;">MEMLEKET SK. - Base Station</div>`)[0];
+                popup_f9bd4b58bab4b35c3b15c3eaa77db238.setContent(html_14b25f92567319b8d5484ebff892819e);
+            
+        
+
+        marker_af0141be96d803e287fd973a5dfef864.bindPopup(popup_f9bd4b58bab4b35c3b15c3eaa77db238)
+        ;
+
+        
+    
+    
+            var marker_39cd59eaa1c62bb0fea9fe3fccda7421 = L.marker(
+                [29.131511, 41.017281],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_8d681eb6bb8d7697009c062b2c3bc982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_39cd59eaa1c62bb0fea9fe3fccda7421.setIcon(icon_8d681eb6bb8d7697009c062b2c3bc982);
+        
+    
+        var popup_2d0d8af0027d221d852ba8346d8951cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a523f1885a537c3691d42af3818560dd = $(`<div id="html_a523f1885a537c3691d42af3818560dd" style="width: 100.0%; height: 100.0%;">MİLLİ MÜCADELE SK. - Base Station</div>`)[0];
+                popup_2d0d8af0027d221d852ba8346d8951cd.setContent(html_a523f1885a537c3691d42af3818560dd);
+            
+        
+
+        marker_39cd59eaa1c62bb0fea9fe3fccda7421.bindPopup(popup_2d0d8af0027d221d852ba8346d8951cd)
+        ;
+
+        
+    
+    
+            var marker_3777e5f24e07529fc1ebd8bbe6dcbca1 = L.marker(
+                [29.132302, 41.014314],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_9d50af9214e47879c659514c374abb78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3777e5f24e07529fc1ebd8bbe6dcbca1.setIcon(icon_9d50af9214e47879c659514c374abb78);
+        
+    
+        var popup_54ec10e83d817d66108f462893acd361 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91e98b0a8f31ef919483abc9c053924c = $(`<div id="html_91e98b0a8f31ef919483abc9c053924c" style="width: 100.0%; height: 100.0%;">NAKKAŞ SK. - Base Station</div>`)[0];
+                popup_54ec10e83d817d66108f462893acd361.setContent(html_91e98b0a8f31ef919483abc9c053924c);
+            
+        
+
+        marker_3777e5f24e07529fc1ebd8bbe6dcbca1.bindPopup(popup_54ec10e83d817d66108f462893acd361)
+        ;
+
+        
+    
+    
+            var marker_27cb01fd8525cfb7ca3982bebd7a5992 = L.marker(
+                [29.135922, 41.013048],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_f1f6981fd501c8957e93e6af422e5f56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27cb01fd8525cfb7ca3982bebd7a5992.setIcon(icon_f1f6981fd501c8957e93e6af422e5f56);
+        
+    
+        var popup_219ffde34b33b8dc1d2a5b1bd91af0ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f5ca36d4bbea2badced08d84f39f81d = $(`<div id="html_8f5ca36d4bbea2badced08d84f39f81d" style="width: 100.0%; height: 100.0%;">ÖZKANCA SK. - Base Station</div>`)[0];
+                popup_219ffde34b33b8dc1d2a5b1bd91af0ea.setContent(html_8f5ca36d4bbea2badced08d84f39f81d);
+            
+        
+
+        marker_27cb01fd8525cfb7ca3982bebd7a5992.bindPopup(popup_219ffde34b33b8dc1d2a5b1bd91af0ea)
+        ;
+
+        
+    
+    
+            var marker_4289a422f5911b80aaaf8f3cad84cad4 = L.marker(
+                [29.135626, 41.015464],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_fd58351d509e954f5e63a7a626fd01a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4289a422f5911b80aaaf8f3cad84cad4.setIcon(icon_fd58351d509e954f5e63a7a626fd01a8);
+        
+    
+        var popup_e14d90e2a0c05e8c45d5af5b45eafae8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55218901f3f4df6fc4f235eb672ca4b2 = $(`<div id="html_55218901f3f4df6fc4f235eb672ca4b2" style="width: 100.0%; height: 100.0%;">ÖZTÜRK SK. - Base Station</div>`)[0];
+                popup_e14d90e2a0c05e8c45d5af5b45eafae8.setContent(html_55218901f3f4df6fc4f235eb672ca4b2);
+            
+        
+
+        marker_4289a422f5911b80aaaf8f3cad84cad4.bindPopup(popup_e14d90e2a0c05e8c45d5af5b45eafae8)
+        ;
+
+        
+    
+    
+            var marker_6d39a7a199d26198514f81a355465a40 = L.marker(
+                [29.132778, 41.015947],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_582ce74ffa81677e1b45b6fcf8396666 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d39a7a199d26198514f81a355465a40.setIcon(icon_582ce74ffa81677e1b45b6fcf8396666);
+        
+    
+        var popup_7a297bbdbea9ba2ebc6223d776d5c2da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3204fe21bae14fa38fc17f271dbfd927 = $(`<div id="html_3204fe21bae14fa38fc17f271dbfd927" style="width: 100.0%; height: 100.0%;">PINARBAŞI SK. - Base Station</div>`)[0];
+                popup_7a297bbdbea9ba2ebc6223d776d5c2da.setContent(html_3204fe21bae14fa38fc17f271dbfd927);
+            
+        
+
+        marker_6d39a7a199d26198514f81a355465a40.bindPopup(popup_7a297bbdbea9ba2ebc6223d776d5c2da)
+        ;
+
+        
+    
+    
+            var marker_67428481ce840529983acd821e141da3 = L.marker(
+                [29.131233, 41.017478],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_73ffe7128abdace7bfd35aa3a8a2035f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_67428481ce840529983acd821e141da3.setIcon(icon_73ffe7128abdace7bfd35aa3a8a2035f);
+        
+    
+        var popup_ef25eea0d7e09c686bb814c325eaf374 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_102926ebe0d837f085d1c02759652767 = $(`<div id="html_102926ebe0d837f085d1c02759652767" style="width: 100.0%; height: 100.0%;">PINARLI SK. - Base Station</div>`)[0];
+                popup_ef25eea0d7e09c686bb814c325eaf374.setContent(html_102926ebe0d837f085d1c02759652767);
+            
+        
+
+        marker_67428481ce840529983acd821e141da3.bindPopup(popup_ef25eea0d7e09c686bb814c325eaf374)
+        ;
+
+        
+    
+    
+            var marker_ee88c5971b364386d2e04025c7fd3860 = L.marker(
+                [29.130622, 41.019261],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_941554a58ece911347fc533ab70f9dbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee88c5971b364386d2e04025c7fd3860.setIcon(icon_941554a58ece911347fc533ab70f9dbe);
+        
+    
+        var popup_40acb8b571f96dd0d5f85dd82795d2af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ec0b71612b44f1ad815a6e9a885fd7 = $(`<div id="html_44ec0b71612b44f1ad815a6e9a885fd7" style="width: 100.0%; height: 100.0%;">RESUL SK. - Base Station</div>`)[0];
+                popup_40acb8b571f96dd0d5f85dd82795d2af.setContent(html_44ec0b71612b44f1ad815a6e9a885fd7);
+            
+        
+
+        marker_ee88c5971b364386d2e04025c7fd3860.bindPopup(popup_40acb8b571f96dd0d5f85dd82795d2af)
+        ;
+
+        
+    
+    
+            var marker_9632c9400d63fe1ca98d0ec1ca30e390 = L.marker(
+                [29.135688, 41.014314],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_bec885a7eebaff5afd7547310f403651 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9632c9400d63fe1ca98d0ec1ca30e390.setIcon(icon_bec885a7eebaff5afd7547310f403651);
+        
+    
+        var popup_7c83271430520d3bb62b5d7d0a442ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_326a1866b27e4a7fe137ed8c0ad52264 = $(`<div id="html_326a1866b27e4a7fe137ed8c0ad52264" style="width: 100.0%; height: 100.0%;">SEDA SK. - Base Station</div>`)[0];
+                popup_7c83271430520d3bb62b5d7d0a442ed6.setContent(html_326a1866b27e4a7fe137ed8c0ad52264);
+            
+        
+
+        marker_9632c9400d63fe1ca98d0ec1ca30e390.bindPopup(popup_7c83271430520d3bb62b5d7d0a442ed6)
+        ;
+
+        
+    
+    
+            var marker_9639c5de7c626c0c2c368e47f6693b1b = L.marker(
+                [29.129265, 41.017784],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_3654cf7a74df76ee4fcb76c9a3e7195d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9639c5de7c626c0c2c368e47f6693b1b.setIcon(icon_3654cf7a74df76ee4fcb76c9a3e7195d);
+        
+    
+        var popup_d693bc813a35984a1768dba73a0e16f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acc4108c236dc2446c3edb93a8e1bee8 = $(`<div id="html_acc4108c236dc2446c3edb93a8e1bee8" style="width: 100.0%; height: 100.0%;">TARİH SK. - Base Station</div>`)[0];
+                popup_d693bc813a35984a1768dba73a0e16f7.setContent(html_acc4108c236dc2446c3edb93a8e1bee8);
+            
+        
+
+        marker_9639c5de7c626c0c2c368e47f6693b1b.bindPopup(popup_d693bc813a35984a1768dba73a0e16f7)
+        ;
+
+        
+    
+    
+            var marker_183434bc8a674365e0b63aabcaa88263 = L.marker(
+                [29.129445, 41.01724],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_2dd77595d73339f5e6654a8910d71d1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_183434bc8a674365e0b63aabcaa88263.setIcon(icon_2dd77595d73339f5e6654a8910d71d1c);
+        
+    
+        var popup_873937e6784f18d33435b55677b2419e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6d9fc0e60a67f979c3669cdb57f3880 = $(`<div id="html_a6d9fc0e60a67f979c3669cdb57f3880" style="width: 100.0%; height: 100.0%;">ULUDERE SK. - Base Station</div>`)[0];
+                popup_873937e6784f18d33435b55677b2419e.setContent(html_a6d9fc0e60a67f979c3669cdb57f3880);
+            
+        
+
+        marker_183434bc8a674365e0b63aabcaa88263.bindPopup(popup_873937e6784f18d33435b55677b2419e)
+        ;
+
+        
+    
+    
+            var marker_51fba9d7d06d872b4d7b0b99ae3cb5ef = L.marker(
+                [29.127154, 41.018961],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_0250b0a86af1575cf3052facd8c04992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51fba9d7d06d872b4d7b0b99ae3cb5ef.setIcon(icon_0250b0a86af1575cf3052facd8c04992);
+        
+    
+        var popup_d83ef229198fec79ffb740993a8f0f8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc0602b5e27f0423467db9ad92b8cc40 = $(`<div id="html_fc0602b5e27f0423467db9ad92b8cc40" style="width: 100.0%; height: 100.0%;">YALIKENT SK. - Base Station</div>`)[0];
+                popup_d83ef229198fec79ffb740993a8f0f8c.setContent(html_fc0602b5e27f0423467db9ad92b8cc40);
+            
+        
+
+        marker_51fba9d7d06d872b4d7b0b99ae3cb5ef.bindPopup(popup_d83ef229198fec79ffb740993a8f0f8c)
+        ;
+
+        
+    
+    
+            var marker_ea2cfd99d46b52f02ba7f13a1b5327b1 = L.marker(
+                [29.129715, 41.017553],
+                {}
+            ).addTo(map_77a1eaa9ac4032c58547f2a1588e93f8);
+        
+    
+            var icon_30b5f5b2b2d69e77ddbea83e4e810c1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea2cfd99d46b52f02ba7f13a1b5327b1.setIcon(icon_30b5f5b2b2d69e77ddbea83e4e810c1e);
+        
+    
+        var popup_0519fb817db04e379e18cde8dadf727a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cad35cc6638679f804ce0f87be2fc2c = $(`<div id="html_3cad35cc6638679f804ce0f87be2fc2c" style="width: 100.0%; height: 100.0%;">ZİRVE SK. - Base Station</div>`)[0];
+                popup_0519fb817db04e379e18cde8dadf727a.setContent(html_3cad35cc6638679f804ce0f87be2fc2c);
+            
+        
+
+        marker_ea2cfd99d46b52f02ba7f13a1b5327b1.bindPopup(popup_0519fb817db04e379e18cde8dadf727a)
+        ;
+
+        
+    
+</script>
+</html>

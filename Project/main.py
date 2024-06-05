@@ -3,34 +3,33 @@ from generate_population import generate_new_generation
 import json
 from create_initial_pop import create_first_population
 
+
+
 def genetic_algorithm(streets_data, population, max_generations, max_stagnant_generations, mutation_rate, tournament_size, coverage_radius, max_demand_per_station):
     best_fitness = -float('inf')
     stagnant_generations = 0
 
-    with open("best_fitness_per_generation.txt", "w") as file:
-        for generation in range(max_generations):
-            # Fitness hesapla ve yeni nesli oluştur
-            fitness_scores = [fitness_function(chromosome, streets_data, coverage_radius, max_demand_per_station) for chromosome in population]
-            
-            # En iyi fitness değerini güncelle
-            best_generation_fitness = max(fitness_scores)
-            if best_generation_fitness > best_fitness:
-                best_fitness = best_generation_fitness
-                stagnant_generations = 0
-            else:
-                stagnant_generations += 1
-            
-            # Dosyaya en iyi fitness değerini yaz
-            file.write(f"{generation + 1}:{best_fitness}\n")
-            
-            # Durma koşulları
-            if stagnant_generations >= max_stagnant_generations:
-                print(f"No improvement for {max_stagnant_generations} generations, stopping early at generation {generation}")
-                break
-            
-            # Popülasyonu yeni nesil ile değiştir
-            new_population = generate_new_generation(streets_data, population, mutation_rate, tournament_size, coverage_radius, max_demand_per_station)
-            population = new_population
+    for generation in range(max_generations):
+        # Fitness hesapla ve yeni nesli oluştur
+        fitness_scores = [fitness_function(chromosome, streets_data, coverage_radius, max_demand_per_station) for chromosome in population]
+        new_population = generate_new_generation(streets_data, population, mutation_rate, tournament_size, coverage_radius, max_demand_per_station)
+        
+        # En iyi fitness değerini güncelle
+        best_generation_fitness = max(fitness_scores)
+        if best_generation_fitness > best_fitness:
+            best_fitness = best_generation_fitness
+            stagnant_generations = 0
+        else:
+            stagnant_generations += 1
+
+        # Durma koşulları
+
+        if stagnant_generations >= max_stagnant_generations:
+            print(f"No improvement for {max_stagnant_generations} generations, stopping early at generation {generation}")
+            break
+
+        # Popülasyonu yeni nesil ile değiştir
+        population = new_population
 
     return population, best_fitness
 
@@ -48,6 +47,12 @@ def read_population_from_json(filepath):
     with open(filepath, 'r', encoding='utf-8') as file:
         data = json.load(file)
     return data['chromosomes']
+
+def save_best_solution_to_json(chromosome, filepath='best_solution.json'):
+    """Saves the best solution chromosome to a JSON file."""
+    with open(filepath, 'w', encoding='utf-8') as file:
+        json.dump({'best_chromosome': chromosome}, file, ensure_ascii=False, indent=4)
+
 
 def map_and_save_streets_with_status(streets_data, best_chromosome, output_filepath='streets_with_bs_status.json'):
     """Maps streets to chromosome values indicating whether a base station is placed or not, and saves to a JSON file including coordinates."""
@@ -67,8 +72,8 @@ def map_and_save_streets_with_status(streets_data, best_chromosome, output_filep
         json.dump({'streets_with_bs_status': streets_with_status}, file, ensure_ascii=False, indent=4)
 
     print(f"Street status data has been saved to {output_filepath}")
-
-def calculate_cost_from_best_solution(base_station_cost, filepath):
+    
+def calculate_cost_from_best_solution( base_station_cost, filepath):
     """
     Calculate the total cost based on the best solution JSON file.
     
@@ -98,20 +103,22 @@ def calculate_cost_from_best_solution(base_station_cost, filepath):
         print(f"Error reading or parsing best solution file: {e}")
         return None
 
-def simulation(choice, max_generations=10000, max_stagnant_generations=10000, mutation_rate=0.052, tournament_size=4, coverage_radius=5, max_demand_per_station=100):
+
+def simulation(choice,max_generations=10000, max_stagnant_generations=10000, mutation_rate=0.192, tournament_size=4, coverage_radius=5, max_demand_per_station=100):
     
-    # paths for street data and initial population JSON files
+     # paths for street data and initial population JSON files
     if choice == 1:
-        streets_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk.json"
-        population_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk_initial_population.json"
+        streets_filepath = r"D:\GraduationProject\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk.json"
+        population_filepath = r"D:\GraduationProject\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\basibuyuk_initial_population.json"
     elif choice == 2:
-        streets_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\resadiye.json"
-        population_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\resadiye_initial_population.json"
+        streets_filepath = r"D:\GraduationProject\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\resadiye.json"
+        population_filepath = r"D:\GraduationProject\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\resadiye_initial_population.json"
     elif choice == 3:
-        streets_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\tepeustu.json"
-        population_filepath = r"D:\Projects\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\tepeustu_initial_population.json"
+        streets_filepath = r"D:\GraduationProject\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\tepeustu.json"
+        population_filepath = r"D:\GraduationProject\NATURE-INSPIRED-ALGORITHM-OPTIMIZATION-FOR-BASE-STATION-LOCATION-ALLOCATION-PROBLEM\Project\data\tepeustu_initial_population.json"
     
     create_first_population()
+   
     
     # Read street data and initial population
     streets_data = read_street_data(streets_filepath)
@@ -137,6 +144,7 @@ def simulation(choice, max_generations=10000, max_stagnant_generations=10000, mu
     print("Total Cost of Best Solution:", total_cost)
     print("Number of Base Stations:", num_base_stations)
     print("Total Demand:", sum(street['demand'] for street in streets_data))
+    
 
 def menu():
     print(
@@ -163,6 +171,7 @@ def menu():
 
 def main():
     menu()
+
 
 if __name__ == "__main__":
     main()
